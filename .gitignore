@@ -1,0 +1,45 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+.pytest_cache/
+
+# Node
+node_modules/
+apps/web/dist/
+apps/gateway/dist/
+apps/web/.env
+apps/web/.env.*
+!apps/web/.env.example
+
+# Data (too large for git)
+data/data_canada/
+data/data_usa/
+data/data_newZealand/
+
+# Embeddings / Neo4j local
+data/neo4j/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hugging Face cache
+.cache/
