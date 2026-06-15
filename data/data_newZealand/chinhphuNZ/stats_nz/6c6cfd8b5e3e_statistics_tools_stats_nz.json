@@ -1,0 +1,12 @@
+{
+  "site": "Statistics New Zealand (Stats NZ)",
+  "site_url": "https://www.stats.govt.nz",
+  "category": "statistics",
+  "page_url": "https://www.stats.govt.nz/tools/?filters=Census&start=0",
+  "title": "Tools | Stats NZ",
+  "crawled_at": "2026-06-11T15:18:17.680198+07:00",
+  "content": "\n## Infoshare is being replaced by Aotearoa Data Explorer\nThis page has information on how our data tools NZ.Stat and Infoshare are going to change, how you will be affected, and what you need to do to prepare.\nThe population clock estimates New Zealand's population in real time.\n\n## How long will I live?\nGet an indication of the age you’re likely to live to.\n\n## Aotearoa Data Explorer\nA data tool to search for data, create tables customising the variables and layout, and download Excel or CSV files.\n\n## Quick start guide to Aotearoa Data Explorer\nThis guide explains the basics of Aotearoa Data Explorer to help you find, view, or extract data.\n\n## Aotearoa Data Explorer user guide\nThis guide aims to help users effectively navigate and use the Aotearoa Data Explorer.\n\n## Place and ethnic group summaries\nExplore statistics about the population by region, district, and smaller areas, and by ethnic group.\n\n## Interactive population pyramid for New Zealand\nUse this interactive population pyramid to see our population history and what our future may look like.\nDiscover how people in Aotearoa New Zealand travel to work and education using this visualisation of 2018 and 2023 Census commuter data.\n\n## Place and ethnic group summaries user guide\nProvides instructions on how to use the Place and ethnic group summaries tool.\n\n## 2023 Census product and release finder\nThe 2023 Census product and release finder is an Excel-based tool which provides easy-to-find data, statistical products, publications, and planned release dates in one place for the 2023 Census.\nMatch a keyword to a category in a classification.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

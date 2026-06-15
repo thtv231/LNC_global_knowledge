@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/data-sources/retail-wholesale",
+  "title": "Administrative data sources in the production of official statistics – Retail and wholesale",
+  "crawled_at": "2026-06-11T12:13:13.877946+07:00",
+  "content": "\n## Administrative data sources in the production of official statistics – Retail and wholesale\n- Retail sales by type of product\n\n## Retail sales by type of product\n\n### Cannabis sales and inventories\nStatistics Canada uses the following provincial and territorial cannabis data:\n- sales and inventories of cannabis store retailers\n- information by type of cannabis product\n- method of sale (online, in-store).\nStatistical programs using these data for statistical and research purposes only:\n- Monthly Retail Trade Survey (including Retail Commodity Survey)\n- Monthly Wholesale Trade Survey\n- Annual Retail Trade Survey\n- Annual Wholesale Trade Survey\nPersonal information is not included in these data.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

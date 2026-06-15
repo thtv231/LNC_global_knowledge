@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/9",
+  "title": "Market Rent Data\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:25:28.190823+07:00",
+  "content": "Market rent is described (in the Residential Tenancies Act) as what a willing landlord might reasonably expect to receive, and a willing tenant might reasonably expect to pay for the tenancy, in comparison with rent levels for similar properties in similar areas.\n\nMarket rent is a useful guide when you are deciding what the rent will be. It needs to be comparable to the rent charged for other properties of a similar type, size and location.\nThis data is currently only available via the website or (if you can find who to talk to) via a paid for download. Having free, bulk access to this data would allow this data to be mashed up by casual users with other datasets. Given that the DBH has to produce this for their own use: \" They have been grouped together based upon Area Units with similar weekly rentals that are adjacent to one another to meet the requirements of the Department...\" The cost of dissemination beyond the Department in the current world of web technologies is cents as opposed to the estimated cost of $30/month from the department.\n\n### Response from Department of Building and Housing\nStatus Data already listed\nComments Dataset already listed - https://data.govt.nz/dataset/show/3161\n\n#### Likely Source Agency\nDepartment of Building and Housing\nGo to dataset listing »",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

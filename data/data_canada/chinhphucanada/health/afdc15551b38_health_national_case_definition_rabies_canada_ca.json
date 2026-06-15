@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/diseases/rabies/for-health-professionals/national-case-definition.html",
+  "title": "National case definition: Rabies - Canada.ca",
+  "crawled_at": "2026-06-11T13:38:47.908229+07:00",
+  "content": "\n## National case definition: Rabies\n- Notifiable diseases online\nDate of last revision: September 2012\nDate of last review: August 2018\n\n## National notification\nOnly confirmed cases of disease should be notified.\n\n## Type of surveillance\nRoutine case-by-case notification to the federal level\nClinical evidence of illness with laboratory confirmation of infection:\n- detection of viral antigen in an appropriate clinical specimen, preferably the brain or the nerves surrounding hair follicles in the nape of the neck, by immunofluorescence\n- isolation of rabies virus from saliva, cerebrospinal fluid (CSF), or central nervous system tissue using cell culture or laboratory animal\n- detection of rabies virus RNA in an appropriate clinical specimen\nClinical evidence of illness with laboratory evidence:\n- Detection of rabies-neutralizing antibody in the serum or CSF of an unvaccinated person who did not receive rabies immunoglobulin\nFor viral detection, negative results do not rule out rabies infection because viral antigen or RNA may not be detectable in early clinical illness.\nNegative serologic results do not rule out rabies infection because antibodies may not develop during infection and seroconversion usually occurs very late or not at all.\nSerology cannot distinguish between antibodies resulting from vaccination, natural infection or passive immunization.\nIt is recommended that serology be interpreted in conjunction with all other test results and the patient's clinical history and epidemiologic link. Additional testing of appropriate samples should be performed in addition to the submission of serum or CSF samples.\nRabies is an acute encephalomyelitis that almost always progresses to coma or death within 10 days after the first symptom.\n- A82.0   Sylvatic rabies\n- A82.1   Urban rabies\n- A82.9   Rabies, unspecified\nProbable case definitions are provided as guidelines to assist with case finding and public health management, and are not for national notification purposes.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

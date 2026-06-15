@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/fr/dataset/f7d4c308-83e0-4e07-8f55-64a005c146cc",
+  "title": "Données sur les doses tirées du Réseau de surveillance en poste fixe - Portail du gouvernement ouvert",
+  "crawled_at": "2026-06-11T12:20:45.116298+07:00",
+  "content": "\n## Données sur les doses tirées du Réseau de surveillance en poste fixe\nOn utilise le Réseau de surveillance en poste fixe (SPF) pour surveiller les doses de radiation du public libérées par les matières radioactives présentes dans l'atmosphère. Le réseau SPF sert principalement à mesurer les doses externes dégagées par trois gaz nobles particuliers – l'argon 41, le xénon 133 et le xénon 135 – ainsi que le total des doses externes combinées émises par toutes les sources, que l'on dénomme « KERMA total dans l'air ».\n- Éditeur - Nom actuel de l’organisation : Santé Canada\n- Licence : Licence du gouvernement ouvert - Canada\n\n## Données et ressources\n- 2026 Données sur les doses tirées du Réseau de surveillance en poste fixe CSV anglais dataset CSV Explorer Aperçu Télécharger\n- 2026 Données sur les doses tirées du Réseau de surveillance en poste fixe CSV français dataset CSV Explorer Aperçu Télécharger\n- 2025 Données sur les doses tirées du Réseau de surveillance en poste fixe CSV anglais dataset CSV Explorer Aperçu Télécharger\n- 2025 Données sur les doses tirées du Réseau de surveillance en poste fixe CSV français dataset CSV Explorer Aperçu Télécharger\n- dictionnaire de données TXT anglais data_dictionary TXT Explorer Aperçu Télécharger\n- dictionnaire de données TXT français data_dictionary TXT Explorer Aperçu Télécharger",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

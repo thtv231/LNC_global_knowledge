@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/foreign-spin-offs.html",
+  "title": "Foreign spin-offs - Canada.ca",
+  "crawled_at": "2026-06-11T12:22:17.539601+07:00",
+  "content": "Section 86.1 of the Income Tax Act allows Canadian resident shareholders of foreign corporations to make a special election in respect of certain eligible distributions of spin-off shares. This election is available for qualifying shareholders who are individuals, trusts, and corporations.\nA qualifying shareholder who makes this election can exclude from income the amount that would otherwise be considered a taxable foreign dividend. However, the adjusted cost base (ACB) of the spi n-o ff shares will not be their fair market value (FMV) as would otherwise be the case. Instead, the ACB will be based on the cost of the original shares that generated the distribution of the spi n-o ff shares. This cost will be allocated between the original shares and the spin-off shares .\nSee the following pages for more information on this special election and the foreign spin-offs that are eligible , and for an example of the calculation of the ACB when an election is made.\n- What is a foreign spin-off\n- Information for Canadian shareholders\n- Information for foreign corporations\n- Extension under the taxpayer relief provisions\n- Definitions for Foreign spin-offs\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

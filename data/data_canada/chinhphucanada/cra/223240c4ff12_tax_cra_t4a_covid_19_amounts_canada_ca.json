@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/benefits/covid19-taxes/t4a-report.html",
+  "title": "T4A COVID-19 amounts - Canada.ca",
+  "crawled_at": "2026-06-11T12:43:49.682757+07:00",
+  "content": "\n## T4A COVID-19 amounts :\nYou may be looking for:\n- T4E: Service Canada CERB amounts\nYou may get a T4A slip if you received or repaid any amounts for:\n- Canada Worker Lockdown Benefit (CWLB)\n- Canada Recovery Caregiving Benefit (CRCB)\n- Canada Recovery Sickness Benefit (CRSB)\n- Canada Recovery Benefit (CRB)\n- Provincial or territorial COVID-19 financial assistance payments\n- Canada Emergency Response Benefit (CERB) with the CRA\n- Canada Emergency Student Benefit (CESB)\nBenefit amounts received are taxable and must be reported in the year you received them.\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

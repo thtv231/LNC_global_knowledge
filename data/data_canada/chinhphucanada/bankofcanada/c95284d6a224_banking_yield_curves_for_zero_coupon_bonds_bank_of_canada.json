@@ -1,0 +1,12 @@
+{
+  "site": "Bank of Canada",
+  "site_url": "https://www.bankofcanada.ca",
+  "category": "banking",
+  "page_url": "https://www.bankofcanada.ca/rates/interest-rates/bond-yield-curves/",
+  "title": "Yield curves for zero-coupon bonds - Bank of Canada",
+  "crawled_at": "2026-06-11T12:01:59.954332+07:00",
+  "content": "\n## Yield curves for zero-coupon bonds\nThese files contain daily yields curves for zero-coupon bonds, generated using pricing data for Government of Canada bonds and treasury bills.\nEach row is a single zero-coupon yield curve, with terms to maturity ranging from 0.25 years (column 1) to 30.00 years (column 120). The data are expressed as decimals (e.g. 0.0500 = 5.00% yield).\nA description of the methodology used to derive the yield curves is provided in Bolder, Johnson, and Metzler (2004), \" An Empirical Analysis of the Canadian Term Structure of Zero-Coupon Interest Rates.\"\nThese data are typically updated each Thursday by 16:30 ET, with a two-week lag. * Please note that any data missing because of holidays or data problems, such as lack of bond-pricing data (e.g., 1986 – 1990), are shown as \"na.\"",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-overview/life-events-employees/parental-leave.html",
+  "title": "Parental leave - Canada.ca",
+  "crawled_at": "2026-06-11T12:46:00.772191+07:00",
+  "content": "When an employee leaves for maternity, paternity, or adoption leave, you should follow the steps under What should you do if an employee has an interruption of earnings?\nIf you decide to pay your employee an amount to cover the employment insurance (EI) benefit waiting period or in addition to the amount of EI benefits they receive, also called top-up amounts , consult the Special payments chart to see if you have to withhold Canada Pension Plan ( CPP) contributions, EI premiums and income tax. You will also have to include these top-up amounts on the employee's T4 slip as employment income at year-end .\nYou have to deduct CPP contributions from the top-up amounts unless they are paid under a Supplementary unemployment benefit plan (SUBP) that qualifies as a SUBP under the Income Tax Act.\nYou have to deduct EI premiums from the top-up amounts unless the following two conditions are met:\n- the total amount of your payment and the EI weekly benefits combined do not exceed the employee’s normal weekly gross salary\n- your payment does not reduce any other accumulated employment benefits such as banked sick leave, vacation leave credits, or retiring allowance\nYou also may not have to deduct EI premiums if you pay the top-up amounts under a SUBP under the certain conditions.\nYou have to deduct income tax from the top-up amounts unless they are paid under a SUBP that qualifies as a SUBP under the Income Tax Act , even if the plan is registered with Service Canada.\nInclude in box 14 of the employee's T4 slip all top-up amounts paid under a SUBP, such as employer-paid maternity, parental, and compassionate care top-up amounts, whether they are registered with Service Canada or not.\n- Supplementary unemployment benefit plan (SUBP)\n- EI maternity and parental benefits: What these benefits offer\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

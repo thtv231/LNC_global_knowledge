@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/microdata/pumf",
+  "title": "Public Use Microdata File Collection",
+  "crawled_at": "2026-06-11T12:55:06.566159+07:00",
+  "content": "\n## Public Use Microdata File Collection\nThis subscription-based service offers access to Statistics Canada's Public Use Microdata Files (PUMFs). Unlimited access to all microdata and documentation is available through Statistics Canada's Electronic File Transfer Service (EFT) and an Internet Protocol (IP) restricted online database with an easy-to-use discoverability tool. Select files are also available free of charge from the Statistics Canada website.\nThe subscription is available to government departments and businesses from inside and outside Canada.\n\n## Information and resources\nProjects and datasets\nParticipating institutions and contacts\nCosts related to the program\n\n### Application process and guidelines\nApplication process and guidelines\nIf you have questions or comments\n- Statistics Canada Biobank\n- Data Liberation Initiative\n- Public Use Microdata File Collection\n- Real Time Remote Access\n- Research Data Centres",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

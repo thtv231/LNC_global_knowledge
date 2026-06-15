@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1259",
+  "title": "Average annual temperature of South Island, from 1950 to 2024\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:24:43.316059+07:00",
+  "content": "\n## Average annual temperature of South Island, from 1950 to 2024\nI need the data that includes average annual temperature from 1950 to 2024 in South Island, so there should be a 75*2 table with the first roll shows which year and the other roll shows the average temperature of that year, if it’s possible I would like a .csv file.\nI’m doing a project of analyzing the deformations of Fox Glacier, and I need the  data as a proof that temperature in South Island kept rising.\n\n### Response from National Institute of Water and Atmospheric Research Limited\nStatus Data does not exist\nComments To whom it may concern,\nWe do not calculate annual temperature for the South Island as a standalone time series. We have mean annual temperature data across hundreds of South Island locations - and this is readily available via our data sharing platform called DataHub. You may be best to obtain data for stations nearest Fox Glacier. I suggest you start your search for the data you require at https://data.niwa.co.nz/products/climate-station-statistics?filter%3Aparameter=Temperature&geo=170.01720428466797%2C-43.47484730064833\n\nKind regards, Gregor\n\n#### Likely Source Agency\nNational Institute of Water and Atmospheric Research Limited\n1\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tSubscriber",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

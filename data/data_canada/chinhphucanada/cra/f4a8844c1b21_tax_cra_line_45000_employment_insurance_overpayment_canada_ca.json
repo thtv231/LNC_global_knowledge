@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45000-employment-insurance-overpayment.html",
+  "title": "Line 45000 – Employment insurance overpayment - Canada.ca",
+  "crawled_at": "2026-06-11T12:55:46.897074+07:00",
+  "content": "\n## Line 45000 – Employment insurance overpayment\nIf you contributed more to your EI premiums than you had to (see line 31200 ), claim the difference on line 45000 of your return.\nIf you repaid some of the EI benefits overpayment that you received, do not claim the repayment on line 45000 of your return. You may be able to claim a deduction on line 23200 of your return for the benefits you repaid.\nThe CRA will refund the excess contribution to you or use it to reduce your balance owing. If the difference is $1 or less , you may not receive a refund.\n\n## Residents of Quebec on December 31, 2025\nIf you completed Schedule 10, Employment Insurance and Provincial Parental Insurance Plan Premiums , enter, in dollars and cents, the amount from line 23 of Schedule 10 on line 45000 of your return. The excess contribution on line 45000 of your return is reduced by the provincial parental insurance plan (PPIP) premiums that you have to pay ( line 31210 of your return).\nThe part of the excess contribution used will be transferred directly to Revenu Québec.\n\n## Completing your tax return\nClaim your overpayment on line 45000 of your return.\n\n## Forms and publications\n- Form T2204, Employee Overpayment of Employment Insurance Premiums\n- Schedule 10, Employment Insurance (EI) and Provincial Parental Insurance Plan (PPIP) Premiums (for Quebec and non-residents of Canada only)\n- Line 23200 – Other deductions\n- Line 31200 – Employment insurance premiums through employment\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1164",
+  "title": "Financial cash flow for Small Businesses \n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:23:50.846108+07:00",
+  "content": "\n## Financial cash flow for Small Businesses\nI'm working on a project report titled \"Optimizing Financial Reporting and Cash Flow Management for Small Businesses Using Xero.\" To build the report, I need some data as a foundation. If possible, could you please provide it in Excel, Word, or PDF format? I'd really appreciate your help!\ngathering data from the actual small business units which would also be not reliable.\n\n### Response from Ministry for Primary Industries\nStatus Different agency responsible\nComments Kia ora,\n\nThis data is not held by MPI. There is data available from Statistics NZ such as the Business operations survey https://www.stats.govt.nz/information-releases/business-operations-survey-2023/\n\nYou could try to request this data from Statistics NZ or the Ministry of Business, Innovation and Employment. They are most likely to hold this data.\n\nThank you\n\n#### Likely Source Agency\nMinistry for Primary Industries",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

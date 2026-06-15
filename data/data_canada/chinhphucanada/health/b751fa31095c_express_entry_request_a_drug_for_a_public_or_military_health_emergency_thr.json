@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "express_entry",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/special-access/drug-public-military-health-emergency.html?wbdisable=true",
+  "title": "Request a drug for a public or military health emergency through the Special Access Program - Canada.ca",
+  "crawled_at": "2026-06-11T13:04:51.921127+07:00",
+  "content": "\n## Request a drug for a public or military health emergency through the Special Access Program\nIf you're a public health official responsible for public or military health emergency preparedness and response within a Canadian jurisdiction, you may request access to drugs that are not authorized for sale in Canada. Your request must be for:\n- using in an immediate public or military health emergency, incident or event or\n- stockpiling in anticipation of a public or military health emergency, incident or event\nFor form and the guidance document, please contact SAP directly.\nAccess to SAP is available 24 hours a day, 365 days a year.\nRegular business hours are from 8:30 am to 4:30 pm Eastern Standard Time, Monday to Friday.\nSpecial Access Program Pharmaceutical Drugs Directorate Telephone: 613-941-2108 Fax: 613-941-3194 Email: sapd-pasm@hc-sc.gc.ca",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

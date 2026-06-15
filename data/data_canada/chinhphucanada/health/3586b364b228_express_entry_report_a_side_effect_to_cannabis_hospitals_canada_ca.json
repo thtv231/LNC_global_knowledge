@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "express_entry",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/recalls-adverse-reactions-reporting/report-side-effects-cannabis-products/hospitals.html",
+  "title": "Report a side effect to cannabis: Hospitals - Canada.ca",
+  "crawled_at": "2026-06-11T13:40:58.759919+07:00",
+  "content": "\n## Report a side effect (adverse reaction) to cannabis: Hospitals\n- Consumers or patients\n- Health care professionals\nHospitals must submit reports to Health Canada on all serious adverse reactions involving suspected drugs containing cannabis. Therefore, they must submit reports involving a co-suspect drug and co-suspect cannabis. Hospitals are voluntary reporters for adverse reactions suspected of involving only cannabis products.\nA cannabis product should not be confused with a drug containing cannabis as defined under \"drug\" in the Food and Drugs Act . Drugs containing cannabis have a Drug Identification Number (DIN) and hospitals must submit all serious adverse reaction reports with drugs contain cannabis per the Protecting Canadians from Unsafe Drugs Act .\nReport a serious adverse drug reaction\nNote: All personal information you submit is protected under the Privacy Act . This includes information related to the identity of the consumer or patient and the identity of the person who is reporting the information (reporter).\nThe Report a serious adverse drug reaction (for hospitals) form asks for a DIN, a Natural Product Number (NPN) or a product name in Section D. Hospitals should only include a DIN if the product is a drug containing cannabis. However, for cannabis products, hospitals should only provide the cannabis product name, or any available information (for example, cannabis vape) within the appropriate fields of the form (such as the brand name, manufacturer name or licence holder).",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

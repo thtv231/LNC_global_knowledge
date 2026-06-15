@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement/establishment-licences/medical-devices-compliance-bulletin/notice-update-list-devices-reporting-shortages-covid-19-2022-02-01.html",
+  "title": "Update: list of medical devices for mandatory shortage reporting related to COVID-19: Notice - Canada.ca",
+  "crawled_at": "2026-06-11T12:18:26.520662+07:00",
+  "content": "\n## Updates to list of medical devices for mandatory shortage reporting: Notice\nThis notice is to inform licence holders that the List of Medical Devices – Notification of Shortages was updated on February 10, 2022, to include additional medical devices that require mandatory reporting by manufacturers and importers. Health Canada maintains and regularly updates this list, which is incorporated by reference (IBR) in Interim Order n o . 2 (IO n o . 2).\nUnder IO n o . 2, manufacturers and importers must report shortages of specified medical devices (including their components, accessories or parts) to Health Canada.\nTo report shortages, manufacturers and importers must complete the electronic shortages reporting form . For more information on medical device shortage reporting, please refer to the:\n- medical device shortages web page\n- COVID-19 guidance for reporting medical device shortages (GUI-0137)\nThe new additions include:\n\n## Class I medical devices:\n- Blood specimen collection tubes (with or without anticoagulant)\n\n## Class II medical devices:\n- Blood specimen collection tubes packaged in a kit (with or without anticoagulant)\nManufacturers and importers are responsible for periodically reviewing the List of Medical Devices – Notification of Shortages to ensure they’re submitting mandatory shortage reports for the required medical devices.\nManufacturers and importers may also report shortages for medical devices not found on the List of Medical Devices – Notification of Shortages. Health Canada accepts voluntary reporting for a medical device shortage when:\n- the shortage is likely to create a patient or user safety issue in Canada\n- a substitute device, component, accessory or part is not readily available\n- the shortage is national in scope\nYou can submit voluntary shortage reports by using our electronic shortages reporting form .\nFor inquiries, please contact: MD.shortages.penurie.de.IM@hc-sc.gc.ca .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

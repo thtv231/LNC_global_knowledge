@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "express_entry",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medeffect-canada/adverse-reaction-reporting/medical-device/hospital.html",
+  "title": "Hospitals: Report a medical device problem - Canada.ca",
+  "crawled_at": "2026-06-11T13:10:54.641993+07:00",
+  "content": "\n## Report a medical device incident: hospitals\nThere are new mandatory reporting requirements for hospitals . Hospitals must report, in writing, within 30 days of documenting the medical device incident. We encourage hospitals to report sooner.\nHealth care professionals who work in a hospital should  check with their hospital administration to learn about any new requirements.\nReport a medical device incident\nPlease download the form to your desktop before filling out.\nTo report through the secure File Transfer Protocol (sFTP), contact the Canada Vigilance Program .\n\n## What products are included\nMedical devices range from adhesive bandages, toothbrushes and contact lenses to complex devices, such as x-ray units, insulin pumps and pacemakers. They also include in vitro diagnostic devices, such as cancer screening tests, blood glucose monitors and pregnancy test kits.\nDevices are classified according to their level of risk, with Class I being the lowest risk and Class IV being the highest risk.\n- Education modules to meet requirements for mandatory hospital reporting\n- Case study on adverse reactions to drugs and problems with medical devices\n- Mandatory reporting of serious adverse drug reactions and medical device incidents by hospitals - Overview\n- Advisories, warnings and recalls\n- Medical device incidents database\n- Medical devices establishment licence listing\n- Canadian Medical Devices Sentinel Network (CMDSNet)\n- Medical Devices Active Licence Listing (MDALL)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

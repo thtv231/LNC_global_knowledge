@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/diseases/hiv-aids/health-professionals/national-case-definition-hiv.html",
+  "title": "National case definition: Human immunodeficiency virus (HIV) - Canada.ca",
+  "crawled_at": "2026-06-11T13:35:30.578018+07:00",
+  "content": "\n## National case definition: Human immunodeficiency virus (HIV)\nDate of last revision/review: May 2008\n\n## National notification\nOnly confirmed cases of disease should be notified.\n\n## Type of surveillance\nRoutine case-by-case notification to the federal level.\n\n#### Adults, adolescents and children ≥ 18 months:\n- detection of HIV antibody with confirmation (e.g., EIA screening with confirmation by Western blot or other confirmatory test)\n- detection of HIV nucleic acid (e.g., DNA PCR or plasma RNA)\n- HIV p24 antigen with confirmation by neutralization assay\n- isolation of HIV in culture\n\n#### Children < 18 months (on 2 separate samples collected at different times)\n- detection of HIV nucleic acid (e.g., DNA PCR or plasma RNA)\n- HIV p24 antigen with confirmation by neutralization assay\n- isolation of HIV in culture\nIn children < 18 months of age born to HIV-positive women, nucleic acid testing should be done within 2 weeks after birth and, if negative, repeated at 1 to 2 months and at 3 to 4 months of age. Any positive results should be repeated with a second specimen for confirmation.\nFor children who are born to HIV-positive women and who have negative nucleic acid results, antibody testing should be done at 12 and 18 months of age to ensure that they have lost maternally derived antibodies. This is not used to determine uninfected status but rather to eliminate the possibility of a positive antibody result being misinterpreted. These children should continue to be monitored until they have a negative HIV antibody test.\n\n## Type of international reporting\nInformal sharing of data on a regular basis with WHO, Pan American Health Organization and Joint United Nations Programs on HIV/AIDS.\nCase definitions for diseases under national surveillance. CCDR 2000;26(S3).",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

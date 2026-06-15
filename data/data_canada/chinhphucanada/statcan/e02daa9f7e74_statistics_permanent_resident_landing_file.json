@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/microdata/data-centres/data/prlf",
+  "title": "Permanent Resident Landing File",
+  "crawled_at": "2026-06-11T12:55:13.938480+07:00",
+  "content": "\n## Permanent Resident Landing File\nThe Citizenship and Immigration Canada (CIC) permanent resident landing file contains approximately 2.75 million records corresponding to all individuals who landed in Canada during the 2003 – 2013 time frame. The information in the data file is derived from the information included on each individual’s landing record and has not been updated since the time of landing. The variables available may be described using the subjects list below. There are many more variables on the data file because grouped variables have been derived from the landing record data values. For example, age in years is reported on the landing record. An additional two variables corresponding to 5 and 15 year age groups have also been added to the data file. Another example is that the country of birth is reported on the landing record, while an additional two variables which categorize that country into a region of the world and an area of the world have been added to the data file.\n- Age in years, plus 5 year age groups and 15 year age groups\n- Official Languages Spoken\n- Date of Landing: year-month-day\n- Education Level- none, secondary or less, …, doctorate\n- Country of Birth, plus grouped categories region & area of the world\n- Country of Citizenship, plus grouped categories region & area of the world\n- intended destination –CMA, census division & province (or if not available, the last known address)\n- Immigration category – provided in first, second, third and fourth level groupings of the immigration category hierarchy\n- Occupation title as listed on the landing record (approximately 9900 categories)\n- Skill levels (two different hierarchies used) corresponding to occupation title as listed on the landing record\n- NOC Code (2006 and 2011) derived from occupation title as listed on the landing record\nA person is included in the database only if he or she obtained landed immigrant or permanent resident status in Canada since 2003 and 2013.\nData are collected for all units of the target population, therefore no sampling is done.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

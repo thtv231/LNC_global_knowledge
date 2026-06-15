@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/publications/health-risks-safety/occupational-radiation-exposures.html",
+  "title": "Occupational Radiation Exposures in Canada - Canada.ca",
+  "crawled_at": "2026-06-11T13:48:33.247822+07:00",
+  "content": "\n## Occupational Radiation Exposures in Canada\nDownload the alternative format (PDF format, 163 KB, 1 page)\nOrganization: Health Canada\nPublished: 2018-07-31\nThe National Dose Registry (NDR) is Canada’s national repository for dose records of Canadian workers who are monitored for occupational exposure to ionizing radiation. It is administered by Health Canada’s Radiation Protection Bureau and supports Health Canada and Canadian regulatory authorities in their mandates to protect the health and safety of Canadians exposed to ionizing radiation in the workplace.\n- 158,398 workers were monitored by the National Dose Registry in 2016.\n- 59% of the monitored workers were females, median age was 39 years.\n- The mean effective dose of ionizing radiation received by Canadian workers in 2016 was 0.2 millisieverts (mSv). It has been decreasing for the past 5 years and is at its lowest level since the first report was published in 1978.\nDistribution of workers across Job Sectors\n- Monitored workers have been categorized in 5 job sectors: Particle accelerator, Industry, Medical, Mining, Nuclear and Shared (among each sector, for example office staff).\n- Workers are distributed across job sectors as follows: Medical: 57%, Nuclear: 16%, Shared: 12%, Industry: 12%, Mining: 3% and Accelerator: 1%.\n- The number of workers has increased in 2016 (compared with 2015) for the following sectors: Particle accelerator, Medical and Nuclear. It has decreased for these sectors: Industry, Mining and Shared.\nMean Annual Effective Dose\n- In 2016, workers in the nuclear sector had the highest mean annual effective dose at 0.65 mSv, followed by Mining (0.49 mSv), Industry (0.32 mSv), Accelerator (0.09 mSv), Medical (0.07 mSv) and Shared (0.04 mSv).\n- The mean annual effective dose for each sector has tended to decrease over time, with few exceptions. For 2016, the Medical and Shared sectors had small increases (less than 0.01 mSv each), while the other sectors had decreases.\nRead the full Report on Occupational Radiation Exposures in Canada",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

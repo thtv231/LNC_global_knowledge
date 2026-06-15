@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "statistics",
+  "page_url": "https://data.govt.nz/blog/stats-nzs-statistical-standards-will-become-data-standards",
+  "title": "Stats NZ’s statistical standards will become data standards\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:09:28.169462+07:00",
+  "content": "\n## Stats NZ’s statistical standards will become data standards\nThe standards that Stats NZ produces, previously referred to as statistical standards, will now be called data standards.\n\n## What’s the difference?\nBy definition, a statistical standard has a narrow focus – the production of statistics - while a data standard focuses more broadly on the data that underpins the statistics and facilitates data exchange. Statistical standards are a subset of data standards, so data standards will include the same content as you would see in a statistical standard, but additionally include end to end guidance to make implementation easier.\n\n## When will we be making the change?\nGenerally, we will make changes to the name of a standard as we review a standard. As mentioned above, the name change will also reflect a broader focus, so the best time to adjust that focus will be during a review.\nHowever, we will be changing the name of the recently released statistical standard for gender, sex, and variations of sex characteristics retrospectively to data standard. This is because the standard provides guidance to organisations on how to apply the standard to their data, and the name data standard better reflects this.\n\n## What will users notice about the change?\nStats NZ will work closely with users and agencies to ensure data standards work for them. We will engage with users throughout the standards review process and in the mandated data standards process (should the standard be identified for mandate). So, as well as the name change, and the broader focus, users will notice more detail and guidance on how to collect, and derive outputs, as well as more end-to-end guidance to facilitate data exchange.\n\n## Who can I contact with questions?\nFor more information, or if you have any questions, contact Stats NZ’s Standards team at standards@stats.govt.nz .\nPhoto by Alexas_Fotos on Pixabay",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

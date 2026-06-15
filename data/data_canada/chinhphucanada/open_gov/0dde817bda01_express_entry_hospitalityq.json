@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "express_entry",
+  "page_url": "https://open.canada.ca/en/search/hospitalityq?hospitalityq%5B0%5D=org_name_en%3AEnvironment%20and%20Climate%20Change%20Canada",
+  "title": "hospitalityq",
+  "crawled_at": "2026-06-11T12:41:04.853644+07:00",
+  "content": "\n## We couldn't understand your request\nWe are sorry you ended up here. There are problems with the requested webpage address.\nOften this happens because an address was entered directly into your web browser.\nPlease try again searching with the appropriate Open Government form .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

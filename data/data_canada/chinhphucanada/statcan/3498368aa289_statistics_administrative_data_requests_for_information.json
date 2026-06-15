@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/where/admin-rfi?wbdisable=true",
+  "title": "Administrative data requests for information",
+  "crawled_at": "2026-06-11T12:55:19.766301+07:00",
+  "content": "\n## Administrative data requests for information\nUnder the Statistics Act , Statistics Canada is mandated to collect, compile, analyse, abstract and publish statistical information relating to the commercial, industrial, financial, social, economic and general activities and condition of the people.\nTo fulfil its mandate, Statistics Canada uses new and existing data sources for official statistics . The use of administrative data allows Statistics Canada to improve data quality and meet new and ongoing statistical needs, while reducing data collection costs and the response burden on Canadians. The list of mandatory requests for data from private and public organizations and relevant details will be updated on a regular basis, prior to data being collected. By law, Statistics Canada cannot hand over anyone's personal information – not to the police, the Royal Canadian Mounted Police (RCMP), Canada Revenue Agency (CRA) or even the courts.\nStatistics Canada is committed to openness and transparency. For more information see our Transparency and Accountability and Trust Centre sections.\n- Agriculture and food\n- Business and consumer services and culture\n- Business performance and ownership\n- Education, training and learning\n- Families, households and marital status\n- Income, pensions, spending and wealth\n- Population and demography\n- Prices and price indexes\n- Retail and wholesale\n- Science and technology",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

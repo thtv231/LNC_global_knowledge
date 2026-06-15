@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/natural-non-prescription/applications-submissions/site-licensing/bulletin/april-29-2022.html",
+  "title": "Version 3.0 of Harmonized site licence and FSRN application form (Web SLA): Natural health product site licensing bulletin No. 2, April 29, 2022 - Canada.ca",
+  "crawled_at": "2026-06-11T13:03:12.981087+07:00",
+  "content": "\n## Announcing Version 3.0 of the Harmonized Site Licence and FSRN Application Form (Web SLA)\nNHP Site Licensing Bulletin No. 2, April 29, 2022\nAs of February 16, 2026, foreign site reference numbers (FSRNs) have been discontinued. As such any references in this document should be disregarded.\n- Added a validation service to the form\n- Added the ability to capture notifiable changes\n- Added new fields in response to findings from the CESD’s 2021 audit of the NHP program\n- Improved the form’s design and user experience\nTo view this NHP Site Licensing Bulletin in its entirety, you can ask for a copy by emailing us at nnhpd-dpsnso@hc-sc.gc.ca . Be sure to give us the bulletin number, date and title of the one you would like to receive.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

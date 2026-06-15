@@ -1,0 +1,12 @@
+{
+  "site": "Statistics New Zealand (Stats NZ)",
+  "site_url": "https://www.stats.govt.nz",
+  "category": "statistics",
+  "page_url": "https://www.stats.govt.nz/large-datasets/csv-files-for-download/information-releases/tools/nz-dot-stat",
+  "title": "NZ.Stat | Stats NZ",
+  "crawled_at": "2026-06-11T15:11:40.665885+07:00",
+  "content": "NZ.Stat was a data tool for viewing datasets in tables, customising variables and layouts, and downloading Excel or CSV files. It closed on 13 September 2024.\n\n## NZ.Stat closed on 13 September 2024 and is no longer operational.\nLearn more about this change and our other data tools work.\nThe majority of the data held on NZ.Stat has been migrated to our new data tool Aotearoa Data Explorer .\nAny non-migrated data is available through a free data request to our Information Centre .\nIf you would like advice on where best to find a particular data set or have a question about the NZ.Stat closure, please contact our Information Centre .\nSome older unused data has not been migrated to the new tool but is still available in NZ.Stat. After the disconnection of NZ.Stat that data will be available through a free data request to our Information Centre.\n- Data not often used (tracked via google analytics)\n- Older data (1991-2014)\n- Some data is available in Infoshare (another data tool which will be replaced in a later phase)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

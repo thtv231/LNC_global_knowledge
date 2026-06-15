@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/data-sources/travel-tourism",
+  "title": "Administrative data sources in the production of official statistics – Travel and tourism",
+  "crawled_at": "2026-06-11T12:13:15.115058+07:00",
+  "content": "\n## Administrative data sources in the production of official statistics – Travel and tourism\n- Travel and traveller characteristics\n\n## Travel and traveller characteristics\nStatistics Canada uses the following northern tourism data:\n- trip characteristics (purpose, routine trip, duration, places visited, mode of transportation, spending)\n- traveller characteristics (place of residence, party size, age, sex).\nStatistical programs using these data for statistical and research purposes only:\n- National Travel Survey\n- Visitor Travel Survey\n- National Tourism Indicators\nPersonal information is not included in these data.\n\n### Border crossing data\nStatistics Canada uses the following national tourism data:\n- number of travellers (overseas, US residents, Canadian residents)\n- number of vehicles (by land, by ferry)\n- trip characteristics (mode of transportation, purpose, ports of entry, duration)\n- traveller characteristics (place of residence).\nStatistical programs using these data for statistical and research purposes only:\n- National Travel Survey\n- Visitor Travel Survey\n- National Tourism Indicators",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

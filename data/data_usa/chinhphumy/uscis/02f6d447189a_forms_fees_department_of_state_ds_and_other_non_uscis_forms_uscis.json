@@ -1,0 +1,12 @@
+{
+  "site": "USCIS",
+  "site_url": "https://www.uscis.gov",
+  "category": "forms_fees",
+  "page_url": "https://www.uscis.gov/forms/department-of-state-ds-and-other-non-uscis-forms",
+  "title": "Department of State (DS) and Other Non-USCIS Forms | USCIS",
+  "crawled_at": "2026-06-08T12:00:42.349812+07:00",
+  "content": "\n## Department of State (DS) and Other Non-USCIS Forms\nCertain forms relating to visas, passports and travel are available only from government agencies other than USCIS.\nFor \"DS\" forms, see the Department of State website . Most-searched \"DS\" Forms include:\n- DS-260: Online Immigrant Visa Application\n- DS-160: Online Nonimmigrant Visa Application\n- DS-230: Application for Immigrant Visa and Alien Registration (Diversity Visa and Cuban Family Reunification Parole applications only)\n- DS-11 Application for a U.S. Passport ( You will need to submit your original certificate of naturalization or citizenship AND a photocopy when applying for your U.S. passport. USCIS does not prohibit photocopies of certificates when providing proof of U.S. citizenship to the Department of State .)\nIf you are looking for information on Form I-94 or I-94W instructions , check the U.S. Customs and Border Protection website .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Bank of Canada",
+  "site_url": "https://www.bankofcanada.ca",
+  "category": "banking",
+  "page_url": "https://www.bankofcanada.ca/rates/interest-rates/corra/corra-summary-of-errors-detected-after-publication/",
+  "title": "CORRA: Summary of errors detected after publication - Bank of Canada",
+  "crawled_at": "2026-06-11T12:03:22.515757+07:00",
+  "content": "\n## CORRA: Summary of errors detected after publication\nAccess a summary of the impact of errors detected after publication of the Canadian Overnight Repo Rate Average (CORRA).\nFollowing the CORRA methodology , the Bank of Canada calculates CORRA using transaction-level data on repurchase agreement (repo) trades submitted to the Canadian Investment Regulatory Organization (CIRO) Market Trade Reporting System (MTRS) before the submission deadline.\nBefore sending the data to the Bank, CIRO applies technical data checks to ensure that data are reported in compliance with the technical requirements of the MTRS. The Bank applies data filters and checks the validity and plausibility of the data to identify possible reporting errors before calculating CORRA.\nDespite these verifications, on occasion the data may contain errors that affect data quality and ultimately CORRA. These errors are the result of reporting entities submitting or revising data after the submission deadline, or of technical difficulties experienced by the Bank or CIRO. To compute the impact on CORRA, the Bank calculates a revised rate using the standard CORRA methodology but including any new or revised data submitted after the submission deadline.\nThis table presents information on the frequency of errors that were detected after the CORRA republication deadline and that had an impact on CORRA of at least 1 basis point as well as the source of these errors. Of note, a difference of 1 basis point on one day translates approximately to a difference of 0.01 basis points on a three-month CORRA compounded average rate. These details are provided for information purposes only. After the CORRA republication deadline has passed, no amendments are made to the published CORRA rate under any circumstances.\nAbsolute impact 1 to 3 basis points\nAbsolute impact greater than 3 basis points\nDue to late submission by submitters\nDue to revisions past the deadline by submitters\nDue to technical difficulties\nFor inquiries about this report, please contact us .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

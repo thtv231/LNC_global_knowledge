@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "http://open.canada.ca/data/en/dataset/aad2bcd4-9f45-4013-b2a6-8367106dc0b2",
+  "title": "Monthly Seasonal Adjusted Unemployment Rates by EI Economic Region - Open Government Portal",
+  "crawled_at": "2026-06-11T13:43:47.788414+07:00",
+  "content": "\n## Monthly Seasonal Adjusted Unemployment Rates by EI Economic Region\nTable depicting the rate of unemployment within the Employment Insurance Regions across Canada.\n- Publisher - Current Organization Name: Employment and Social Development Canada\n- Licence: Open Government Licence - Canada\n- Rates for 1996 XLS English dataset XLS Explore More information Download\n- Rates for 1996 XLS French dataset XLS Explore More information Download\n- Rates for 1997 XLS English dataset XLS Explore More information Download\n- Rates for 1997 XLS French dataset XLS Explore More information Download\n- Rates for 1998 XLS English dataset XLS Explore More information Download\n- Rates for 1998 XLS French dataset XLS Explore More information Download\n- Rates for 1999 XLS English dataset XLS Explore More information Download\n- Rates for 1999 XLS French dataset XLS Explore More information Download\n- Rates for 2000-01-09 to 2000-07-08 XLS English dataset XLS Explore More information Download\n- Rates for 2000-01-09 to 2000-07-08 XLS French dataset XLS Explore More information Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

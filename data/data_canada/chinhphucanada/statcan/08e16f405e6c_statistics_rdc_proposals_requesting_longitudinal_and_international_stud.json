@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/microdata/data-centres/data/prcd",
+  "title": "RDC proposals requesting Longitudinal and International Study of Adults (LISA) data",
+  "crawled_at": "2026-06-11T12:55:13.082953+07:00",
+  "content": "\n## RDC proposals requesting Longitudinal and International Study of Adults (LISA) data\nResearchers must specify if they need access to the LISA survey data or the LISA linked to the administrative data. Once access has been granted, researchers should contact their RDC analyst to review the vetting guidelines associated with each option.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

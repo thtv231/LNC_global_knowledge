@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-medical-devices/medication-chart.html",
+  "title": "Medication chart - Canada.ca",
+  "crawled_at": "2026-06-11T13:20:34.626472+07:00",
+  "content": "Use this chart to keep track of the medications you are taking, including:\n- prescription and non-prescription medications\n- natural health products such as vitamins, minerals, and herbal remedies\nShare this list with your doctor and pharmacist and discuss any questions or concerns you have about your medication.\nThe chart should include the following information for each medication:\n- Name of medication (include brand name and ingredients)\n- Side effects experienced after taking medication\nName of family doctor:\n- Report a side effect\n- Using medications safely",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/4b8298dc-e90a-456d-855d-9ad2f7e9e067",
+  "title": "Government of Canada position number architecture - Open Government Portal",
+  "crawled_at": "2026-06-11T12:13:04.168793+07:00",
+  "content": "\n## Government of Canada position number architecture\nThis dataset provides a format for Government of Canada position numbers.\nFind more resources with the keyword “ reference data ”\n- Publisher - Current Organization Name: Treasury Board of Canada Secretariat\n- Licence: Open Government Licence - Canada\n- Reference Data CSV English specification CSV Explore Preview Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Statistics New Zealand (Stats NZ)",
+  "site_url": "https://www.stats.govt.nz",
+  "category": "statistics",
+  "page_url": "https://www.stats.govt.nz/services/customised-data-services/statistics-for-university-staff-and-students/services/customised-data-services/statistics-for-university-staff-and-students/household-economic-survey-data-package",
+  "title": "Household economic survey data package | Stats NZ",
+  "crawled_at": "2026-06-11T15:11:56.180113+07:00",
+  "content": "\n## Household economic survey data package\n13 January 2021, 10:45am\n\n## Household economic survey (HES) data packages for CONZUL not on website\nHES data packages were made for CONZUL with expenditure by region, income, and ethnicity variables, and with income by region, source, and ethnicity variables.\nThese are no longer the most accurate data. When updated population figures are applied (for example after a census), the weights for HES change and the CONZUL tables become outdated. We have also made changes to the survey.\nSee Changes to the household economic survey 2018/19 for information about the best sources of data since changes were made for the 2018/19 survey.\nPlease contact our customised data service to discuss the best available data (email info@stats.govt.nz ).\nNZ.Stat includes HES tables from 2007 to 2019 .\n- Statistics for university staff and students 13 January 2021",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

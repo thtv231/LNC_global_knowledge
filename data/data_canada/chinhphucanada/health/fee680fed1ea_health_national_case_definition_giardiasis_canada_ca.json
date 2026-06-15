@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/diseases/giardia-infection/health-professionals/national-case-definition.html",
+  "title": "National case definition: Giardiasis - Canada.ca",
+  "crawled_at": "2026-06-11T13:39:56.378627+07:00",
+  "content": "\n## National case definition: Giardiasis\nDate of last revision/review : December 2023.\n\n## National notification\nOnly confirmed cases of disease should be notified.\n\n## Type of surveillance\nRoutine case-by-case notification to the federal level.\nLaboratory confirmation of infection with or without clinical illness from an appropriate clinical specimen (e.g., stool, intestinal fluid, small bowel biopsy), with demonstration of:\n- Giardia lamblia trophozoites and/or cysts; or\n- Giardia lamblia nucleic acid (e.g., by polymerase chain reaction (PCR) or other nucleic acid test (NAT)); or\n- Giardia lamblia antigen (e.g., by an immunologic assay).\nNote: G. lamblia is synonymous with G. duodenalis and G. intestinalis.\nClinical illness in a person who is epidemiologically linked to a confirmed case.\nUntreated and unfixed (i.e., without formalin) clinical specimens are recommended for PCR and deoxyribonucleic acid (DNA) based methodologies including molecular diagnostic testing and downstream molecular surveillance approaches. Formalin-based fixatives used for microscopy can interfere with nucleic acid detection and sequencing.\nNote: For molecular surveillance purposes, Cary Blair transport media is acceptable.\nClinical illness may be characterized by the following signs or symptoms: Diarrhea, abdominal pain, nausea, bloating, weight loss, fatigue, gas, dehydration, and/or malabsorption. The severity of illness may vary. Asymptomatic infections may occur.\n- A07.1 Giardiasis (lambliasis)\nProbable case definitions are provided as guidelines to assist with case finding and public health management, and are not for national notification purposes.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

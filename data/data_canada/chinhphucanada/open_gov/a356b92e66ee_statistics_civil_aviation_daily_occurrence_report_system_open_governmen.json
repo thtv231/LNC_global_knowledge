@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/a348c1d1-2392-4595-b5e2-c6a244a7e87f",
+  "title": "Civil Aviation Daily Occurrence Report System - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:48.178314+07:00",
+  "content": "\n## Civil Aviation Daily Occurrence Report System\nThe system provides initial information on occurrences involving any Canadian-registered aircraft as well as events which occur at Canadian airports, in Canadian sovereign airspace, or international airspace for which Canada has accepted responsibility that includes events involving foreign registered aircraft.\n- Publisher - Current Organization Name: Transport Canada\n- Licence: Open Government Licence - Canada\n- Occurrence Category Metadata TXT English French terminology TXT Explore More information Go to resource\n- Occurrence Category CSV English French dataset CSV Explore More information Go to resource\n- Occurrence Information Metadata TXT English French terminology TXT Explore More information Go to resource\n- Occurrence Information CSV English French dataset CSV Explore More information Go to resource\n- Occurrence Event Information Metadata TXT English French terminology TXT Explore More information Go to resource\n- Occurrence Event Information CSV English French dataset CSV Explore More information Go to resource\n- Aircraft Information Metadata TXT English French terminology TXT Explore More information Go to resource\n- Aircraft Information CSV English French dataset CSV Explore More information Go to resource\n- Aircraft Event Information Metadata TXT English French terminology TXT Explore More information Go to resource\n- Aircraft Event Information CSV English French dataset CSV Explore More information Go to resource",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

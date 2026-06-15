@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1181",
+  "title": "Auckland city road kerblines and centrelines\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:24:07.681972+07:00",
+  "content": "\n## Auckland city road kerblines and centrelines\nCould i please request the shapefile for the datasets for Kerblines and centrelines for Auckland city roads for a software development project for the company i work for.\nthe blockage in the testing phase\nproviding the data for testing purposes\n\n### Response from Auckland Transport\nStatus More information required about request\nComments •\tWhen referring to \"Auckland City,\" we mean the entire Auckland Region. However, the data specifically for the Auckland CBD would also be helpful.\n•\tRegarding the kerbline request, we are looking for data on both the kerb and channel.\n\n#### Likely Source Agency",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

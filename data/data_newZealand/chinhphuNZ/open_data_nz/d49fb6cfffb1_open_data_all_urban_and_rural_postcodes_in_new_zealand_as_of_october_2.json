@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1269",
+  "title": "All urban and rural Postcodes in New Zealand as of October 2025\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:24:39.287700+07:00",
+  "content": "\n## All urban and rural Postcodes in New Zealand as of October 2025\nI am requesting a complete list of current New Zealand Post Codes, divided into Rural and Urban delivery.  A list in Excel format, grouped by region, and split into Rural Delivery and Urban delivery would be ideal.\nNot being able to access an up to date list of New Zealand postcodes from anywhere in electronic form, divided by Rural delivery and Urban delivery. Getting no response from New Zealand Post when this information is requested. Having the data will solve the problem of inaccurate AI produced lists which prevents shipping to some communities or cause service delays.\nBe able to accurately price shipping of goods, particularly to rural areas as part of the online shopping process. It also allows us to ensure addresses used on orders are accurate and constantly updated.\n\n### Response from New Zealand Post Limited\nComments We do not provide this information free of charge; there is a licence agreement that is required to be completed and there is a cost.  Should you wish to purchase an extract please email datasolutions@nzpost.co.nz\n\n#### Likely Source Agency\nNew Zealand Post Limited\n2\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tSubscribers",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/c2adcb27-6d7e-4e97-b546-b8ee3d586aa4",
+  "title": "Columbia River Basin Long-term Water Quality Monitoring Data - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:53.317033+07:00",
+  "content": "\n## Columbia River Basin Long-term Water Quality Monitoring Data\nLong-term freshwater quality monitoring data for over 13 sites in the Columbia River Basin for the past 15 years or longer for nutrients, metals, major ions, and other physical-chemical variables are included in this dataset. Monitoring is conducted by Environment and Climate Change Canada (ECCC) and under the Canada-British Columbia Water Quality Monitoring Agreement to assess water quality status and long-term trends, detect emerging issues, establish water quality guidelines and track the effectiveness of remedial measures and regulatory decisions.\nSupplemental Information\nhttp://www.ec.gc.ca/eaudouce-freshwater/default.asp?lang=En&n=50947E1B-1\n- Publisher - Current Organization Name: Environment and Climate Change Canada\n- Licence: Open Government Licence - Canada\n- Freshwater Quality Monitoring and Surveillance - Online Data CSV English application CSV Explore More information Go to resource\n- Monitoring et surveillance de la qualité d'eau - Données en ligne CSV French application CSV Explore More information Go to resource\n- disclaimer_avis-exclusion-de-responsabilite.txt TXT English French guide TXT Explore More information Go to resource\n- Water-Qual-Eau-Sites-National.csv CSV English French dataset CSV Explore More information Go to resource\n- Water-Qual-Eau-VariableInfo.csv CSV English French dataset CSV Explore More information Go to resource\n- Water-Qual-Eau-TableDescriptions.csv CSV English French dataset CSV Explore More information Go to resource\n- View ECCC Data Mart (English) HTML English web_service HTML Explore More information Go to resource\n- View ECCC Data Mart (French) HTML French web_service HTML Explore More information Go to resource\n- Water-Qual-Eau-Columbia-2000-present.csv CSV English French dataset CSV Explore More information Go to resource",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

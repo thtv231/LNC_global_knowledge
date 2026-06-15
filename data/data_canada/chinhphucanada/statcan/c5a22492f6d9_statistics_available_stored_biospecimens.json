@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/microdata/biobank/biospecimens",
+  "title": "Available stored biospecimens",
+  "crawled_at": "2026-06-11T12:55:15.291463+07:00",
+  "content": "\n## Available stored biospecimens\nThe range of samples collected from Canadian Health Measures Survey participants for storage in the biobank is described in the table below.\nVolume available (mL) Table note *\nTable note * unless otherwise stated Return to table note * referrer\nunless otherwise stated\nReturn to table note * referrer",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

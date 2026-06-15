@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/healthy-weights/canadian-guidelines-body-weight-classification-adults/body-mass-index-nomogram.html",
+  "title": "Body Mass Index (BMI) Nomogram - Canada.ca",
+  "crawled_at": "2026-06-11T12:06:09.178010+07:00",
+  "content": "\n## Body Mass Index (BMI) Nomogram\nThis BMI nomogram is not intended for use with:\n- those under 18 years of age,\n- and pregnant and lactating women.\nVisit the Question and Answer (Q & A) section for more information about weight classification and answers to questions about weight and health.\nYou can also calculate your BMI using this formula:\nBMI = weight(kg)/height(m) 2\nPregnancy Weight Gain Calculator\nBMI Category (kg/m 2 )\nRisk of developing health problems\nNote: For persons 65 years and older the 'normal' range may begin slightly above BMI 18.5 and extend into the 'overweight' range.\nSource: Health Canada. Canadian Guidelines for Body Weight Classification in Adults. Ottawa: Minister of Public Works and Government Services Canada; 2003.\nTo clarify risk for each individual, other factors such as lifestyle habits, fitness level, and presence or absence of other health risk conditions also need to be considered.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

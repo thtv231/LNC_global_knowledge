@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/819f164b-fe53-4144-b6a3-27577bb4f321",
+  "title": "Newfoundland and Labrador Long-term Water Quality Monitoring Data - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:53.929776+07:00",
+  "content": "\n## Newfoundland and Labrador Long-term Water Quality Monitoring Data\nLong-term freshwater quality monitoring data for sites in Newfoundland and Labrador (NL) for the past 15 years or longer for nutrients, metals, major ions, and other physical-chemical variables are included in this dataset. Monitoring is conducted by Parks Canada. Environment and Climate Change Canada (ECCC) and with NL Environment and Conservation through the Canada-NL Water Quality Monitoring Agreement to assess water quality status and long-term trends, detect emerging issues, establish water quality guidelines and track the effectiveness of remedial measures and regulatory decisions. Data for additional sites are available from NL Environment and Conservation.\n- Publisher - Current Organization Name: Environment and Climate Change Canada\n- Licence: Open Government Licence - Canada\n- GENIE - Freshwater Quality Monitoring and Surveillance Web Mapping Application HTML English application HTML Explore More information Go to resource\n- GENIE - Monitoring et surveillance de la qualité des eaux douces - Application web cartographiques HTML French application HTML Explore More information Go to resource\n- disclaimer_avis-exclusion-de-responsabilite.txt TXT English French guide TXT Explore More information Go to resource\n- Water-Qual-Eau-Sites-National.csv CSV English French dataset CSV Explore More information Go to resource\n- Water-Qual-Eau-VariableInfo.csv CSV English French dataset CSV Explore More information Go to resource\n- Water-Qual-Eau-TableDescriptions.csv CSV English French dataset CSV Explore More information Go to resource\n- View ECCC Data Mart (English) HTML English web_service HTML Explore More information Go to resource\n- View ECCC Data Mart (French) HTML French web_service HTML Explore More information Go to resource\n- Water-Qual-Eau-Newfoundland-TerreNeuve-Labrador-2000-present.csv CSV English French dataset CSV Explore More information Go to resource",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

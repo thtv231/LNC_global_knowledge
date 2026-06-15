@@ -1,0 +1,12 @@
+{
+  "site": "Environment and Climate Change Canada",
+  "site_url": "https://www.canada.ca/en/environment-climate-change.html",
+  "category": "environment",
+  "page_url": "https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/tools-resources-data/all-year-dashboard.html",
+  "title": "National Pollutant Release Inventory Dashboard - Canada.ca",
+  "crawled_at": "2026-06-11T14:11:46.582575+07:00",
+  "content": "\n## National Pollutant Release Inventory Dashboard\n\n## How to navigate the dashboard\nThis dashboard can be navigated using a mouse or a keyboard. For mouse users, you can navigate as you would a regular webpage. More information on how to access features using a keyboard only is available in the shortcut section at the bottom of this page.\n\n## Dashboard on National Pollutant Release Inventory (NPRI)\n- Show Keyboard shortcuts: Shift + Question mark (?)\n- Move focus between sections: Ctrl + F6\n- Move focus forward in section: Tab\n- Move focus backward in section: Shift + Tab\n- Multi-select: Ctrl + Space\n- Collapse a single table: Left arrow\n- Expand a single table: Right arrow\n- Collapse all tables: Alt + Shift +1\n- Expand all tables: Alt + Shift + 9\n- Open a context menu: Windows context key or Shift + F10\n- Move focus to visual menu: Alt + Shift + F10\n- Show as table: Alt + Shift + F11\n- Enter a visual: Ctrl + Right arrow\n- Enter a layer: Enter\n- Exit a layer or visual: Esc\n- Select or unselect data point: Enter or Space\n- Multi-select: Ctrl + Enter or Ctrl + Space\n- Right Click: Windows context key or Shift + F10\n- Show or hide data point tooltip: Ctrl + H\n- Clear selection: Ctrl + Shift + C\n\n#### Slicer accessibility\n- Slicer control: Ctrl + Right arrow\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/data-sources/labour",
+  "title": "Administrative data sources in the production of official statistics – Labour",
+  "crawled_at": "2026-06-11T12:13:15.901229+07:00",
+  "content": "\n## Administrative data sources in the production of official statistics – Labour\n- Employment insurance, social assistance and other transfers\n- Job vacancies, labour mobility and layoffs\n\n## Employment insurance, social assistance and other transfers\n\n### Employment insurance\nStatistics Canada uses the following employment insurance data:\n- employment insurance beneficiaries\n- employment insurance claims\n- employment insurance benefits paid\n- employment insurance weeks paid\n- employment insurance disqualifications and disentitlements.\nStatistical programs using these data for statistical and research purposes only:\n- Employment Insurance Statistics – Monthly (EIS)\n- Employment Insurance Coverage Survey (EICS)\n- Labour Force Survey (LFS)\n\n## Job vacancies, labour mobility and layoffs\nStatistics Canada the following job separations data:\n- first and last date worked\n- insured earnings and hours\n- reason for separation\n- employment insurance claim information\nStatistical programs using these data for statistical and research purposes only:\n- Canadian Employer–Employee Dynamics Database (CEEDD)\n- Longitudinal Worker File (LWF)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/ef546c83-43a8-4404-943e-ab324164eeb3?res_page=4",
+  "title": "Licensed Natural Health Products - Open Government Portal",
+  "crawled_at": "2026-06-11T13:10:46.453367+07:00",
+  "content": "\n## Licensed Natural Health Products\nUnfortunately, the text-based data extract is no longer accessible through the Natural and Non-prescription Health Products (NNHPD) website. We want to underline that the support for the CSV (text) extract formats has been dropped by our program area and the links to CSV files on the page will be deleted soon. However, the alternative formats XML and JSON are both available and are updated daily and will continue to be moving forward. For the most recent LNHPD extract you can retrieve either XML or JSON extracts from our API.\nWe apologize for any confusion this may have caused.\nThe Licensed Natural Health Products Database contains information about natural health products that have been issued a product licence by Health Canada. This data extract contains information on NHP Products.\nProducts with a licence have been assessed by Health Canada and found to be safe, effective and of high quality under their recommended conditions of use. You can identify licensed natural health products by looking for the eight-digit Natural Product Number (NPN) or Homeopathic Medicine Number (DIN-HM) on the label.\n- Publisher - Current Organization Name: Health Canada\n- Licence: Open Government Licence - Canada\n- Licensed Natural Health Products Database (LNHPD) API Guide HTML English guide HTML Explore More information Go to resource\n- Licensed Natural Health Products Database (LNHPD) API Guide HTML French guide HTML Explore More information Go to resource\n- Licensed Natural Health Products Database HTML English website HTML Explore More information Go to resource\n- Licensed Natural Health Products Database HTML French website HTML Explore More information Go to resource\n- Notice of Compliance Database (NOC) API\n- Drug Product Database - All Files\n- Canada Vigilance Adverse Reaction Online Database\n- Pesticide Product Information Database\n- Clinical Trials Database (CTD)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

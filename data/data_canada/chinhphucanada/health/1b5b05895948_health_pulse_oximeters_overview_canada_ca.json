@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-medical-devices/pulse-oximeters.html",
+  "title": "Pulse oximeters: Overview - Canada.ca",
+  "crawled_at": "2026-06-11T12:18:19.669540+07:00",
+  "content": "\n## Pulse oximeters: Overview\n- For health care providers\n- Health Canada’s role\nPulse oximeters are usually a small unit with a built-in clip that’s placed on the fingertip. Other types have a clip or wire probe with adhesive that’s applied to the ear, foot, hand, forehead, back or nose.\nPulse oximeters are used to check your pulse rate and how much oxygen your blood is carrying. They do this by passing beams of light through the blood. The procedure is painless.\nThe blood oxygen level measured with an oximeter is called your oxygen saturation level (or SpO 2 ). In most healthy people, this number is between 94% and 100%. It can be lower in people with lung or heart conditions.\nHealth care providers use pulse oximeters frequently to guide treatment decisions. Patients can also use these devices to monitor their blood oxygenation when at home before seeking medical attention.\nDuring the COVID-19 pandemic, there was an increase in home use of pulse oximeters.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

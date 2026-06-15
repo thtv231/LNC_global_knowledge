@@ -1,0 +1,12 @@
+{
+  "site": "Environment and Climate Change Canada",
+  "site_url": "https://www.canada.ca/en/environment-climate-change.html",
+  "category": "environment",
+  "page_url": "https://www.canada.ca/en/environment-climate-change/services/lightning/canadian-detection-network.html",
+  "title": "Lightning detection network - Canada.ca",
+  "crawled_at": "2026-06-11T12:57:19.835844+07:00",
+  "content": "\n## Canadian Lightning Detection Network\nThe Canadian Lightning Detection Network (CLDN) was established in 1998 and consists of over 80 lightning sensors distributed across Canada. The CLDN is part of the larger North American Lightning Detection Network (NALDN) that monitors lightning in most of North America. The NALDN is the largest lightning detection network in the world.\nThe CLDN runs 24 hours a day, 7 days a week, 365 days a year and detects cloud-to-ground lightning stikes and a small percentage of cloud-to-cloud lightning . The CLDN is capable of detecting up to 45,000 lightning strikes an hour, although typically the maximum number of strikes per hour in Canada is less than 25,000.\nThe CLDN ’s lightning sensors determine the strength, polarity (positive or negative charge) and time of lightning strikes, all from the electromagnetic pulse the lightning produces.\nThe electromagnetic pulse information from each sensor is sent to the network control centre in Tucson, Arizona. The sensor information from the network is then combined to determine the location of the lightning strikes. The lightning location information is then transmitted to various clients and Environment Canada’s Storm Prediction Centres.\nAt the Storm Prediction Centres, a mapped computer display of this information helps forecasters determine the extent and severity of a storm. The whole process takes less than a minute from start to finish. Near real-time information is also made available to the public through our Weather website .\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

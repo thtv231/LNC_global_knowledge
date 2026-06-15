@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/application-information/guidance-documents/interpret-significant-change-medical-device/abbreviations-definitions.html",
+  "title": "Guidance on how to interpret \"significant change\" of a medical device: Abbreviations and definitions - Canada.ca",
+  "crawled_at": "2026-06-11T13:10:56.560470+07:00",
+  "content": "\n## Guidance on how to interpret \"significant change\" of a medical device: Abbreviations and definitions\n- Process and procedures\n- Abbreviations and definitions\n- properties, such as dimensions, weight, mass, form, configuration or materials\n- performance (or functional) characteristics, such as accuracy, strength, force, flexibility or energy source and output level\n- be hazardous to health\n- fail to conform to any claim made by the manufacturer or importer about its effectiveness, benefits, performance characteristics or safety or\n- not meet the requirements of the Food and Drugs Actor the Medical Devices Regulations\n- manufacturing process, facility or equipment\n- manufacturing quality control procedures, including the methods, tests or procedures used to control the quality, purity and sterility of the device or of the materials used in its manufacture\n- design of the device, including its performance characteristics, principles of operation, specifications of materials, energy source, software or accessories\n- intended use of the device, including any new or extended use, any addition or deletion of a contraindication for the device and any change to the period used to establish its expiry date\nAn invasive device that is intended to enter the body through an artificially created opening that provides access to body structures and fluids.\nConfirmation by examination and the provision of objective evidence that the requirements for a specific intended use have been fulfilled, as set out in the definition validation in section 2.18 of International Organization for Standardization standard ISO 8402:1994, Quality management and quality assurance.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/e-services/filing-information-returns-electronically-t4-t5-other-types-returns-overview.html",
+  "title": "File information returns electronically (tax slips and summaries) - Canada.ca",
+  "crawled_at": "2026-06-11T12:22:20.994258+07:00",
+  "content": "\n## File information returns electronically (tax slips and summaries)\n\n## To users of the Internet File Transfer (IFT) application\nTo avoid system errors, ensure all Name , Address , Country, and Province fields contain valid text (not filled with spaces). Remove empty optional tags and provide information in all mandatory fields. After making the necessary corrections, rename the file, clear your cache, log out of the system, and log back in before attempting to resubmit.\nImportant Notice: Update to XML File Validation\nEffective October 20, 2025 , a new validation has been introduced. To prevent your submission from being rejected, please remove all optional fields without values from your XML file.\nWhen and how to file, original, amended and canceled information slips electronically (for example, T4, T4A, T5, and other type of returns), including how to use Web Forms.\nFiling electronically lets you:\n- Get confirmation within minutes\n- Allow another authorized source, such as a tax preparer, to file for you\n- Send returns for the previous ten years\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

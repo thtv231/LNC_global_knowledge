@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/microdata/data-centres/data/mohltc",
+  "title": "Ontario Ministry of Health and Long Term Care (MOHLTC) - historical data",
+  "crawled_at": "2026-06-11T12:55:12.661696+07:00",
+  "content": "\n## Ontario Ministry of Health and Long Term Care (MOHLTC) - historical data\nWe are pleased to announce the availability of the historical Ontario Ministry of Health and Long Term Care (MOHLTC) data on physician claims and hospitalization. This is the first integrated dataset which has information on physicians claim information.\nThe MOHLTC historical files provides access to a set of health care administrative datasets that covers the period between 1994/95 and 2009/10 (with some exceptions). There is no Ontario Health Insurance Plan (OHIP) data for the years between 1994/95 and 1999/00 fiscal years and the Discharge Abstract Database (DAD) Day Procedures ends in 2002/03 fiscal year and is incorporated into National Ambulatory Care Reporting System (NACRS) from 2003/04 fiscal year onwards, which can be linked to responses of survey respondents from Ontario for the Canadian Community Health Survey (1.1, 2.1 and 3.1) and the National Population Health Survey 1996/97 cross-sectional datasets.\nThe administrative records are of the whole Ontario population in those years that appear one or more of the following records:\nName of the administrative records\nOntario Health Insurance Plan (OHIP)\n1994/95, 1999/00-2009/10\nDischarge Abstract Database In-Patient (DAD_IP)\nDischarge Abstract Database Day Procedures (DAD_DP)\nNational Ambulatory Care Reporting System (NARCS)\nCurrently, discussions are underway between Statistics Canada and MOHLTC to enter into a new agreement to provide access to more recent and additional MOHLTC data files.\nFor any MOHLTC related questions please contact your local Research Data Centre. All other inquiries can be sent to our generic email address statcan.mad-rdc-data-dam-cdr-donnees.statcan@statcan.gc.ca",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

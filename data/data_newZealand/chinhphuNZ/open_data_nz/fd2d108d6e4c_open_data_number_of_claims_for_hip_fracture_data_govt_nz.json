@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1266",
+  "title": "Number of claims for hip fracture\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:24:21.758971+07:00",
+  "content": "\n## Number of claims for hip fracture\nFor approved research assessing changing rates of neck of femur fractures with aging population.\nData to include:\n- total number of ACC claims for hip fracture per year \n- break down of number of hip fractures in each age bracket of the population for each year\n- age and ethnicity demographics for hip fracture claims\n- cost associated with hip fracture claims if possible broken down into average per claim and total cost for all claims\n- data from 2014 to present\nThere is a lack of published scientific data documenting the changing rates of hip fractures. This research project aims to document 10 years of historic hip fracture rates and then use population data to estimate future rates. It will also estimate cost associated with this change.\nAllow documention of historic trends and project future rates of hip fracture. This will help to plan provision of orthopaedic, geriatric and rehabilitation services in the public sector.\n\n### Response from Accident Compensation Corporation\nStatus Dataset submitted\nComments The requested information is attached\nPlease refer to the notes about the data in the attachment.\nThe requested information is attached, here: https://catalogue.data.govt.nz/dataset/data-on-hip-fracture-claims-2014-2025\nSome values in the tables only indicate that the claim count is fewer than four (denoted as <4) to protect our clients’ privacy. In other instances, values are supressed and denoted as two dots (..). This limits the potential for particular individuals or matters specific to certain individuals from being identified.\nThis decision has been made under section 9(2)(a) of the Act. In doing so, we have considered the public interest in making the information available and have determined that it does not outweigh the need to protect our clients’ privacy.\n\n#### Likely Source Agency\nAccident Compensation Corporation\n1\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tSubscriber",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

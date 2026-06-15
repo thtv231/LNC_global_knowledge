@@ -1,0 +1,12 @@
+{
+  "site": "Bank of Canada",
+  "site_url": "https://www.bankofcanada.ca",
+  "category": "banking",
+  "page_url": "https://www.bankofcanada.ca/rates/interest-rates/canadian-bonds/",
+  "title": "Selected bond yields - Bank of Canada",
+  "crawled_at": "2026-06-11T12:01:58.532596+07:00",
+  "content": "\n## Selected bond yields\nView or download the latest data for bond yields , marketable bond average yields and selected benchmark bond yields .\n- Look up the past ten years of data for these series .\n- Access selected data on treasury bill yields .\n- Obtain data on benchmark Canada bonds .\nData available as: CSV , JSON and XML\n- Save image ... PNG JPG PDF Download all ... CSV JSON XML Download date range ... CSV JSON XML Print Annotate ...\n- Save image ... PNG JPG PDF\n- Download all ... CSV JSON XML\n- Download date range ... CSV JSON XML\n- 1px 2px 4px 10px 200 300 400 800 10 15 20 30 20% 40% 60% 80% 100%\n- 200 300 400 800 10 15 20 30\n- 20% 40% 60% 80% 100%\n\n## Marketable bond average yields\nData available as: CSV , JSON and XML\nGovernment of Canada marketable bonds\n\n## Selected benchmark bond yields\nData available as: CSV , JSON and XML\nGovernment of Canada benchmark bond yields\n\n### Current benchmark bond yields\nSelected benchmark bond yields are based on mid-market closing yields of selected Government of Canada bond issues that mature approximately in the indicated terms. The bond issues used are not necessarily the ones with the remaining time to maturity that is the closest to the indicated term and may differ from other sources. The selected 2-, 5-, 10-, or 30-year issues are generally changed when a building benchmark bond is adopted by financial markets as a benchmark, typically after the last auction for that bond. The selected 3-year issue is usually updated at approximately the same time as changes are made to the 2-year, and sometimes with the 5-year. The selected 7-year issue is typically updated at approximately the same time as the 5- or 10-year benchmarks are changed. The current benchmark bond issues and their effective dates, shown in brackets, are as follows.\n- 2 year - 2028.05.01, 2.50% (2026.04.17);\n- 3 year - 2029.03.01, 4.00% (2026.04.01);\n- 5 year - 2031.03.01, 2.75% (2026.03.20);\n- 7 year - 2032.12.01, 2.50% (2026.03.04);\n- 10 year - 2035.12.01, 3.25% (2025.12.19);\n- Long - 2057.12.01, 3.50% (2026.03.06);\n- RRB - 2050.12.01, 0.50% (2020.06.01)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/veterinary-drugs/certified-product-information-document.html",
+  "title": "Certified product information document: Veterinary drugs - Canada.ca",
+  "crawled_at": "2026-06-11T13:10:31.654394+07:00",
+  "content": "\n## Certified product information document: Veterinary drugs\nThe Certified Product Information Document (CPID) provides an accurate record of the most updated technical information in the veterinary drug submission. The document helps expedite the review process and facilitate the management of the lifecycle of the product.\nA complete CPID should be submitted as a clean document in Word format at the time of filing New Drug Submissions (NDSs) and Abbreviated New Drug Submissions (ANDSs) with Health Canada pursuant to Part C, Division 8 of the Food and Drug Regulations. If a section or field does not apply, this should be indicated by \"Not applicable\" or \"N/A\" in the appropriate area, with an accompanying explanatory note.\nTo obtain a copy or if you have questions about the template, email us directly at vdd.skmd.so-dgps.dmv.cp@hc-sc.gc.ca\nThe key input fields of the template include:\n- Summary of product information\n- Administrative summary\n- Appendix 1: Additional information for generic drugs",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

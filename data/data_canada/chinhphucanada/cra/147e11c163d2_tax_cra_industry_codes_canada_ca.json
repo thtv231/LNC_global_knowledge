@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/sole-proprietorships-partnerships/report-business-income-expenses/industry-codes.html",
+  "title": "Industry codes - Canada.ca",
+  "crawled_at": "2026-06-11T14:12:38.249819+07:00",
+  "content": "When completing Form T2125, Statement of Business or Professional Activities , Form T2121, Statement of Fishing Activities , or Form T2042, Statement of Farming Activities , you have to enter an industry code that corresponds to your main business activity.\nIf your business has more than one activity, use the code that most closely describes your main business activity.\nFor example, you might operate a bookstore in which you sell postage stamps. In this case, you would use industry code 451310 ( for sales – bookstores and news dealers), and not 491110 ( for services – postal services).\nIf you are filing your income tax return on paper, enter the six-digit industry code that corresponds to your business listed in the latest version of the North American Industry Classification System codes (NAICS) maintained by Statistics Canada.\nIf you are filing your return electronically, you have to use the industry codes from your tax preparation software .\n\n## Forms and publications\n- Guide T4002, Self-employed Business, Professional, Commission, Farming, and Fishing Income\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

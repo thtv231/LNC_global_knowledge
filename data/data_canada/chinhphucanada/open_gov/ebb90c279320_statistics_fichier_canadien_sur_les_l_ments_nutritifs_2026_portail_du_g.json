@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/fr/dataset/1b6139bd-ed7e-4043-bc28-ff00e10f3109",
+  "title": "Fichier canadien sur les éléments nutritifs, 2026 - Portail du gouvernement ouvert",
+  "crawled_at": "2026-06-11T12:20:11.099426+07:00",
+  "content": "\n## Fichier canadien sur les éléments nutritifs, 2026\nLe Fichier canadien sur les éléments nutritifs est la base de données de référence standard sur la composition des aliments de Santé Canada. Elle fournit les valeurs nutritionnelles des aliments couramment consommés au Canada.\n- Éditeur - Nom actuel de l’organisation : Santé Canada\n- Licence : Licence du gouvernement ouvert - Canada\n\n## Données et ressources\n- Toutes les données sur les ressources ZIP anglais français dataset ZIP Explorer Plus d'information Télécharger\n- Noms des aliments CSV anglais français dataset CSV Explorer Aperçu Télécharger\n- Source des aliments CSV anglais français dataset CSV Explorer Aperçu Télécharger\n- Groupes d'aliments du FCÉN CSV anglais français dataset CSV Explorer Aperçu Télécharger\n- Teneurs en éléments nutritifs CSV anglais français dataset CSV Explorer Aperçu Télécharger\n- Noms des éléments nutritifs CSV anglais français dataset CSV Explorer Aperçu Télécharger\n- Sources des éléments nutritifs CSV anglais français dataset CSV Explorer Aperçu Télécharger\n- Conversions des mesures en poids CSV anglais français dataset CSV Explorer Aperçu Télécharger\n- Types des mesures CSV anglais français dataset CSV Explorer Aperçu Télécharger\n- Noms des mesures CSV anglais français dataset CSV Explorer Aperçu Télécharger",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

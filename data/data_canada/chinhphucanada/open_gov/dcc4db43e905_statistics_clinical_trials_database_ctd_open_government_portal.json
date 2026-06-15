@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/d6fe4b32-2eaf-4ac0-9e35-b3841f25e3a7",
+  "title": "Clinical Trials Database (CTD) - Open Government Portal",
+  "crawled_at": "2026-06-11T13:10:43.544114+07:00",
+  "content": "\n## Clinical Trials Database (CTD)\nHealth Canada's Clinical Trials Database is a listing of information about phase I, II and III clinical trials in patients. The database is managed by Health Canada and provides a source of information about Canadian clinical trials involving human pharmaceutical and biological drugs.\nAdditional information on Health Canada’s CTD is available at: https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/health-canada-clinical-trials-database/frequently-asked-questions.html\n- Publisher - Current Organization Name: Health Canada\n- Licence: Open Government Licence - Canada\n- Sponsor JSON English api JSON Explore More information Go to resource\n- Sponsor JSON French api JSON Explore More information Go to resource\n- Sponsor XML English api XML Explore More information Go to resource\n- Sponsor XML French api XML Explore More information Go to resource\n- Medical Condition JSON English api JSON Explore More information Go to resource\n- Medical Condition JSON French api JSON Explore More information Go to resource\n- Medical Condition XML English api XML Explore More information Go to resource\n- Medical Condition XML French api XML Explore More information Go to resource\n- Drug Product JSON English api JSON Explore More information Go to resource\n- Drug Product JSON French api JSON Explore More information Go to resource\n- Drug Product Database - All Files\n- Canada Vigilance Adverse Reaction Online Database\n- Notice of Compliance Database (NOC) API\n- Licensed Natural Health Products\n- Guidance Document For Clinical Trial Sponsors: Clinical Trial Applications",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

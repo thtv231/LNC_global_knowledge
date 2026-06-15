@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/survey/business/2501/ratios?wbdisable=true",
+  "title": "Where in your industry does your company rank?",
+  "crawled_at": "2026-06-11T12:56:11.817560+07:00",
+  "content": "\n## Where in your industry does your company rank?\n\n## Use our data to improve your positioning in the market\nThe Quarterly Survey of Financial Statements (QSFS) provides a number of indicators by industry and by quarter. These indicators can help you get to know your enterprise better, and can also serve as a reference point to compare your enterprise's performance with other similar enterprises in your industry.\nFollow the steps below to calculate your enterprise's financial ratios and compare them with your industry's. The construction industry is used in our example.\nThese ratios measure an enterprise's profitability and profits before deducting interest and tax.\nExample: Profit margin = operating profit / operating revenue\n\n#### Fourth quarter ratio for the construction industry\n3.80% vs. Your enterprise's ratio\nThese are the ratios of loan capital to equity, or the funds invested by owners. Calculating it can help to determine whether debt more or less finances this enterprise.\nExample: Debt to equity ratio = (loans and accounts payable) / total equity\n\n#### Fourth quarter ratio for the construction industry\n1.47 vs. Your enterprise's ratio\nThese ratios measure the enterprise's ability to meet its obligations and easily pay off its short-term debts when they are due. They are very helpful for good treasury management.\nExample: Working capital ratio = current assets / current liabilities\n\n#### Fourth quarter ratio for the construction industry\n1.05 vs. Your enterprise's ratio\nThese ratios compare inventory with turnover and the efficiency with which management moves inventory compared with other enterprises in the same sector.\nExample: Inventory turnover ratio = (operating revenue × 4 quarters) / inventory\n\n#### Fourth quarter ratio for the construction industry\n5.30 vs. Your enterprise's ratio\nThe data above are from the fourth quarter of the QSFS. Please see the following page for more indicators: Quarterly balance sheet and income statement, by industry",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

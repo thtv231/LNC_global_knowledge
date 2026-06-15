@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/where/open-data",
+  "title": "Open data",
+  "crawled_at": "2026-06-11T12:13:16.445507+07:00",
+  "content": "According to the Canada Open Government website, open data is defined as structured data that is machine-readable, freely shared, used and built on without restrictions.\nSmart cities and governments are increasingly making use of data when looking to implement problem-solving measures to provide efficient and effective services to constituents. Open data invites innovation, not only through government channels, but also through grassroots organizations, individuals, and businesses. The benefit of open data is that any user can access and make use of it freely. Individuals, formal and informal organizations, or enterprises can use the data and other information to research and innovate on any number of topics.\nStatistics Canada has recently embarked upon an exploratory initiative which aims to enhance the use and harmonization of open building data from government sources, for the purpose of contributing to the creation of a complete, comprehensive and open database of buildings in Canada. The outcome of this exploratory work led to the creation of the Open Database of Building (ODB), a centralized and harmonized repository of building data made available under the Open Government Licence - Canada .\nThis initiative originates from insights taken from the Statistics Canada pilot project on data crowdsourcing, which used OpenStreetMap as a platform for integrating data on building footprints. In addition to the possible benefits of crowdsourcing, the project highlighted the potential of integrating open data from municipal, regional, and provincial governments to meet the needs of official statistics.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/toolkit/data-management/what-is-a-data-custodian-and-what-do-they-do",
+  "title": "What is a data custodian and what do they do?\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:08:21.642447+07:00",
+  "content": "To make sure data and information is maintained, there will often be a data custodian responsible for updating and preserving the data. Under the New Zealand Data and Information Management Principles, agency data custodians should implement recommended practices to support well managed data.\n- Understand what a data custodian is.\n- Understand the responsibilities of the data custodian.\nThe New Zealand Data and Information Management Principles were developed to ensure high quality management of the information the government holds on behalf of the public.\nUnder the Well Managed principle, agencies, as the stewards of government-held data and information, must provide and require good practices which manage the data and information over their life-cycle, including catering for technological obsolescence and long-term preservation and access.\nA custodian would be responsible for making sure that their agency’s data was accessible and maintained, as guided by the Well Managed principle.\nThey also act at the contact person for queries or requests about the data. It is recommended that a named contact point, telephone number or email address (ideally both) is listed in the metadata of your dataset: What metadata should I include with my dataset?",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

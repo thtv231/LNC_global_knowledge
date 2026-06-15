@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/open-manage-payroll-account/before-you-register.html",
+  "title": "Before you register - Canada.ca",
+  "crawled_at": "2026-06-11T12:45:57.035989+07:00",
+  "content": "You must have all of the following informations when you register for a payroll account:\n- Date employees receive their first wages (leave blank if date is unknown)\n- Months covered for payroll of employees' wages\n- Type of pay period (for example, weekly, quarterly)\n- Payroll service name (if any)\n- Country of parent company or affiliate, if you have a foreign owned corporation\n- Name of franchisor and country of franchise's head office (if any)\nYou will also need all of the following if it differs from the basic business information above:\nLearn more: Business number and CRA program accounts - Gather your information .\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

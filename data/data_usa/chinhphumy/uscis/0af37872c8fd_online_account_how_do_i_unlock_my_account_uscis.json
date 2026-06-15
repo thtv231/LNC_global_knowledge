@@ -1,0 +1,12 @@
+{
+  "site": "USCIS",
+  "site_url": "https://www.uscis.gov",
+  "category": "online_account",
+  "page_url": "https://www.uscis.gov/tools/uscis-tools-and-resources/online-account-and-technical-support/how-do-i-unlock-my-account",
+  "title": "How Do I Unlock My Account? | USCIS",
+  "crawled_at": "2026-06-08T12:01:59.746216+07:00",
+  "content": "\n## How Do I Unlock My Account?\nHow will I know if my account is temporarily locked?\nYou will receive an email with the subject “Your USCIS account is temporarily locked.” The email will explain that your account is locked due to an excessive number of unsuccessful sign-in attempts.\nIf your account is locked:\nWait for the lockout period to expire and then try signing in again.\n- Wait for the lockout period to expire and then try signing in again.\nAlternatively, you can reset your password by visiting: https://myaccount.uscis.gov/forgot-password .\n- Alternatively, you can reset your password by visiting: https://myaccount.uscis.gov/forgot-password .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

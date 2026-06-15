@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/infectious-diseases/sexual-health-sexually-transmitted-infections/canadian-guidelines/levels-quality-evidence.html",
+  "title": "Levels and Quality of Evidence - Canada.ca",
+  "crawled_at": "2026-06-11T12:24:37.446219+07:00",
+  "content": "\n## Levels and Quality of Evidence\nAll treatment recommendations include indications for the level and quality of evidence.\nThe indicators reflect a combination of the methodologies from the U.S. Preventive Services Task Force and the Canadian Task Force on Preventive Health Care, which have been modified for use in the guidelines.\n\n## Levels of recommendations\nA : Strongly recommends that clinicians routinely provide the treatment to eligible patients. Good evidence that the treatment improves important health outcomes and concludes that benefits substantially outweigh harms.\nB : Recommends that clinicians routinely provide the treatment to eligible patients. There is at least fair evidence that the treatment improves important health outcomes and concludes that benefits outweigh harms.\nC: No recommendation for or against routine provision of the treatment. There is at least fair evidence that the treatment can improve health outcomes but concludes that the balance of the benefits and harms is too close to justify a general recommendation .\nD: Recommends against routinely providing the treatment to asymptomatic patients. There is a t least fair evidence that the treatment is ineffective or that harms outweigh benefits.\nI: Evidence is insufficient to recommend for or against routinely providing the treatment. Evidence that the treatment is effective is lacking, of poor quality or conflicting, and the balance of benefits and harms cannot be determined.\nLevel I (one): Evidence from at least one properly randomized, controlled trial.\nLevel II (two): Evidence from at least one well-designed clinical trial without randomization, from cohort or case-control analytic studies (preferably from more than one centre), from multiple time-series studies or from dramatic results in uncontrolled experiments.\nLevel III (three): Evidence from opinions of respected authorities based on clinical experience, descriptive studies or reports of expert committees.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

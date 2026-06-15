@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/diseases/listeriosis/health-professionals-listeriosis/national-case-definition.html",
+  "title": "Invasive Listeriosis - Canada.ca",
+  "crawled_at": "2026-06-11T13:16:56.850248+07:00",
+  "content": "\n## Invasive Listeriosis\nDate of last revision/review: May 2008\n\n## National notification\nOnly confirmed cases of disease should be notified.\n\n## Type of surveillance\nRoutine case-by-case notification to the federal level.\nLaboratory confirmation of infection with symptoms:\n- isolation of Listeria monocytogenes from a normally sterile site (e.g. blood, cerebral spinal fluid, joint, pleural or pericardial fluid)\n- in the setting of miscarriage or stillbirth, isolation of L. monocytogenes from placental or fetal tissue (including amniotic fluid and meconium)\nInvasive clinical illness is characterized by meningitis or bacteremia. Infection during pregnancy may result in fetal loss through miscarriage, stillbirth, neonatal meningitis or bacteremia.\nA32   Listeriosis ( includes listerial foodborne infection; excludes neonatal (disseminated) listeriosis P37.2)\nA32.1   Listerial meningitis and meningoencephalitis (Listerial: meningitis (G01); meningoencephalitis (G05.0)\nA32.7   Listerial septicaemia\nA32.8   Other forms of listeriosis (Listerial: cerebral arteritis (I68.1); endocarditis (I39.8), Oculoglandular listeriosis)\nA32.9   Listeriosis, unspecified\n\n### ICD-9/ICD-9CM code(s)\n027.0 Listeriosis (excluding congenital listeriosis (771.2))\nInfection by Listeria monocytogenes\nSepticemia by Listeria monocytogenes\nUse additional code to identify manifestations, as meningitis (320.7)\nProbable case definitions are provided as guidelines to assist with case finding and public health management, and are not for national notification purposes.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

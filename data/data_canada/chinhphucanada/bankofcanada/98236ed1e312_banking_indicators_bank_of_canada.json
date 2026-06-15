@@ -1,0 +1,12 @@
+{
+  "site": "Bank of Canada",
+  "site_url": "https://www.bankofcanada.ca",
+  "category": "banking",
+  "page_url": "https://www.bankofcanada.ca/rates/indicators/",
+  "title": "Indicators - Bank of Canada",
+  "crawled_at": "2026-06-11T12:01:56.266763+07:00",
+  "content": "\n## Indicators of capacity and inflation pressures for Canada\nThese tables are updated one day after the Bank’s most recent announcement date for the target overnight rate, based on information available up to that date. Quarterly data, with graphs and definitions.\n\n## Financial stability indicators\nGet quarterly data for the indicators we use to track the evolution of the financial stability of the Canadian economy.\n\n## Indicators related to market operations\nA table of indicators related to the implementation of monetary policy that includes the operating band, settlement balances and other Bank of Canada operations.\n\n## Summary of key monetary policy variables\nMonthly data, with graphs and definitions.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/about/transparency/privacy/microdata-linkage?wbdisable=true",
+  "title": "Microdata linkage at Statistics Canada",
+  "crawled_at": "2026-06-11T12:55:09.382987+07:00",
+  "content": "\n## Microdata linkage at Statistics Canada\nMicrodata linkage is an internationally recognized statistical method that maximizes the use of information to shed light on societal and economic questions. In particular, microdata linkage brings together information about an entity from two or more sources to form a combined microdata file about that same entity. This activity is conducted in accordance with Statistics Canada's Directive on Microdata Linkage , which has been in place since 1986.\nStatistics Canada performs microdata linkages for the following purposes:\n- to support the design, maintenance, evaluation, research and redesign of ongoing data collection and methodological studies within Statistics Canada\n- to provide statistical information in aggregate or anonymous format in support of research studies.\nAs part of its governance over microdata linkages, Statistics Canada has pre-approved specific types of linkages. The linkages involved are those where the privacy risks and situations of potential conflict of interest are low and where procedures to mitigate risk to confidentiality and privacy are in place.\nAll other microdata linkages must undergo a prescribed review and approval process, which involves the submission of documented proposals to senior management. When such linkages include personal information, a summary of the approved microdata linkage is posted on Statistics Canada's website.\nIf you have any questions about microdata linkage, please contact the Departmental Privacy Officer at the following address:\nPierre Desrochers Departmental Privacy Officer Office of Privacy Management and Information Coordination Strategic Data Management Field Statistics Canada / Government of Canada atip-aiprp@statcan.gc.ca",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

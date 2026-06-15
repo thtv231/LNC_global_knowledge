@@ -1,0 +1,12 @@
+{
+  "site": "Bank of Canada",
+  "site_url": "https://www.bankofcanada.ca",
+  "category": "banking",
+  "page_url": "https://www.bankofcanada.ca/rates/interest-rates/t-bill-yields/selected-treasury-bill-yields-10-year-lookup/notes-on-treasury-bill-yields/",
+  "title": "Notes on treasury bill yields - Bank of Canada",
+  "crawled_at": "2026-06-11T12:13:01.673706+07:00",
+  "content": "\n## Notes on treasury bill yields\n\n## Treasury bill auction – Average yields – 3 month\nSource: Bank of Canada, Data and Statistics Office\n- From 1934 to 1952, the rates are a monthly average of yields at tender.\n- From 1953 to 1960, the rates are average yields at Thursday tender following the last Wednesday of the month.\n- The first sale of treasury bills by public tender occurred March 1, 1934.\n- Since 1960, monthly series show values for the last Tuesday of the month.\n\n## Treasury bill auction – Average yields – 6 month\nSource: Bank of Canada, Data and Statistics Office\n- From 1959 to 1960, the rates are average yields at Thursday tender following the last Wednesday of the month.\n- Since May 1959, 6-month treasury bills have regularly been sold by weekly public tender.\n- Since 1960, monthly series show values for the last Tuesday of the month.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

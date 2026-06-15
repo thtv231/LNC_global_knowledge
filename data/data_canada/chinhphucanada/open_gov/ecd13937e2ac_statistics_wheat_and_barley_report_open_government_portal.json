@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/31988cb0-1fdb-41af-8e7a-9c7c4f64f72b",
+  "title": "Wheat and Barley Report - Open Government Portal",
+  "crawled_at": "2026-06-11T12:03:17.789051+07:00",
+  "content": "\n## Wheat and Barley Report\nGlobal Affairs Canada has archived a number of older trade reports and notices that were previously available online. These documents are preserved on the Open Government Portal and are available both as individual records and grouped into commodity-based datasets for convenience.\nThis collection is not exhaustive and should be used for research and reference purposes only.\nFor current information on importing, exporting, trade reports, and related rules and regulations, please visit Global Affairs Canada’s International Trade and Investment webpage: https://international.canada.ca/en/services/business/trade\n- Publisher - Current Organization Name: Global Affairs Canada\n- Publisher - Organization Section Name: ITA\n- Licence: Open Government Licence - Canada\n- Wheat and Barley Report CSV English French dataset CSV Explore Preview Download\n- Data Dictionary - Wheat and Barley XLSX English French data_dictionary XLSX Explore More information Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

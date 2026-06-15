@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/keyword/integration",
+  "title": "integration\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:25:18.498393+07:00",
+  "content": "\n## Results for 'integration'\n- Mandated data standards This page describes mandated data standards, their importance, the current mandated standards, the topics proposed for future mandate, the process for selecting topics, who mandate…\n\n### Mandated data standards\nThis page describes mandated data standards, their importance, the current mandated standards, the topics proposed for future mandate, the process for selecting topics, who mandate…\n- Automating dataset updates What is a data.json? A data.json file is a machine readable stocktake of data used to exchange metadata between data catalogues (like data.govt.nz). It allows for a distributed mod…\n\n### Automating dataset updates\nWhat is a data.json? A data.json file is a machine readable stocktake of data used to exchange metadata between data catalogues (like data.govt.nz). It allows for a distributed mod…",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/1b6139bd-ed7e-4043-bc28-ff00e10f3109?wbdisable=true",
+  "title": "Canadian Nutrient File, 2026 - Open Government Portal",
+  "crawled_at": "2026-06-11T13:18:45.693240+07:00",
+  "content": "\n## Canadian Nutrient File, 2026\nThe Canadian Nutrient File is Health Canada’s standard reference food composition database that provides nutrient values for foods commonly consumed in Canada.\n- Publisher - Current Organization Name: Health Canada\n- Licence: Open Government Licence - Canada\n- All Resource Data ZIP English French dataset ZIP Explore More information Download\n- Food Name CSV English French dataset CSV Explore Preview Download\n- Food Source CSV English French dataset CSV Explore Preview Download\n- CNF Food Group CSV English French dataset CSV Explore Preview Download\n- Nutrient Amount CSV English French dataset CSV Explore Preview Download\n- Nutrient Name CSV English French dataset CSV Explore Preview Download\n- Nutrient Source CSV English French dataset CSV Explore Preview Download\n- Measure Weight Conversion CSV English French dataset CSV Explore Preview Download\n- Measure Type CSV English French dataset CSV Explore Preview Download\n- Measure Name CSV English French dataset CSV Explore Preview Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Bank of Canada",
+  "site_url": "https://www.bankofcanada.ca",
+  "category": "statistics",
+  "page_url": "https://www.bankofcanada.ca/2018/11/changes-to-publication-of-interest-rate-statistics/",
+  "title": "Changes to publication of interest rate statistics - Bank of Canada",
+  "crawled_at": "2026-06-11T12:03:21.722035+07:00",
+  "content": "\n## Changes to publication of interest rate statistics\nAs of January 2019, the Bank of Canada will no longer publish the daily, weekly or monthly prime commercial paper (CP) or bankers’ acceptance (BA) rates. This decision has been taken after a thorough review of these rates and in keeping with the Bank’s policy of only publishing reliable data using appropriate sources and calculation methodologies.\nThe Investment Industry Regulatory Organization of Canada (IIROC) will start publishing for informational purposes only the 1- and 3-month transaction based BA rates on the same date. These new BA rates will be publicly available on the IIROC’s website on a delayed basis IIROC’s website .\nThe historical data for these rates will continue to be available on the Bank of Canada website at the Selected Historical Interest Rates page.\nFor further inquiries contact Bank of Canada at communications@bankofcanada.ca or IIROC Victoria Pinnington vpinnington@iiroc.ca .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

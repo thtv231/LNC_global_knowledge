@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/8",
+  "title": "Civil Defence Shelters\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:25:26.787828+07:00",
+  "content": "\n## Civil Defence Shelters\nA spatial dataset that contains the location of every Civil Defence centre/shelter/hall in New Zealand. As well as latitude/longitude, it should ideally contain basic contact numbers for use in case of emergency.\nMany people don't know where their nearest CD shelter is in case of emergency. It would be very useful for people visiting another town or city.\nMaking the data available so that it can be incorporated into existing datasets and applications able to be downloaded and stored in phones in case of emergency. Allowing smart phone applications with GPS to store the location of CD centres, so a person could use an application and GPS (offline from the Internet in case cell sites fail) to get directions to the likely nearest CD shelter location. Note that this won't guarantee that they are open. (Note - I just want to log this request, but am happy to have the request to MCDEM deferred a few months and they have settled down from the Christchurch earthquake response and recovery)\n\n### Response from Ministry of Civil Defence and Emergency Management\nStatus Different agency responsible\nInformation about community civil defence centres (schools, public halls, churches etc) is held and managed by respective local authorities. A national database does not exist. Please contact the respective local authority directly.\n\n#### Likely Source Agency\nMinistry of Civil Defence and Emergency Management",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

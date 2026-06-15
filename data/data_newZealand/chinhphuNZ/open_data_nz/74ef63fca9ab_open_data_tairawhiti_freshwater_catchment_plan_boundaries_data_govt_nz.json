@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1213",
+  "title": "Tairawhiti Freshwater Catchment Plan boundaries\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:23:38.767787+07:00",
+  "content": "\n## Tairawhiti Freshwater Catchment Plan boundaries\nShapefiles of the seven freshwater planning catchment areas being used in the Tairawhiti Gisborne region. As shown on the map on this page: https://www.gdc.govt.nz/environment/rivers,-water-and-wetlands/our-rivers/catchment-plans\nThe forestry industry and industries, land managers, catchment groups and the community knowing which freshwater catchment planning area their land or waterway of interest lies in.\nMaking the data accessible and useable by the community\n\n### Response from Gisborne District Council\nStatus Request received\nComments data available here: https://geoportal-gizzy.opendata.arcgis.com/datasets/5fe5a4674b814e14ad8f5bdedc2c1946_0/explore\n\n#### Likely Source Agency\nGisborne District Council",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-26000-taxable-income.html",
+  "title": "Line 26000 – Taxable income - Canada.ca",
+  "crawled_at": "2026-06-11T12:55:39.468343+07:00",
+  "content": "\n## Line 26000 – Taxable income\nYour taxable income is the amount used to calculate the federal tax on your return and the provincial or territorial tax on your Form 428 (except Quebec).\nIf you were a resident of Quebec on December 31 , 2025, calculate your provincial tax for Quebec by completing a Revenu Québec Income Tax Return .\nIf you resided in a province or territory at the end of 2025, but all or part of your business income for the year was earned and can be allocated to a permanent establishment outside that province or territory, use Form T2203 , Provincial and Territorial Taxes for Multiple Jurisdictions , to determine the taxes payable on the income attributed to the other province or territory (other than Quebec). Attach a copy of Form T2203 to your paper return.\n\n## Completing your tax return\nReport on line 26000 of your return:\n- the amount from line 23600 , minus\n- the amount from line 25700\nLine 25700 is the total of all amounts on lines 24400 to 25600.\n\n## Forms and publications\n- Form T2203, Provincial and Territorial Taxes for Multiple Jurisdictions\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

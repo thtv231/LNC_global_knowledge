@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1282",
+  "title": "Updated ACC horse injury claims\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:24:26.822538+07:00",
+  "content": "\n## Updated ACC horse injury claims\nCurrent data on horse related injuries.\nOut-dated data.  Last data set only went up to part-way through 2022.\n\n### Response from Accident Compensation Corporation\nStatus Dataset submitted\nComments Kia ora, thank you for your request. The uploaded dataset can be viewed here:\nhttps://catalogue.data.govt.nz/dataset/098cdc09-faf3-4a14-b482-8fca8623fc32/resource/25b734c9-2003-4412-9ccf-a1637ba61d91/download/ar-9745-horse-injury-claims.xlsx\n\n#### Likely Source Agency\nAccident Compensation Corporation",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/2916fad5-ebcc-4c86-b0f3-4f619b29f412?wbdisable=true",
+  "title": "Open Government Analytics - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:51.287517+07:00",
+  "content": "\n## Open Government Analytics\nThis dataset provides statistics on download counts, visitors, as well as the increase of participation of Government of Canada departments and agencies in supplying more open datasets. All statistics presented, unless otherwise noted, are as of June 18, 2013 to the end of the previous month.\n- Publisher - Current Organization Name: Treasury Board of Canada Secretariat\n- Licence: Open Government Licence - Canada\n- Number of Visits, Downloads CSV English French dataset CSV Explore Preview Download\n- dataset visits per department, last 12 months CSV English French dataset CSV Explore Preview Download\n- Downloads per organization, last 12 months CSV English French dataset CSV Explore Preview Download\n- Open Maps Views CSV English French dataset CSV Explore Preview Download\n- ATI informal requests per summary CSV English French dataset CSV Explore Preview Download\n- Datasets that have been deleted CSV English French dataset CSV Explore Preview Download\n- User Ratings CSV English French dataset CSV Explore Preview Download\n- Openness rating per dataset CSV English French dataset CSV Explore Preview Download\n- Open Information downloads per department, last 12 months CSV English French dataset CSV Explore Preview Download\n- Top 100 Downloaded Datasets (for the month prior) CSV English French dataset CSV Explore Preview Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

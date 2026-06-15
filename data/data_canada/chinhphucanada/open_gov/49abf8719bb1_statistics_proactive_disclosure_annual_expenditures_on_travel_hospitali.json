@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/4ae27978-0931-49ab-9c17-0b119c0ba92f",
+  "title": "Proactive Disclosure - Annual Expenditures on Travel, Hospitality and Conferences - Open Government Portal",
+  "crawled_at": "2026-06-11T12:13:02.993341+07:00",
+  "content": "\n## Proactive Disclosure - Annual Expenditures on Travel, Hospitality and Conferences\nIn accordance with section 4.1.2 of the Treasury Board Directive on Travel, Hospitality, Conference and Event Expenditures , departments are required to disclose the total annual expenditures for travel, hospitality and conferences.\nThis dataset consolidates all the Annual Expenditures on Travel, Hospitality and Conferences reports submitted by federal institutions.\n- Publisher - Current Organization Name: Treasury Board of Canada Secretariat\n- Licence: Open Government Licence - Canada\n- Data Schema JSON English French specification JSON Explore More information Go to resource\n- Data Dictionary XLSX English French data_dictionary XLSX Explore More information Go to resource\n- Search Annual Expenditures on Travel, Hospitality and Conferences (English) HTML English website HTML Explore More information Go to resource\n- Search Annual Expenditures on Travel, Hospitality and Conferences (French) HTML French website HTML Explore More information Go to resource\n- Directive on Travel, Hospitality, Conference and Event Expenditures (English) HTML English website HTML Explore More information Go to resource\n- Directive on Travel, Hospitality, Conference and Event Expenditures (French) HTML French website HTML Explore More information Go to resource\n- Annual Expenditures on Travel, Hospitality and Conferences CSV English French dataset CSV Explore Preview Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

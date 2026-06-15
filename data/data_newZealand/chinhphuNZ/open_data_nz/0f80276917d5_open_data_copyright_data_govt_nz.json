@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/copyright",
+  "title": "Copyright\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:02:49.848539+07:00",
+  "content": "Copyright material on the data.govt.nz website is Crown Copyright and is licensed under a Creative Commons Attribution 4.0 International licence .\nNote that this licence does not apply to the datasets themselves which will specify their own open licences and use conditions.\nFor more information on what is and is not covered by this licence, see clauses 2-6 of data.govt.nz's Terms of use .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

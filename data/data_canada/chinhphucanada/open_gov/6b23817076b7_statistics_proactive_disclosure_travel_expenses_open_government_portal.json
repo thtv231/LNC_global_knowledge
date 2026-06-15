@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/009f9a49-c2d9-4d29-a6d4-1a228da335ce?wbdisable=true",
+  "title": "Proactive Disclosure - Travel Expenses - Open Government Portal",
+  "crawled_at": "2026-06-11T12:13:00.562627+07:00",
+  "content": "\n## Proactive Disclosure - Travel Expenses\nTravel Expenses: The rules and principles governing travel are outlined in the Policies for Ministers' Offices, the National Joint Council’s Travel Directive, the Treasury Board's Directive on Travel, Hospitality, Conference and Event Expenditures and Special Travel Authorities. This dataset consolidates all the Travel Expense reports submitted by federal institutions.\n- Publisher - Current Organization Name: Treasury Board of Canada Secretariat\n- Licence: Open Government Licence - Canada\n- Data Schema JSON English French specification JSON Explore More information Go to resource\n- Data Dictionary XLSX English French data_dictionary XLSX Explore More information Go to resource\n- Search Government Travel Expenses (English) HTML English website HTML Explore More information Go to resource\n- Search Government Travel Expenses (French) HTML French website HTML Explore More information Go to resource\n- Directive on Travel, Hospitality, Conference and Event Expenditures (English) HTML English website HTML Explore More information Go to resource\n- Directive on Travel, Hospitality, Conference and Event Expenditures (French) HTML French website HTML Explore More information Go to resource\n- Proactive Disclosure - Travel Expenses CSV English French dataset CSV Explore Preview Download\n- Proactive Disclosure - Travel Expenses Nothing to Report CSV English French dataset CSV Explore Preview Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

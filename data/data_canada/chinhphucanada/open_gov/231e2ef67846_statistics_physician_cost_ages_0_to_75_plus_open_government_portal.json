@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/29ab4f6e-3ba3-48b9-8861-f2123ae30326?_gl=1*1e3vtjf*_ga*MTU2Mzc2NDg3OS4xNzExMTEzNjQw*_ga_S9JG8CZVYZ*MTczNzU3MTU0NC41Mi4xLjE3Mzc1NzE1NzIuMzIuMC4w&wbdisable=true",
+  "title": "Physician Cost ages 0 to 75 plus - Open Government Portal",
+  "crawled_at": "2026-06-11T13:44:35.641773+07:00",
+  "content": "\n## Physician Cost ages 0 to 75 plus\nEBIC provides academics, researchers, decision-makers, and policy-makers with objective and comparable information on the magnitude of the cost of illness and injury in Canada. EBIC provides a comprehensive overview of the distribution of direct and indirect costs of illness and injury in Canada.\n- Publisher - Current Organization Name: Public Health Agency of Canada\n- Licence: Open Government Licence - Canada\n- Physician Cost ages 0 to 75 plus CSV English dataset CSV Explore More information Go to resource\n- Physician Cost ages 0 to 75 plus CSV French dataset CSV Explore More information Go to resource\n- Economic Burden of Illness in Canada, 2010 PDF English guide PDF Explore More information Go to resource\n- Economic Burden of Illness in Canada, 2010 PDF French guide PDF Explore More information Go to resource",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

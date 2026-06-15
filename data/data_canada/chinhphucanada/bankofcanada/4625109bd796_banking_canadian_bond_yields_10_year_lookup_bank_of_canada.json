@@ -1,0 +1,12 @@
+{
+  "site": "Bank of Canada",
+  "site_url": "https://www.bankofcanada.ca",
+  "category": "banking",
+  "page_url": "https://www.bankofcanada.ca/rates/interest-rates/lookup-bond-yields/",
+  "title": "Canadian bond yields: 10-year lookup - Bank of Canada",
+  "crawled_at": "2026-06-11T12:03:16.765926+07:00",
+  "content": "\n## Canadian bond yields: 10-year lookup\nOn this page, you can look up series data. For metadata and background information, see the series notes .\nGovernment securities auctions\nSelected treasury bill yields: 10-year lookup\n\n## Benchmark bond yields\nSelected benchmark bond yields are based on mid-market closing yields of selected Government of Canada bond issues that mature approximately in the indicated terms. The bond issues used are not necessarily the ones with the remaining time to maturity that is the closest to the indicated term and may differ from other sources. The selected 2-, 5-, 10-, or 30-year issues are generally changed when a building benchmark bond is adopted by financial markets as a benchmark, typically after the last auction for that bond. The selected 3-year issue is usually updated at approximately the same time as changes are made to the 2-year, and sometimes with the 5-year. The selected 7-year issue is typically updated at approximately the same time as the 5- or 10-year benchmarks are changed. The current benchmark bond issues and their effective dates, shown in brackets, are as follows.\n- 2 year - 2028.05.01, 2.50% (2026.04.17);\n- 3 year - 2029.03.01, 4.00% (2026.04.01);\n- 5 year - 2031.03.01, 2.75% (2026.03.20);\n- 7 year - 2032.12.01, 2.50% (2026.03.04);\n- 10 year - 2035.12.01, 3.25% (2025.12.19);\n- Long - 2057.12.01, 3.50% (2026.03.06);\n- RRB - 2050.12.01, 0.50% (2020.06.01)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

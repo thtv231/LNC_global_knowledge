@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/applications-submissions/guidance-documents/clinical-trials/covid-19-regulations/general-requirements.html",
+  "title": "Application guide for COVID-19 drug clinical trials: General requirements - Canada.ca",
+  "crawled_at": "2026-06-11T13:10:15.517439+07:00",
+  "content": "\n## Guidance on applications for COVID-19 drug clinical trials under the Regulations: General requirements\n- Additional requirements\n- Post-authorization requirements\n- General requirements\nSection 36 of the Regulations gives 2 alternate means for the qualified investigator to obtain informed consent when clinical trial participants are unable to consent in person or in writing:\n- remote written informed consent of an individual who will participate in a clinical trial involving a COVID-19 drug (subsection 36(1)) or\n- non-written informed consent obtained by reading the contents of the informed consent form to the trial participant and receiving the individual's informed consent before a witness, and subsequent attestation by the witness that the consent was given (subsection 36(2))\nIn line with existing Health Canada policy recommendations and international best practices on being transparent, the authorization holder should register their COVID-19 clinical trial after authorization has been issued. We encourage holders to register their trial in a public registry such as ClinicalTrials.gov and ISRCTN . Use the World Health Organization's preferred term (COVID-19) in the public or scientific title to make these studies easy to search.\nThe authorization holder should notify the appropriate directorate by email within 5 days of registering their trial. Be sure to include \"COVID-19 clinical trial registration\" in the subject line (refer to Who to contact for contact information). Provide the following information:\n- clinical trial registry name\n- link to clinical trial posting\n- registration number (for example, ClinicalTrials.gov identifier – NCT#)\nWe will use this information to maintain a list of authorized clinical trials on COVID-19 on our vaccines and treatments for COVID-19 website .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

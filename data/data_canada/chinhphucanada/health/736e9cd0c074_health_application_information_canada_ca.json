@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/application-information.html?wbdisable=true",
+  "title": "Application Information - Canada.ca",
+  "crawled_at": "2026-06-11T13:10:51.392983+07:00",
+  "content": "\n## Application Information\nIn Canada, manufacturers must receive a medical device licence for certain health products defined as a \"device\" under the Food and Drugs Act before they can be sold on the Canadian market. To determine which devices need a licence, all medical devices have been categorized based on the risks associated with their use. Prior to selling a device in Canada, manufacturers of Class II, III and IV devices must obtain a medical device licence. Although Class I devices do not require a licence, manufacturers, distributors and importers are required to obtain an establishment licence .\nMedical devices may also require certification by the Canadian Nuclear Safety Commission (CNSC) prior to licensing for operational or servicing activities. Please visit the CNSC Web site and read the certification requirements for more information.\n- Food and Drugs Act Liaison Office\nDevice Advice: e-Learning tool",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

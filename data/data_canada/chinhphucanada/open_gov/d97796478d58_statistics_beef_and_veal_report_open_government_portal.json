@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/0f464f02-a565-47e5-b7ca-a004f4943bf9",
+  "title": "Beef and Veal Report - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:43.699705+07:00",
+  "content": "\n## Beef and Veal Report\nGlobal Affairs Canada has archived a number of older trade reports and notices that were previously available online. These documents are preserved on the Open Government Portal and are available both as individual records and grouped into commodity-based datasets for convenience.\nThis collection is not exhaustive and should be used for research and reference purposes only.\nFor current information on importing, exporting, trade reports, and related rules and regulations, please visit Global Affairs Canada’s International Trade and Investment webpage: https://international.canada.ca/en/services/business/trade\n- Publisher - Current Organization Name: Global Affairs Canada\n- Publisher - Organization Section Name: ITA\n- Licence: Open Government Licence - Canada\n- Beef and Veal Report CSV English French dataset CSV Explore Preview Download\n- Data Dictionary - Beef and Veal XLSX English French data_dictionary XLSX Explore More information Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/data-sources/transportation",
+  "title": "Administrative data sources in the production of official statistics – Transportation",
+  "crawled_at": "2026-06-11T12:13:15.507516+07:00",
+  "content": "\n## Administrative data sources in the production of official statistics – Transportation\nStatistics Canada uses the following aircraft movement data:\n- aircraft and aerodrome identification.\nThe following statistical program uses these data for statistical and research purposes only:\n- Aircraft Movement Statistics\nPersonal information is not included in these data.\n\n### Vehicle Registrations\nStatistics Canada uses the following vehicle registration data:\n- vehicle characteristics\n- registration and licence plate information\nStatistical programs using these data for statistical and research purposes only:\n- Canadian Freight Analysis Framework\n- New Motor Vehicle Sales Survey\n- New Motor Vehicle Dealer Commodity Survey",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/application-information/guidance-documents/covid-19-clinical-trials/attestation-form.html",
+  "title": "Guide on applications for COVID-19 medical device clinical trials: Attestation form - Canada.ca",
+  "crawled_at": "2026-06-11T13:10:25.785390+07:00",
+  "content": "\n## Guidance on applications for COVID-19 medical device clinical trials under the Regulations: Attestation form\n- Application processes\n- Post-authorization requirements\n- Incidents, record keeping and recalls\n- General requirements\nUnder 4(2)(l) of the Clinical Trials for Medical Devices and Drugs Relating to COVID-19 Regulations , an applicant is required to attest to the availability of documented procedures  for certain activities. Check () the relevant attestation.\n[ ] I, the Applicant , have objective evidence to establish that I have documented procedures in place with respect to  distribution records, complaint handling, incident reporting and recalls. I submit this attestation in partial fulfillment of the application submission  requirements of the Clinical Trials for Medical Devices and Drugs Relating to COVID-19 Regulations . I, as a senior official, hereby attest that I have direct knowledge of the item checked above and declare that these identified statements are true and that the information provided in this application and in any attached documentation is accurate and complete.\nWhere a person is named in Item X of this application, I hereby authorize that person to submit this application to the  Minister on my behalf. I further authorize the Medical Devices Directorate to direct all correspondence relating to this application to the person named in Item  X of this application.\nName: Title: Signature: Date:",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

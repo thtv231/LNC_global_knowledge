@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/a1361030-c554-4bf1-83fb-42392c03e1da",
+  "title": "Housing starts, all areas, Canada and provinces - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:51.940246+07:00",
+  "content": "\n## Housing starts, all areas, Canada and provinces\nHousing starts, all areas, Canada and provinces, 6-month moving average and seasonally adjusted at annual rates\n- Publisher - Current Organization Name: Canada Mortgage and Housing Corporation\n- Licence: Open Government Licence - Canada\n- 6-month moving average CSV English dataset CSV Explore More information Go to resource\n- 6-month moving average CSV French dataset CSV Explore More information Go to resource\n- 6-month moving average XML English French dataset XML Explore More information Go to resource\n- 6-month moving average - supporting document HTML English guide HTML Explore More information Go to resource\n- 6-month moving average - supporting document HTML French guide HTML Explore More information Go to resource\n- Seasonally adjusted at annual rates CSV English dataset CSV Explore More information Go to resource\n- Seasonally adjusted at annual rates CSV French dataset CSV Explore More information Go to resource\n- Seasonally adjusted at annual rates XML English French dataset XML Explore More information Go to resource\n- Seasonally adjusted at annual rates - supporting document HTML English guide HTML Explore More information Go to resource\n- Seasonally adjusted at annual rates - supporting document HTML French guide HTML Explore More information Go to resource",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

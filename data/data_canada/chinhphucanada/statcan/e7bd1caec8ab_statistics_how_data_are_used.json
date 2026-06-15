@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/used",
+  "title": "How data are used",
+  "crawled_at": "2026-06-11T12:03:26.110064+07:00",
+  "content": "Statistical information is used to:\n- analyze economic performance\n- develop fiscal, monetary, and foreign exchange policies\n- shape international tariffs and trade negotiations\n- develop policies and programs to assist small businesses\n- support policy development and evaluate government programs on economic and social well-being\n- improve allocation of government program funding by determining their social and economic effects\n- support the regulatory and legislative requirements of government;\n- draw electoral boundaries\n- determine equalization payments and other federal-provincial fiscal transfers\n- adjust inflation-indexed contracts and entitlements\n- develop programs to promote domestic and international competitiveness\n- support immigration policies and programs\n- support tourism strategies and programs\n- assess the cost-effectiveness of health care and education programs\n- monitor the justice system's effectiveness and efficiency\n- select sites for schools and public transportation\n- develop programs such as day care and subsidized housing.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

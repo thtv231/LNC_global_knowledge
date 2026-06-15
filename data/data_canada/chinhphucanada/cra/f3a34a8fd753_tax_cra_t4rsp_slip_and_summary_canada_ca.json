@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/t4rsp-slip-summary.html",
+  "title": "T4RSP slip and summary - Canada.ca",
+  "crawled_at": "2026-06-11T13:35:08.668291+07:00",
+  "content": "\n## T4RSP slip and summary\nYou are required to include one record for every contributor and for every plan. Where a contributor makes 10 different contributions to the same RRSP, you would send the CRA one record reporting the total amount of the contributions made by that contributor to that RRSP. If the contributor made contributions to more than one RRSP, you would send the CRA a separate record for each RRSP.\nEach record must provide a breakdown of the total contributions made during the contribution year .\nFilers must use their business number instead of their filer identification number. For more information, refer to Information returns program account .\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

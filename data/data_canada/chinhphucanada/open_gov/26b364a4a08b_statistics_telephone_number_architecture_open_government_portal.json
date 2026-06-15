@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/db95bad8-612b-4fd6-9051-10448aa3da3f",
+  "title": "Telephone number architecture - Open Government Portal",
+  "crawled_at": "2026-06-11T12:13:04.111958+07:00",
+  "content": "\n## Telephone number architecture\nThis dataset provides the format of telephone numbers in Canada based on the Canadian Numbering and Dialling Plan from the Canadian Numbering Administrator. This dataset also aligns with the ITU-T E.164 and the North American Numbering Plan.\nFind more resources with the keyword “ reference data ”\n- Publisher - Current Organization Name: Treasury Board of Canada Secretariat\n- Licence: Open Government Licence - Canada\n- schema JSON English French specification JSON Explore Preview Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

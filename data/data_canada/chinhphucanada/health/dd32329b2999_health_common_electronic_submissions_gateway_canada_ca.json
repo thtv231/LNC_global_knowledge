@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/applications-submissions/guidance-documents/common-electronic-submissions-gateway.html",
+  "title": "Common Electronic Submissions Gateway - Canada.ca",
+  "crawled_at": "2026-06-11T13:03:07.497925+07:00",
+  "content": "\n## Common Electronic Submissions Gateway\nSubscribe to our RSS Feeds\nThe Common Electronic Submissions Gateway allows you to provide secure regulatory transactions to Health Canada.\n- For more information and support\nHealth Canada is working with our United States regulatory counterpart, the Food and Drug Administration (FDA), to reduce the regulatory burden for health products. This is part of the action plan of the Canada-US Regulatory Cooperation Council.\nIn January 2013, Health Canada and the FDA entered into a Cooperative Research and Development Agreement. The agreement authorizes our Health Products Food Branch and the FDA to work on a joint pilot to provide an electronic submissions gateway for industry. The joint pilot was completed in October 2013.\nFor regulatory transactions that can be currently sent to us through the gateway, consult the following guidance documents (available upon request) on the filing submissions electronically web page:\n- Preparation of regulatory activities in eCTD format\n- Preparation of regulatory activities in non-eCTD format\n\n## For more information and support\nFor technical issues and general inquiries about the gateway or regulatory transactions after you have received the message disposition notification:\n- Send an email to Health Canada: ereview@hc-sc.gc.ca\nFor questions on preparation, registration, policy and technical issues or if you have not received the message disposition notification:\n- Send an email to the US Food and Drug Administration: ESGHelpDesk@fda.hhs.gov\nFor more information on how to register, connect and submit regulatory transactions using the gateway, visit:\n- How to use the Common Electronic Submissions Gateway (CESG) to send regulatory transactions to Health Canada\n- Food and Drug Administration links\n- Frequently asked questions",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

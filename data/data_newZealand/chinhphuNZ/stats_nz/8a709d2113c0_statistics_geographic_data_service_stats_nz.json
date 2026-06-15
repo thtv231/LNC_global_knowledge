@@ -1,0 +1,12 @@
+{
+  "site": "Statistics New Zealand (Stats NZ)",
+  "site_url": "https://www.stats.govt.nz",
+  "category": "statistics",
+  "page_url": "https://www.stats.govt.nz/tools/geographic-data-service/",
+  "title": "Geographic data service | Stats NZ",
+  "crawled_at": "2026-06-11T15:04:28.196495+07:00",
+  "content": "\n## Geographic data service\nGeographic data service is Stats NZ's primary platform for geospatial data and statistical data in geospatial formats.\nUse Geographic data service\nSearch, browse, and download geographic boundaries for New Zealand, and a selection of statistical data, including census data, in spatial formats.\nYou can download the data in a range of formats and coordinate systems. Formats include API (JSON and XML), WFS, and CS-W 2.02.\n- Employment and unemployment\n- Gender sex and intersex",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

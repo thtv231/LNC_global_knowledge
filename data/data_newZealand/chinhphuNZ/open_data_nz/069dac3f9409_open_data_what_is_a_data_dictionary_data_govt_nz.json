@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/toolkit/data-management/creating-a-data-dictionary/what-is-a-data-dictionary",
+  "title": "What is a data dictionary?\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:13:20.371483+07:00",
+  "content": "\n## What is a data dictionary?\nLearn the basics about data dictionaries. What are they, what do they look like, and what could they include?\n\n## Having a conversation\nA data dictionary is a conversation between you, the publisher of the data, and others who may want to use that data. The level of detail you need to include in your data dictionaries entirely depends on what your data contains, who wants to use it, and what you think you need to tell them.\n[Video] What are data dictionaries?\n\n### Basic data dictionary\nA basic data dictionary may only describe:\n- each variable or column (name and description)\n- any code used as values in each column (for example, 0 for ‘male’ and 1 for ‘female’).\nFor instance, Waka Kotahi publishes a data dictionary for their New Zealand Vehicle Fleet Open Data. This data dictionary, provided in a machine readable CSV format, describes what you need to know in order to use the data.\nThe New Zealand Vehicle Fleet Open Data Motor vehicle registry open data dictionary [CSV 9 KB] Data formats for open data\n\n#### Basic data dictionary example\nThe class of industry a vehicle is associated with\nPRIVATE| MINING/QUARRYING| MANUFACTURING| CONSTRUCTION| ...| UNKNOWN\nPRIVATE| MINING/QUARRYING| MANUFACTURING| CONSTRUCTION| ...| UNKNOWN\nThe power rating of the vehicle\n\n### Comprehensive data dictionary\nA comprehensive data dictionary may go further, also describing:\n- the sampling methods\n- any data transformation\n- the software code used to prepare the data\n- the reliability of the data\n- any quality concerns.\nFor instance, Stats NZ publishes a data dictionary for their Consumers Price Index dataset. This data dictionary describes everything one needs to know to find and use the data with complete confidence.\nStats NZ Consumers Price Index data dictionary The Consumers Price Index\nIf you’d like more information, have a question, or want to provide feedback, email datalead@stats.govt.nz .\nContent last reviewed 11 January 2021.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

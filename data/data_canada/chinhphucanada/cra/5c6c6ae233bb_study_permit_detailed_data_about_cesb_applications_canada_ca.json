@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "study_permit",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/benefits/emergency-student-benefit/cesb-statistics/stats-detailed.html",
+  "title": "Detailed data about CESB applications - Canada.ca",
+  "crawled_at": "2026-06-11T14:14:19.482815+07:00",
+  "content": "\n## Detailed data about CESB applications\nDetailed CESB statistics data since launch, as of October 20, 2020 .\n\n## Tables in PDF format\nThe following tables provide the total approved Canada Emergency Student Benefit (CESB) applications administered by the Canada Revenue Agency (CRA).\nThe tables are broken down by unique applicants, payment amounts, age group, gender, and province/territory where applicant resides:\n- Table 1: Number of CESB applications, unique applicants and payment amounts (in $000), by province and territory\n- Table 2: Number of CESB applications, by province and territory, and age group\n- Table 3: CESB payment amounts (in $000), by province and territory, and age group\n- Table 4: Number of CESB applications, by province and territory, and gender\n- Table 5: CESB payment amounts (in $000), by province and territory, and gender\n- Table 6: Number of CESB applications and payment amounts (in $000), by province and territory, and claim period\n\n## Tables in CSV format\n- Table 1: Number of CESB applications, unique applicants and payment amounts (in $000), by province and territory\n- Table 2: Number of CESB applications, by province and territory, and age group\n- Table 3: CESB payment amounts (in $000), by province and territory, and age group\n- Table 4: Number of CESB applications, by province and territory, and gender\n- Table 5: CESB payment amounts (in $000), by province and territory, and gender\n- Table 6: Number of CESB applications and payment amounts (in $000), by province and territory, and claim period\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

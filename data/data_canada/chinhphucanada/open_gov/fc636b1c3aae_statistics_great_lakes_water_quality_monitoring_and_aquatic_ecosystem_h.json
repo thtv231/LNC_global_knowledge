@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/4497ebe5-f45e-4b13-9e98-e9edd016fc66",
+  "title": "Great Lakes Water Quality Monitoring and Aquatic Ecosystem Health Data - Open Government Portal",
+  "crawled_at": "2026-06-11T14:11:46.950843+07:00",
+  "content": "\n## Great Lakes Water Quality Monitoring and Aquatic Ecosystem Health Data\nWater quality and ecosystem health data collected using a risk-based monitoring approach to support the Great Lakes Water Quality Agreement are included in this dataset. By conducting regular, systematic measurements of the physical, chemical and biological conditions of the Great Lakes Environment and Climate Change Canada (ECCC) is able to: measure the natural changes and conditions of water quality; determine changes over time, at various locations, of water contaminants and/or threats; support development of science-based guidelines for water, fish, and sediment; identify emerging issues and threats; track the results of remedial measures and regulatory decisions; report and assess science results through performance indicators and in an Open Science environment to support an ecosystem approach to environmental and resource management in the Great Lakes. Data are collected by Environment and Climate Change Canada to meet federal commitments related to the Great Lakes as transboundary waters crossing, inter- provincial and international borders under the authorities of the Department of the Environment Act, the Canada Water Act, the Canadian Environmental Protection Act, 1999 and the Boundary Waters Treaty including the commitments under the Canada-United States Great Lakes Water Quality Agreement.\n- Publisher - Current Organization Name: Environment and Climate Change Canada\n- Licence: Open Government Licence - Canada\n- View ECCC Data Mart (English) HTML English web_service HTML Explore More information Go to resource\n- View ECCC Data Mart (French) HTML French web_service HTML Explore More information Go to resource",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

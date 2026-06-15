@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/corporate/mandate/regulatory-role/what-health-canada-regulates-1/controlled-substances-precursors/overview-substance-control-status-determination-process.html",
+  "title": "Health Canada’s Controlled Substances Status Determination Process - Canada.ca",
+  "crawled_at": "2026-06-11T13:21:20.678156+07:00",
+  "content": "\n## Health Canada’s controlled substances status determination process\nCurrently, over 300  substances are listed explicitly in the Schedules (i.e. Schedules I-VI) to the  Controlled Drugs and Substances Act (CDSA) as controlled substances and  precursor chemicals.\nThe substances are  listed as individual substances or as a class of substances. The listings for  individual substances and classes of substances often include one or more terms  such as \"salt\", \"isomer\", \"derivative\",  \"preparation\", \"analogue\", \"alkaloid\" and  \"intermediate\". These additional terms broaden the scope of a listing  and capture many structurally and pharmacologically related substances.\nHealth Canada's  Controlled Substances Directorate (CSD) provides a public service that confirms  Health Canada's position as to whether a substance that is not listed  explicitly in the Schedules to the CDSA is controlled.\nRequests for status confirmation are generally made via email to status-demandedestatut@hc-sc.gc.ca .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

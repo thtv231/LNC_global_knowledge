@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/notice-compliance/database/data-extract.html",
+  "title": "Notice of Compliance (NOC) Data Extract - Canada.ca",
+  "crawled_at": "2026-06-11T13:04:12.651964+07:00",
+  "content": "\n## Notice of Compliance (NOC) Data Extract\n\n## What is the Notice of Compliance (NOC) Data Extract?\nThe data extract is a series of compressed ASCII text files of the database. The uncompressed size of the files is approximately 35 MB. In order to utilize the data, the file must be loaded into an existing database or information system. The typical user is most likely a third party claims adjudicator, provincial formulary, insurance company, etc. A casual user of this file must be familiar with database structure and capable of setting up queries. The \"Read me\" file contains the data structure required to download the zipped files.\nThe NOC extract files have been updated. They contain Health Canada authorization dates for all drugs dating back to 1994 that have received an NOC. All NOCs issued between 1991 and 1993 can be found in the NOC listings .\nPlease note any Portable Document Format (PDF) files visible on the NOC database are not part of the data extracts.\nFor more information, please go to the Read Me File .\n\n## Data Extracts - Last updated: 2026-06-05\n- Qry_NOC_MAIN: noc_main\n- Qry_NOC_BRAND: noc_brand\n- Qry_NOC_DIN_PRODUCT: noc_din_product\n- Qry_NOC_PRODUCT_INGREDIENT: noc_ingredient\n- Qry_NOC_PRODUCT_FORM: noc_form\n- Qry_NOC_PRODUCT_ROUTE: noc_route\n- Qry_NOC_VET_SPECIES: vet_species\n- All NOC Files : noc_files\nFor information on copyright and who to contact, please visit the Notice of Compliance Online Database Terms and Conditions .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

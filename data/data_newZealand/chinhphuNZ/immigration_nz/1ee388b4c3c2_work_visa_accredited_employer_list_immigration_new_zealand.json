@@ -1,0 +1,12 @@
+{
+  "site": "Immigration New Zealand (INZ)",
+  "site_url": "https://www.immigration.govt.nz",
+  "category": "work_visa",
+  "page_url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/approved-employers/accredited-employer-list/",
+  "title": "Accredited employer list :: Immigration New Zealand",
+  "crawled_at": "2026-06-11T15:04:52.223928+07:00",
+  "content": "\n## Accredited employer list\nFind employers who are approved to hire workers from overseas on an Accredited Employer Work Visa (AEWV) or other skilled work visa.\n\n## What you can search for\nYou can use this tool to check if an employer is currently accredited or not, if you:\n- are applying for a visa that requires you to work for an\n- already hold a visa that requires you to work for an accredited employer, and are looking to change jobs.\n\n## How to use this tool\nYou will need information to identify the employer. This may be their:\n- New Zealand Business Number (NZBN)\n- company name or trading name.\nThe NZBN is a 13-digit number. You must enter all 13 digits in the search field.\nIf searching by an employer’s company or trading name, enter at least the first 3 characters.\n\n### If you cannot find an employer listed\nThis database is updated as employers join the accreditation programme or renew their accreditation status. Some employers have chosen not to be published in the search results, check with the employer to find out if they are accredited or not.\nThe list of employers is updated daily.\nSearch for an accredited employer.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

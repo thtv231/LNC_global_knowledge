@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/c2b10948-097d-4cbf-ab07-8581a77a95d5/resource/2b5c3841-7467-4ef0-8908-6fd16bdfa92a/view/3ae17f90-ab62-47d8-a409-975cc83b546c",
+  "title": "Exposure, non-exposure and other reporting data from licensed facilities in Canada - Non-exposure Incident Data 2025-2026 - View - Open Government Portal",
+  "crawled_at": "2026-06-11T13:33:14.857693+07:00",
+  "content": "Biological_agent_involved\nBiological_agents_known\nDate_report_submitted\nOther_biological_agent\nBiological_agent_involved\nBiological_agents_known\nDate_report_submitted\nOther_biological_agent",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

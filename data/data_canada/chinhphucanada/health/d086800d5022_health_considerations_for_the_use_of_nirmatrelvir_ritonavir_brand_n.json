@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/guidance-documents/considerations-nirmatrelvir-ritonavir-paxlovid.html",
+  "title": "Considerations for the use of nirmatrelvir/ritonavir (brand name Paxlovid) to treat COVID-19 - Canada.ca",
+  "crawled_at": "2026-06-11T13:36:49.777273+07:00",
+  "content": "\n## Considerations for the use of nirmatrelvir/ritonavir (brand name Paxlovid) to treat COVID-19\nLast updated: June 22, 2022\nOn January 17, 2022, Health Canada authorized the antiviral drug nirmatrelvir to be used in combination with ritonavir (brand name Paxlovid) to treat mild to moderate COVID-19 in adults at high risk of progressing to serious disease. A limited, initial supply was immediately made available to provinces and territories.\nIn February 2022, to help ensure the initial supply of Paxlovid reached those who would benefit most, the Public Health Agency of Canada (PHAC) published a document entitled Considerations for the use of nirmatrelvir/ritonavir to treat COVID-19 in the context of limited supply .\nThe supply of nirmatrelvir/ritonavir is no longer limited: shipments have continued to arrive and Canada expects to receive a total of 1.5 million treatment courses in 2022. As such, the document has been archived.\nClinicians should refer to their jurisdiction's guidelines for management of COVID-19, including eligibility criteria. In addition, the following health technology agencies have provided guidance and tools for healthcare providers to assist with prescribing Paxlovid for the treatment of COVID-19 in the outpatient setting:\n- Canadian Agency for Drugs and Health Technologies (CADTH)\n- Institut national d'excellence en santé et en services sociaux (INESSS)\nPlease refer to the CADTH Drug Implementation Advice document: Nirmatrelvir and Ritonavir (Paxlovid) for Mild to Moderate COVID-19 . Tools published on March 23, 2022, by INESSS include a:\n- clinical guide (PDF, French only)\n- algorithm (PDF, French only)\n- webinar PowerPoint presentation (PDF, French only)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

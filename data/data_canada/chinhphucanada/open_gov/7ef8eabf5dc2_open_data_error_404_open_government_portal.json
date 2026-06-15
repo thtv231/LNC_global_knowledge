@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "open_data",
+  "page_url": "https://open.canada.ca/data/en/info/3a5b05af-7fe3-45b9-897f-98fcfd25090c.jsonld",
+  "title": "Error 404 - Open Government Portal",
+  "crawled_at": "2026-06-11T12:21:01.116522+07:00",
+  "content": "\n## We couldn't find that Web page",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

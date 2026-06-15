@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/catalogue-guide/using-data-govt-nz-apis/how-to-export-an-agencys-datasets-as-a-data-package",
+  "title": "How to export an agency's datasets as a data package\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:09:12.383817+07:00",
+  "content": "Export an agencies datasets into sub-folders including any hosted or referenced data files and a json file with metadata.\n- CKANAPI Command line tool\n- Make sure you have the CKANAPI CLI tool installed\n- Make sure you have the jq and tr tools installed\n- Run the command below replacing the properties in UPPERCASE with your own values.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

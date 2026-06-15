@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/completing-filing-information-returns/t1204-summary-government-services-contract-payments.html",
+  "title": "T1204 summary – Government services contract payments - Canada.ca",
+  "crawled_at": "2026-06-11T12:45:46.045353+07:00",
+  "content": "\n## T1204 Summary – Government services contract payments\n- What is a T1204 Summary\n\n## What is a T1204 Summary\nThe T1204 Summary (T1204SUM) represents the total of the information reported on all of the T1204 slips you prepared for each recipient for the calendar year.\nYou can get a Form T1204SUM in a PDF or PDF fillable/saveable format to file on paper.\n- Report all amounts in Canadian dollars, even if they were paid in another currency. Learn more about the average exchange rates: Exchange rates\n- Fill out a separate T1204 Summary for each of your payroll accounts. The totals you report on your T1204 Summary have to agree with the totals of all amounts you reported on your T1204 slips for that payroll account\n- If you have no amounts to report on a T1204 slip or summary, there is no need to send either form to the CRA\n- Do not change your address using the T1204 Summary. Learn more about making changes: Make changes to your account\nEnter the last 2 digits of the calendar year for which you are filing the return.\nEnter your 15-character payroll account number (for example, 123456789RP0001).\nEnter the name of the federal department, agency, or Crown corporation. Below the name, enter the mailing address, including the province, territory, postal code, and country.\nEnter the total number of T1204 slips that you are filing with the T1204 Summary.\nAdd the amounts in box 82 of all T1204 slips. Report the total on line 82.\nAdd the amounts in box 84 of all T1204 slips. Report the total on line 84.\nEnter the name and telephone number of a contact person that the CRA can call to get or clarify information you reported on the T1204 Summary.\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

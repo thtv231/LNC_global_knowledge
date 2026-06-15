@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1225",
+  "title": "Head injury data by sport for Canterbury and New Zealand\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:24:49.079803+07:00",
+  "content": "\n## Head injury data by sport for Canterbury and New Zealand\nI would like to see a break down of claims for concussion and TBI by sport. Either for New Zealand or Canterbury region. If there was any data available on whether or not portective equipment eg bike helmet or headgear for rugby would be great. Any breakdown over the last 5 years would be great. Excel or equivalent would be preferred.\nThis would be used for eduaction purposes for educating young male students around the use of protective equipment in sport, likelyhood and cost and numbers of head injurys so that student and schools can develop better rules around head injuries and portective equipment\n\n### Response from Accident Compensation Corporation\nStatus Dataset submitted\nComments Concussion injury data is publicly available\nACC has published a dataset on concussion / TBI claims on the data.gov website at the following link: https://catalogue.data.govt.nz/dataset/acc-concussion-tbi-data-update. It includes breakdowns by sport and region and covers financial years (FYs) 2014/15-2023/24. We anticipate the data will be updated for the 2024/25 FY by August 2025. \n\nPlease note ACC does not collect information about whether or not a client was wearing protective gear at the time of their accident. As the information is not held, we are refusing this part of your request under section 18(g) of the Act. \n\nIf you have any questions about this response, please get in touch\nYou can email me at GovernmentServices@acc.co.nz\n\n#### Likely Source Agency\nAccident Compensation Corporation",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

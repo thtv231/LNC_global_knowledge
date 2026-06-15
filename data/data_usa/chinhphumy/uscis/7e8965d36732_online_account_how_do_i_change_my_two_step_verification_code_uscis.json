@@ -1,0 +1,12 @@
+{
+  "site": "USCIS",
+  "site_url": "https://www.uscis.gov",
+  "category": "online_account",
+  "page_url": "https://www.uscis.gov/tools/uscis-tools-and-resources/online-account-and-technical-support/how-do-i-change-my-two-step-verification-code",
+  "title": "How do I Change My Two-Step Verification Code? | USCIS",
+  "crawled_at": "2026-06-08T12:01:59.574373+07:00",
+  "content": "\n## How do I Change My Two-Step Verification Code?\nWhen you create your online account, you will choose how you want to receive the verification code. You can choose email, text message, authentication app, or a combination of both email and text message. Later, you can change how you receive this one-time code.\nLog in to your USCIS online account at myaccount.uscis.gov Once logged in, click on the My Account menu . Select Settings from the dropdown menu.\n- Log in to your USCIS online account at myaccount.uscis.gov\n- Once logged in, click on the My Account menu .\n- Select Settings from the dropdown menu.\nOn the Account Settings page, click the View all settings link.\n- On the Account Settings page, click the View all settings link.\nOn the Edit Account page, click the Edit button in the Two-Step Verification row.\n- On the Edit Account page, click the Edit button in the Two-Step Verification row.\nOn the Edit Two-Step Verification Methods page, you can add another verification method by clicking Add next to: Authentication App SMS Text Message Email When you’re finished, click Done editing to save your changes.\n- On the Edit Two-Step Verification Methods page, you can add another verification method by clicking Add next to: Authentication App SMS Text Message Email\n- When you’re finished, click Done editing to save your changes.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

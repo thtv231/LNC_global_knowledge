@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database/more-info.html?wbdisable=true",
+  "title": "Drug Product Database: More information - Canada.ca",
+  "crawled_at": "2026-06-11T13:09:20.291357+07:00",
+  "content": "\n## Drug Product Database: More information\nThe Drug Product Database (DPD) is maintained by Health Canada. Drugs in the DPD can be identified by a Drug Identification Number (DIN).\nThese drugs include:\n- drugs for humans and animals\n- radiopharmaceutical drugs\n- biological drugs for humans Biological drugs for animals are regulated by the Canadian Food Inspection Agency. To learn more, visit Veterinary Biologics\n- Biological drugs for animals are regulated by the Canadian Food Inspection Agency. To learn more, visit Veterinary Biologics",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

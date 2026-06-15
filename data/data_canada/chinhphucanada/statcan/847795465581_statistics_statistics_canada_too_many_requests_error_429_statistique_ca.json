@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www150.statcan.gc.ca/n1/en/type/data?text=3210023101%2C%203210023201%2C%203210023301%2C%203210023401%2C%203210023501%2C%203210023601%2C%203210023701%2C%203210023801%2C%203210023901%2C%203210024001%2C%203210024101%2C%203210024201%2C%203210024201%2C%203210024301%2C%203210024401%2C%203210024901%2C%203210030901%2C%203210031501%2C%203210035501%2C%203210035701%2C%203210036001%2C%203210036101%2C%203210036201%2C%203210036301%2C%203210036601%2C%203210036701%2C%203210036801%2C%203210036901%2C%203210037001%2C%203210037101%2C%203210037201%2C%203210037301%2C%203210037401%2C%203210037501%2C%203210037601%2C%203210037701%2C%203210037801%2C%203210037901%2C%203210038001%2C%203210038101%2C%203210038201&subject_levels=33",
+  "title": "Statistics Canada - Too Many Requests (Error 429) / Statistique Canada - Trop de traffic (Erreur 429)",
+  "crawled_at": "2026-06-11T10:53:19.628618+07:00",
+  "content": "\n## Too Many Requests (Error 429) / Trop de traffic (Erreur 429)\n\n## Too Many Requests (Error 429)\nThe requested URL was rejected.\n- Return to the home page\n\n## Trop de traffic (Erreur 429)\nL'adresse URL demandée a été refusée.\n- Retournez à la page d'accueil",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

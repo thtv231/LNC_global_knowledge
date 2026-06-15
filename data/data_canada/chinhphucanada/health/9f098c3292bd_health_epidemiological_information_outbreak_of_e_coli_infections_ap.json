@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/public-health-notices/2017/epidemiological-information-outbreak-e-coli-infections-20170405.html",
+  "title": "Epidemiological information: Outbreak of E. coli infections — April 5, 2017 - Canada.ca",
+  "crawled_at": "2026-06-11T13:34:46.740197+07:00",
+  "content": "\n## Epidemiological information: Outbreak of E. coli infections\n- E. coli 0121 outbreak\nDates available for 26 cases.\n\n## What is epidemiology?\nEpidemiology is the study of disease in a population. Epidemiologists, or \"disease detectives,\" use surveillance systems to identify those who are sick and confirm that the sick people are part of this event. They then gather information from the people who got sick and review the clues from all parts of the investigation that might reveal the cause of the illness event.\nThe figure below forms part of the epidemiological investigation into this outbreak. An \"epi curve\" ( Figure 1 ) is a valuable reference tool in any epidemiological investigation. An epi curve shows when cases begin, when they peak, and when they trail off. Certain details of the people who got sick ( Table 1 ) also help epidemiologists as they work to solve the questions involved in foodborne illness.\nFigure 1: Number of people infected with E. coli non-O157\nText Equivalent - Figure 1 Number of people infected with E. coli non-O157\nWeek of symptom onset or specimen collection\nProvinces/Territories\nFootnote * * Includes one case that was a visitor to Canada.\nNote: It can take several weeks from the time a person becomes ill to when this illness is reported and testing confirms a link to the outbreak.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

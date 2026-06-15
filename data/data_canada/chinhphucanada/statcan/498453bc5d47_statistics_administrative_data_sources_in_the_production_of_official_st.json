@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/data-sources/science-technology",
+  "title": "Administrative data sources in the production of official statistics – Science and technology",
+  "crawled_at": "2026-06-11T12:13:15.602165+07:00",
+  "content": "\n## Administrative data sources in the production of official statistics – Science and technology\n- Research and development\n\n## Research and development\nStatistics Canada uses the following research expenses data:\n- imports of government services.\nThe following statistical program uses these data for statistical and research purposes only:\n- Canada's Balance of International Payments\nPersonal information is not included in these data.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

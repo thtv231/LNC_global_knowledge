@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "open_data",
+  "page_url": "https://open.canada.ca/data/en/api/1/util/snippet/api_info.html?resource_id=2ab44bef-f0de-4f12-8fce-c43d6225796d&api_version=3",
+  "title": "",
+  "crawled_at": "2026-06-11T12:48:56.357150+07:00",
+  "content": "Access resource data via a web API with powerful query support .\n          \n          Further information in the main CKAN Data API and DataStore documentation .\nThe Data API can be accessed via the following actions of the CKAN action API.\nhttps://open.canada.ca/data/en/api/3/action/datastore_create\nhttps://open.canada.ca/data/en/api/3/action/datastore_upsert\nhttps://open.canada.ca/data/en/api/3/action/datastore_search\nhttps://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=2ab44bef-f0de-4f12-8fce-c43d6225796d&limit=5\nhttps://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=2ab44bef-f0de-4f12-8fce-c43d6225796d&q=jones\nA simple ajax (JSONP) request to the data API using jQuery.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

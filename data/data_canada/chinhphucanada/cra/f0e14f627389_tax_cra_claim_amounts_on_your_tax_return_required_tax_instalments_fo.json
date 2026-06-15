@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/claim-amounts-tax-return.html",
+  "title": "Claim amounts on your tax return - Required tax instalments for individuals - Canada.ca",
+  "crawled_at": "2026-06-11T13:43:50.649304+07:00",
+  "content": "Required tax instalments for individuals\n\n## Claim amounts on your tax return\nYou must claim your total 2025 tax instalment payments on line 47600 of your 2025 tax return. The amounts can be found on either:\n- Instalment reminder (form INNS1) received in February and/or in August\n- Instalment payment summary (form INNS2) received in February\nIf any of your instalment payments for 2025 are not shown on either your reminder or summary, you must also include these amounts on line 47600. You can also view your instalment reminder and any payments you made by going to Sign in to your CRA account .\n\n## Incorrect amounts on your payment summary\nIf your instalment payment summary shows incorrect amounts or amounts that were not intended as instalment payments, call 1-800-959-8281 (opens up phone application) 1-800-959-8281 .\nIf you are using certified tax software, the Auto-fill my return service will automatically fill in any instalment payments you made for 2025 based on the information the CRA has on file.\n\n## For Quebec residents\nIf you moved out of Quebec and have made tax instalment payments to Revenu Québec for 2025, follow these steps:\n- Contact Revenu Québec to notify them about your address change and ask for a refund of those amounts, as well as a letter or statement of your instalment account indicating the dates on which the payments have been made\n- Send your refunded amount to the CRA, along with the letter from Revenu Québec stating the dates those payments were made\n- This amount will be applied to your new province or territory where you now live, while respecting the dates on which you had initially made these payments to Revenu Québec\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

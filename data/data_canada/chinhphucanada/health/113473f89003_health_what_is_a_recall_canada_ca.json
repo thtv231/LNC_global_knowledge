@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement/recalls/definitions.html",
+  "title": "What is a Recall? - Canada.ca",
+  "crawled_at": "2026-06-11T13:05:54.347693+07:00",
+  "content": "With respect to a health product other than a medical device, it means a firm's removal from further sale or use, or correction, of a distributed product that presents a risk to the health of consumers or violates legislation administered by the Health Products and Food Branch.\nIn the Medical Devices Regulations a recall is defined as: any action taken by the manufacturer, importer or distributor of the device that has been sold, to recall or correct the device, or to notify its owners and users of its defectiveness or potential defectiveness, after becoming aware that the device:\n- may be hazardous to health;\n- may fail to conform to any claim made by the manufacturer or importer relating to its effectiveness, benefits, performance characteristics or safety; or\n- may not meet the requirements set in the Act or the Regulations.\n- Type I: a situation in which there is a reasonable probability that the use of, or exposure to, a product will cause serious adverse health consequences or death,\n- Type II: a situation in which the use of, or exposure to, a product may cause temporary adverse health consequences or where the probability of serious adverse health consequences is remote, or\n- Type III: a situation in which the use of, or exposure to, a product is not likely to cause any adverse health consequences.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/diseases/gonorrhea/national-case-definition.html",
+  "title": "National case definition: Gonorrhea - Canada.ca",
+  "crawled_at": "2026-06-11T12:26:11.164854+07:00",
+  "content": "\n## National case definition: Gonorrhea\nDate of last revision/review: May 2008\n\n## National notification\nOnly confirmed cases of disease should be notified.\n\n## Type of surveillance\nRoutine case-by-case notification to the federal level\n\n### Confirmed case-genital infections\nLaboratory confirmation of infection in genitourinary specimens:\n- detection of Neisseria gonorrhoeae by culture\n- detection of N. gonorrhoeae nucleic acid\n\n### Confirmed case-extra-genital infections\nLaboratory confirmation of infection from pharynx, rectum, joint, conjunctiva, blood and other extra-genital sites:\n- detection of N. gonorrhoeae by culture\n- detection of N. gonorrhoeae nucleic acid\n\n### Confirmed case-perinatally acquired infections\nLaboratory confirmation of infection from a neonate in the first four weeks of life leading to the diagnosis of gonococcal conjunctivitis, scalp abscess, vaginitis, bacteremia, arthritis, meningitis or endocarditis:\n- detection of N. gonorrhoeae by culture\n- detection of N. gonorrhoeae nucleic acid\nFurther strain characterization is indicated for epidemiologic, public health and control purposes.\nA positive test for Gram-negative intracellular diplococci in symptomatic males with urethral discharge provides a presumptive diagnosis for gonorrhea in men.\nA54.0, A54.1, A54.2, A54.5, A54.6, A54.9\n098.11, 098.15, 098.16, 098.31, 098.35, 098.14, 098.34, 098.0, 098.2\nEach case classification is mutually exclusive.\nIndividuals with more than one site of infection concurrently may fall under more than one case classification but will be counted as one case with multiple sites of infection identified, to avoid duplicate counting of cases.\nCase definitions for diseases under national surveillance. CCDR 2000;26(S3).\nRetrieved May 2008, from http://www.phac-aspc.gc.ca/publicat/ccdr-rmtc/00vol26/26s3/index.html",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

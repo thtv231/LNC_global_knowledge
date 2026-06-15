@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/diseases/hantaviruses/health-professionals-treating-hantavirus-infection/national-case-definition.html",
+  "title": "National case definition: Hantavirus pulmonary syndrome - Canada.ca",
+  "crawled_at": "2026-06-11T12:23:31.044760+07:00",
+  "content": "\n## National case definition: Hantavirus pulmonary syndrome\nDate of last revision: May 2008 Date of last review: May 2008\n\n## National notification\nOnly confirmed cases of disease should be notified.\n\n## Type of surveillance\nRoutine case-by-case notification to the federal level\nClinical illness (see Clinical evidence section) with laboratory confirmation of infection:\n- Detection of IgM antibodies to hantavirus\n- Detection of a significant (e.g. fourfold or greater) increase in hantavirus-specific IgG antibody titres\n- Detection of hantavirus RNA in an appropriate clinical specimen\n- Detection of hantavirus antigen by immunohistochemistry\nClinical illness is characterized by:\n- a febrile illness (temperature > 38.3°C (101°F) oral) requiring supplemental oxygen\n- bilateral diffuse infiltrates (may resemble acute respiratory distress syndrome [ARDS])\n- develops within 72 hours of hospitalization in a previously healthy person\n- An unexplained illness resulting in death with an autopsy examination demonstrating non-cardiogenic pulmonary edema without an identifiable specific cause of death\n- ICD-10 B33.4 Hantavirus (cardio-) pulmonary syndrome\n- B33.4 Hantavirus (cardio-) pulmonary syndrome\n- ICD-9 CM 079.81 Hantavirus",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

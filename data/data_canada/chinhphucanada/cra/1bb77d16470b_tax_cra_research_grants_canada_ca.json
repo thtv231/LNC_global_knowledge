@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/special-payments/research-grants.html",
+  "title": "Research grants - Canada.ca",
+  "crawled_at": "2026-06-11T14:18:07.599358+07:00",
+  "content": "You have to deduct income tax on these payments. Do not deduct Canada Pension Plan contributions or employment insurance premiums. These payments are not pensionable or insurable.\nReport the income in the \"Other information\" area of the T4A slip using code 104 .\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

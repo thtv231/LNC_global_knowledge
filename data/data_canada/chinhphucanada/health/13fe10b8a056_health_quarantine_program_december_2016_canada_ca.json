@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/corporate/mandate/about-agency/access-information-privacy/privacy-impact-assessment-quarantine-program.html",
+  "title": "Quarantine Program (December 2016) - Canada.ca",
+  "crawled_at": "2026-06-11T13:42:51.070868+07:00",
+  "content": "\n## Quarantine Program (December 2016)\n\n## Description of Program\nThe Quarantine Program works to prevent the spread of communicable diseases into, and out of, Canada.\nThe Quarantine Program is a legislated Public Health Agency (PHAC) program that is delivered by the Quarantine Program in collaboration with border health partners, such as the Canadian Border Services Agency, at all Canadian international points of entry.\n\n## Why was a Privacy Impact Assessment (PIA) completed?\nIt was determined that the Quarantine Program required a PIA because it uses personal information as part of a decision‐making process that directly affects the individual.\nThe PIA examines the privacy-related risks of the Quarantine Program and proposes methods to lower these risks.\nThis PIA focused on Public Health Agency of Canada's collection, use, disclosure and retention and disposition of personal information involved in the Quarantine Program's business processes.\nThe PIA recommended mitigation actions in the following risk areas: sharing of information partners, retention and disposition authorities, and the absence of a Personal Information Bank (PIB).",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

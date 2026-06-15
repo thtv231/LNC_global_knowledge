@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/bf55e42a-63cb-4556-bfd8-44f26e5a36fe",
+  "title": "Drug Product Database - All Files - Open Government Portal",
+  "crawled_at": "2026-06-11T13:10:43.947470+07:00",
+  "content": "\n## Drug Product Database - All Files\nThe Drug Product Database (DPD) system captures information on Canadian human, veterinary and disinfectant products approved for use by Health Canada. \nTo facilitate the use of the drug product data, multiple Drug Product files are available.\nUsers can access the complete data set through the “Drug Product” file. \nSubsets of the data can be accessed in the “Drug Product By …” files. The data in these files are filtered based on the current drug product status. For example, only drug product data for Approved products will be found in the “Drug Product By Approved Status” file.\n- Publisher - Current Organization Name: Health Canada\n- Licence: Open Government Licence - Canada\n- Inactive Products ZIP English dataset ZIP Explore More information Download\n- Drug Product Database Data Extract - Read Me File HTML English guide HTML Explore More information Go to resource\n- Drug Product Database Data Extract - Read Me File HTML French guide HTML Explore More information Go to resource\n- Active Ingredient JSON English api JSON Explore More information Go to resource\n- Active Ingredient JSON French api JSON Explore More information Go to resource\n- Active Ingredient XML English api XML Explore More information Go to resource\n- Active Ingredient XML French api XML Explore More information Go to resource\n- Company JSON English api JSON Explore More information Go to resource\n- Company JSON French api JSON Explore More information Go to resource\n- Company XML English api XML Explore More information Go to resource\n- Notice of Compliance Database (NOC) API\n- Clinical Trials Database (CTD)\n- Canada Vigilance Adverse Reaction Online Database\n- Licensed Natural Health Products\n- High Resolution Digital Elevation Model Mosaic (HRDEM Mosaic) - CanElevation Series",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

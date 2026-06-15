@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/surveillance/canadian-integrated-program-antimicrobial-resistance-surveillance-cipars/interactive-data.html",
+  "title": "Data visualization : Canadian Integrated Program for Antimicrobial Resistance Surveillance (CIPARS) - Canada.ca",
+  "crawled_at": "2026-06-11T13:42:29.606314+07:00",
+  "content": "\n## Canadian Integrated Program for Antimicrobial Resistance Surveillance (CIPARS): Data visualization\n- Surveillance reports\nCIPARS's  surveillance activities generate a vast amount of rich data about:\n- antimicrobial       resistance (AMR) in select foodborne bacteria\n- antimicrobial       sales and farm-level antimicrobial use\nTo help users explore and understand these data,  CIPARS created interactive visualizations that are customizable. These  visualizations include:\n- summaries       about CIPARS\n- key and       integrated findings (with several tabs describing integrated surveillance       stories)\n- animal       antimicrobial sales and use information\n- AMR from       different stages along the food chain\nAccess CIPARS data visualizations",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

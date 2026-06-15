@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-42000-net-federal-tax.html",
+  "title": "Line 42000 - Net federal tax - Canada.ca",
+  "crawled_at": "2026-06-11T12:55:45.196208+07:00",
+  "content": "\n## Line 42000 – Net federal tax\nYour net federal tax is calculated on your return. It is your federal tax payable on your taxable income minus your federal non-refundable tax credits and various other federal tax credits that may apply to you.\n\n## Recapture of investment tax credit\nIf you have to repay all or part of an investment tax credit that you previously received for scientific research and experimental development, complete Form T2038(IND) , Investment Tax Credit (Individuals) , to calculate the amount you have to repay.\nEnter the result on the line for \"Recapture of investment tax credit\" in Part C of your return.\n\n## Federal logging tax credit\nIf you paid logging tax to a province for logging operations that you performed in the province, you may be able to claim a logging tax credit.\nTo calculate your credit for each province where you operated, use the lower of the following amounts for each province you had a logging operation in:\n- 66.6667% of the logging tax that you paid to that province for the year\n- 6.6667% of your net logging income in that province for the year\nAdd up the amounts for all provinces for the year, up to 6.6667% of your taxable income from line 26000 of your return, not including any amounts on lines 20800 , 20805 , 21000 , 21400 , 21500 , 21900 , and 22000 of your return.\nEnter the result on the line for \"Federal logging tax credit\" in Part C of your return.\n\n## Completing your tax return\nEnter on line 42000 of your return the amount of net federal tax that you calculated.\n\n## Forms and publications\n- Form T661 , Scientific Research and Experimental Development (SR&ED) Expenditures Claim\n- Form T2038(IND) , Investment Tax Credit (Individuals)\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

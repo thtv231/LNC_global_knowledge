@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/where/crowdsourcing",
+  "title": "Crowdsourcing",
+  "crawled_at": "2026-06-11T12:13:16.700048+07:00",
+  "content": "As part of Statistics Canada's modernization, crowdsourcing has become an innovative way to collect valuable information for statistical purposes. Crowdsourcing involves collecting information from a a large community of users. It relies on the principle that individual citizens are experts within their local environments. Crowdsourcing surveys further permit us to benchmark and validate the data with other sources of complementary data to ensure that the results are of good quality. A couple of examples are outlined below.\nThe OpenStreetMap (OSM) crowdsourcing pilot project, which was completed in March 2018, crowdsourced geographic information by mapping the building footprints in the Ottawa, Ontario and Gatineau, Quebec areas. The network and experience of this pilot project helped to launch the Building Canada 2020 initiative (BC2020), aimed at mapping all building footprints of Canada on OSM by the year 2020.\nStatistics Canada recently embarked on an innovative project on crowdsourcing the price of the cannabis sector before legalization. This initiative continues to collect information on a relatively new market and helps to monitor prices in a confidential and non-intrusive manner. Statistics Canada has asked the general public to provide the price of their last purchase of dried cannabis; this information is collected anonymously and is disseminated to the public through a dedicated application and web page.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

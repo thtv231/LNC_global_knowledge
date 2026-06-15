@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/about/transparency/privacy/microdata-linkage/approved-linkages?wbdisable=true",
+  "title": "Approved microdata linkages",
+  "crawled_at": "2026-06-11T12:55:05.769429+07:00",
+  "content": "\n## Approved microdata linkages\nThe linking of separate records from different sources can be a very useful and cost-efficient technique in the design, production, analysis and evaluation of statistical data. It can lead to important savings in cost, time, and respondent burden, and, in some cases, it may be the only feasible way to obtain important statistical information. When possible, rather than conducting additional surveys, Statistics Canada uses the information that individuals, businesses and institutions have already provided to the Agency or to other government departments for methodological purposes, data enhancement and subject-matter studies. The following is a list of the microdata linkage submissions that have been reviewed and approved in accordance with the Statistics Canada Directive on Microdata Linkage, starting in January 2000. Choose any of the following titles to view a summary:\n- 2012 submissions Archived\n- 2011 submissions Archived\n- 2010 submissions Archived\n- 2009 submissions Archived\n- 2008 submissions Archived\n- 2007 submissions Archived\n- 2006 submissions Archived\n- 2005 submissions Archived\n- 2004 submissions Archived\n- 2003 submissions Archived\n- 2002 submissions Archived\n- 2001 submissions Archived\n- 2000 submissions Archived",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

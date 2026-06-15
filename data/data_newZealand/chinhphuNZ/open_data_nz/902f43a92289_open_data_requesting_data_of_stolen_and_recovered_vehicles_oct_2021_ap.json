@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1255",
+  "title": "Requesting data of stolen and recovered vehicles (Oct 2021 – Apr 2022) \n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:24:17.917994+07:00",
+  "content": "\n## Requesting data of stolen and recovered vehicles (Oct 2021 – Apr 2022)\nI hope this letter finds you well. I am a Master’s student doing a research study project on “Vehicle theft prediction using machine learning”. I am writing to request for stolen vehicle data covering the period October 2021 to April 2022 in csv format.\n\nWhile I have already obtained the basic dataset for this time frame, the crucial recovery information (whether the vehicles were recovered or not) is missing. This gap is making it difficult to build a reliable machine learning model for predicting future occurrences and generating meaningful recommendations for insurance companies, government agencies, and policy makers.\n\nTherefore, I kindly request the following additional details for the dataset:\n\n- Recovery status of vehicles (recovered / not recovered)\n\n- Location details (latitude and longitude, if available) for both theft and recovery incidents\n\n- Standard vehicle attributes such as: Colour, Make, Model, Year, Vehicle Type, Date Reported Stolen, Region\nThe absence of recovery data limits the ability to distinguish between vehicles that are temporarily stolen and those permanently lost. This makes predictive analysis incomplete and reduces the usefulness of recommendations for prevention, risk evaluation, and insurance assessment.\nIncluding recovery and location information would allow the development of machine learning models that better identify theft patterns, high-risk vehicles, and vulnerable regions. The findings could: - Help the NZ Police improve crime prevention strategies - Assist insurance companies in creating fairer premium assessments - Guide government policies on vehicle theft prevention - Raise public awareness about the risks and necessary precautions\n\n#### Likely Source Agency\n1\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tSubscriber",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

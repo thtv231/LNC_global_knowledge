@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/data-sources/health?wbdisable=true",
+  "title": "Administrative data sources in the production of official statistics – Health",
+  "crawled_at": "2026-06-11T12:54:58.450021+07:00",
+  "content": "\n## Administrative data sources in the production of official statistics – Health\n- Diseases and physical health conditions\n- Life expectancy and deaths\n\n## Diseases and physical health conditions\nStatistics Canada uses the following cancer incidence in Canada data:\n- cancer patient information (sex, date of birth, province of diagnosis)\n- cancer and tumour classification\n- cancer staging information.\nThe following statistical program uses these data for statistical and research purposes only:\n- Canadian Cancer Registry\n\n## Life expectancy and deaths\nStatistics Canada uses the following data on circumstances of death:\n- details about the deceased (age, sex, date of birth, date of death)\n- circumstances of death information (activity at the time of death, place of death, place of event leading to death, safety devices).\nThe following statistical program uses these data for statistical and research purposes only:\n- Canadian Coroner and Medical Examiner Database\nStatistics Canada uses the following vital statistics data:\nStatistical programs using these data for statistical and research purposes only:\n- Quarterly Demographic Estimates (QDE)\n- Annual Demographic Estimates: Canada, Provinces and Territories\n- Annual Demographic Estimates: Sub provincial Areas\n- Population Projections for Canada, Provinces and Territories\n- Vital Statistics – Birth Database\n- Vital Statistics – Death Database\n- Vital Statistics – Stillbirth Database",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

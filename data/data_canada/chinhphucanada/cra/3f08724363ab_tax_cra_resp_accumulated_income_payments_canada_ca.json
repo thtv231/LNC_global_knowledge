@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/special-payments/resp-accumulated-income-payments.html",
+  "title": "RESP – Accumulated income payments - Canada.ca",
+  "crawled_at": "2026-06-11T12:46:03.344890+07:00",
+  "content": "\n## RESP - Accumulated income payments\nInvestment earnings in an Registered Education Savings Plan (RESP) can be paid to the subscriber or, in some circumstances, to a person other than the subscriber. These payments are called accumulated income payments (AIPs).\nTwo different taxes are applied to an AIP : the regular income tax under Part I of the Income Tax Act (ITA), and an extra tax of 20% (12% for residents of Quebec) under Part X.5 of the ITA.\nThe taxable amount can be reduced if both of the following conditions are met:\n- the recipient of the AIPs is the original subscriber (or, after the death of the original subscriber, their spouse or common-law partner if there is no other subscriber)\n- the recipient has filled out Form T1171, Tax Withholding Waiver on Accumulated Income Payments from RESPs , and asks that you transfer the payment directly to the subscriber's registered retirement savings plan (RRSP) or spousal or common-law partner's RRSP\nIf you are satisfied that these conditions and those explained on Form T1171 are met and you can reasonably believe that the recipient of the AIP will deduct that amount as an RRSP contribution for the year you paid it, you do not have to withhold any tax on the amount transferred.\nThe taxable amount is the AIP minus the reduction determined on Form T1171.\nReport all payments from an RESP on a T4A slip .\nFor more information, see Guide RC4092, Registered Education Savings Plans (RESP) .\n\n## Forms and publications\n- Guide RC4092, Registered Education Savings Plans\n- Form T1171, Tax Withholding Waiver on Accumulated Income Payments from RESPs\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

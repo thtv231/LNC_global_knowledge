@@ -1,0 +1,12 @@
+{
+  "site": "Bank of Canada",
+  "site_url": "https://www.bankofcanada.ca",
+  "category": "banking",
+  "page_url": "https://www.bankofcanada.ca/rates/interest-rates/t-bill-yields/selected-treasury-bill-yields-10-year-lookup/",
+  "title": "Selected treasury bill yields: 10-year lookup - Bank of Canada",
+  "crawled_at": "2026-06-11T12:03:22.098560+07:00",
+  "content": "\n## Selected treasury bill yields: 10-year lookup\nOn this page, you can look up series data. For metadata and background information, see the series notes .\n- 1. Weekly series values are as at Tuesday. Monthly series show values for the last Tuesday of the month. [ ← ]\n- 2. Weekly series values are as at Wednesday. Monthly series show values for the last Wednesday of month. [ ← ]\n- Where applicable, each series shows its CANSIM 'V' identifier.\n- For rates prior to the past ten years, please refer to CANSIM at Statistics Canada.\nGovernment securities auctions\nCanadian bond yields: 10-year lookup",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

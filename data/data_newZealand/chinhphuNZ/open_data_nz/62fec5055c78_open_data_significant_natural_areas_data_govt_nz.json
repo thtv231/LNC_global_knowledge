@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1208",
+  "title": "Significant Natural Areas\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:23:12.006051+07:00",
+  "content": "\n## Significant Natural Areas\nI would like a dataset of all the Significant Natural Areas currently scheduled in District and Regional Plans across the country- ideally a layer file\nCompanies such as ours (a forestry company but applicable to many different industries) working across different districts and regions and not being sure where the SNAs or how to access the data\nMaking this data freely available so the areas are better able to be protected\n\n### Response from Ministry for the Environment\nStatus Data does not exist\nComments The Ministry for the Environment (Ministry) does not hold up to date information or a dataset of all the Significant Natural Areas currently scheduled in District and Regional Plans across the country. Therefore, I am refusing this under section 18(e) of the Act, as the document alleged to contain the information requested does not exist.\n\nHowever, the Ministry holds data from August 2021 but this is limited to only 33 councils, out of a total of 67. If you would like this information, please email the Ministry to make a request OIA@mfe.govt.nz\n\n#### Likely Source Agency\nMinistry for the Environment",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

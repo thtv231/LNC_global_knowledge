@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1316",
+  "title": "Bore locations and their consented water take in volcanic areas south of Auckland\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:08:39.905568+07:00",
+  "content": "\n## Bore locations and their consented water take in volcanic areas south of Auckland\nI am helping develop a research project looking at groundwater data, use and management. We would like to know the locations of bores for the:\n\n- South Auckland Volcanic Aquifers: Includes the Bombay, Pukekohe (Central, North, South, West), and Glenbrook volcanic fields. \n\n- Kaawa Aquifer: Located beneath the volcanic layers. \n\n- Waitematā Sandstone Aquifers: Found in the broader Karaka and Clevedon areas.\nIdeally the data would in database or spreadsheet format that would include a location of the bore (including coordinates), the aquifer the bore is taking water from, type of bore, consented water take from the bore, and use of that water (e.g. domestic, stock, irrigation)\nHaving to request the data and help with understanding the use of groundwater south of Auckland.\n\n#### Likely Source Agency",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "http://open.canada.ca/data/en/dataset/f8ec9eb8-62d1-487b-83ff-4c407b6cb227",
+  "title": "Canada Pension Plan (CPP) - Contributors Tables - Open Government Portal",
+  "crawled_at": "2026-06-11T13:43:45.536729+07:00",
+  "content": "\n## Canada Pension Plan (CPP) - Contributors Tables\nCanada Pension Plan (CPP) Contributors Tables are released annually and provide historical statistics on the number of contributors by place of residence and the distribution of contributors by earnings. Although the release is annual, the data are two years in arrears. This is due to ongoing updates of the Canada Revenue Agency T4 files prior to issuing. In order to ensure client confidentiality, an 'X' has been placed where the number of clients  receiving a particular benefit is equal to or below 9. In order to avoid residual disclosure, an 'X' has also been placed where the next number of clients was found, which may be lowest below, equal to, or above 9. This report uses total earnings for each person that may be composed from multiple employers. Many contributors have earnings in more than one province. To avoid multiple counting of these contributors, all earnings were considered to have been made in the province in which the greatest amount was earned. The figures shown for the province of Quebec relate only to contributions of certain federal employees (members of Canadian Armed Forces for example) who reside in Quebec.\n- Publisher - Current Organization Name: Employment and Social Development Canada\n- Licence: Open Government Licence - Canada\n- Number of CPP contributors, by year and by province/territory, 1966-2023 CSV English French dataset CSV Explore More information Download\n- Number of CPP contributors, by earnings level and by province/territory, 2011-2023 CSV English French dataset CSV Explore More information Download\n- Number of CPP contributors, by earnings level and by province/territory, 2011-2023 XLSX English French dataset XLSX Explore More information Download\n- Number of CPP contributors, by year and by province/territory, 1966-2023 XLSX English French dataset XLSX Explore More information Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

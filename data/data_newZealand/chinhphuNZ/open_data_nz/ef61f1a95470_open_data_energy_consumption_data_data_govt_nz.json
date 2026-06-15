@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1204",
+  "title": "Energy Consumption data\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:23:26.717122+07:00",
+  "content": "\n## Energy Consumption data\nTo ensure a comprehensive analysis, I am seeking access to data from the same period across the following categories:\n\n1 Energy Consumption (Smart Meter Data) – Hourly/daily electricity usage trends.\n2 Electricity Pricing – Time-of-use tariffs, peak/off-peak rates, and prepay plans.\n3 Billing & Payment History – Late payments, arrears, and disconnections.\n\nFormat: CSV\nI am studying energy hardship and affordability for low-income households in New Zealand, focusing on machine learning-driven optimization of energy assistance.\n\n### Response from Energy Efficiency and Conservation Authority\nStatus Different agency responsible\nComments Kia ora. EECA does not hold Smart Meter Consumption data, Electricity Pricing rates and plans, or Billing & Payment History. This data would only be held by electricity retailers and lines companies. To my knowledge, there is not a central aggregation of such data that could be shared with you by a government department. Your topic area around energy hardship and affordability is a meaningful one and I wish you all the best investigating it further.\n\n#### Likely Source Agency\nEnergy Efficiency and Conservation Authority",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

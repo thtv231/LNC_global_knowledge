@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/data-sources/reference",
+  "title": "Administrative data sources in the production of official statistics – Reference",
+  "crawled_at": "2026-06-11T12:13:14.996293+07:00",
+  "content": "\n## Administrative data sources in the production of official statistics – Reference\nStatistics Canada uses the following civic address data:\n- civic address data points\n- geo-spatial coordinate data.\nStatistical programs using these data for statistical and research purposes only:\n- Canadian Housing Statistics Program\n- Address Register (AR)\n- Census Program Transformation Project\nPersonal information is not included in these data.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

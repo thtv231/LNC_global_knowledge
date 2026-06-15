@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/624a12cf-2de1-4d9c-94e1-3697d93fa4cb",
+  "title": "Interpolated Census of Agriculture by Watershed - Open Government Portal",
+  "crawled_at": "2026-06-11T12:13:07.507939+07:00",
+  "content": "\n## Interpolated Census of Agriculture by Watershed\nThe Census of Agriculture is disseminated by Statistics Canada's standard geographic units (boundaries). Since these census units do not reflect or correspond with biophysical landscape units (such as ecological regions, soil landscapes or drainage areas), Agriculture and Agri-Food Canada in collaboration with Statistics Canada's Agriculture Division, have developed a process for interpolating (reallocating or proportioning) Census of Agriculture information from census polygon-based units to biophysical polygon-based units.\nIn the “Interpolated census of agriculture”, suppression confidentiality procedures were applied by Statistics Canada to the custom tabulations to prevent the possibility of associating statistical data with any specific identifiable agricultural operation or individual. Confidentiality flags are denoted where \"-1\" appears in data cell. This indicates information has been suppressed by Statistics Canada to protect confidentiality. Null values/cells simply indicate no data is reported.\n- Publisher - Current Organization Name: Agriculture and Agri-Food Canada\n- Licence: Open Government Licence - Canada\n- Support Tables - English CSV English guide CSV Explore More information Go to resource\n- User Guide (English) PDF English guide PDF Explore More information Go to resource\n- Support Tables - French CSV French guide CSV Explore More information Go to resource\n- Data Product Specification (French) PDF French guide PDF Explore More information Go to resource\n- Data Product Specification (English) PDF English guide PDF Explore More information Go to resource\n- Pre-packaged CSV files CSV English French dataset CSV Explore More information Go to resource\n- Pre-packaged FGDB files FGDB/GDB English French dataset FGDB/GDB Explore More information Go to resource\nElectronic Mail Address: aafc.agri-geomatics-agrogeomatiques.aac@agr.gc.ca",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

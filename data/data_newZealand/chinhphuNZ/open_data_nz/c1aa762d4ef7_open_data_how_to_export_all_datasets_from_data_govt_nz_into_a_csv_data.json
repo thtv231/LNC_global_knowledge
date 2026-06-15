@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/catalogue-guide/using-data-govt-nz-apis/how-to-export-all-datasets-from-data-govt-nz-into-a-csv",
+  "title": "How to export all datasets from data.govt.nz into a CSV\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:09:11.369645+07:00",
+  "content": "Using the ckanapi-exporter tool you can extract all dataset metadata into a single CSV file.\n- CKANAPI-Exporter 0.1.0+ ( pip install ckanapi-exporter )\n- Install requirements\n- Create a columns.json file (sets out some preset data propoerties to extract from data.govt.nz API, you can customise if required). See below for file contents.\n- Run the below command on your terminal",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

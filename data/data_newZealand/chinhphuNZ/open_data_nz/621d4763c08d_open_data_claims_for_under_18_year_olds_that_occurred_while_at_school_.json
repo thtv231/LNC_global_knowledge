@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1160",
+  "title": "Claims for under 18 year olds that occurred while at school\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:23:51.850467+07:00",
+  "content": "\n## Claims for under 18 year olds that occurred while at school\nAll claims for children under 18 years of age, that occurred whilst they were at school. Data should be broken into mechanisms (causes) to identify patterns of high frequency injuries and serious injures relating back to activities.  The data set should also be categorised into regions, ethnicity, gender, age groups.\nPooling multiple sets of isolated/fragmented data into a national data base. Schools can view data from similar schools against their own to evaluate their performance, identify risks that they may not have planned for (e.g school roll increases and more classrooms will be build etc).  Principals could contact schools that have lower injury stats to implement similar controls in their school.\nSchools managing the safety of their students by identifying root causes of injuries.\n\n### Response from Accident Compensation Corporation\nStatus Request received\nComments Kia ora,\n\nThanks for your request which has been transferred to Analytics & Reporting, ACC for response.\nYour data has an indicative due date of Thursday 23 January 2025 however, we will try to provide data as soon as possible.\nIf you have any further questions let us know at analytics@acc.co.nz.\n\nNgā mihi\n\n#### Likely Source Agency\nAccident Compensation Corporation",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Inland Revenue NZ (IRD)",
+  "site_url": "https://www.ird.govt.nz",
+  "category": "tax_ird",
+  "page_url": "https://www.ird.govt.nz/updates/news-folder/2026/new-reporting-rules-for-crypto-asset-service-providers",
+  "title": "New reporting rules for crypto-asset service providers",
+  "crawled_at": "2026-06-11T15:25:36.230679+07:00",
+  "content": "New Zealand has adopted the Crypto-Asset Reporting Framework (CARF) developed by the Organisation for Economic Co-Operation and Development (OECD). This international exchange framework will increase the visibility of activities in the crypto-asset sector.\nNew Zealand-based Reporting Crypto-Asset Service Providers (RCASPs) should make sure they are ready to collect the required information from 1 April 2026.\nAn RCASP is any individual or entity carrying out the exchange or conversion of crypto-assets on behalf of users as a business, including those serving as a counterparty, intermediary or providing a trading platform.\nAn RCASP does not include an individual or entity who is only holding wallets or is trading crypto-assets for their own benefit.\n\n## New requirements for RCASPs\nRCASPs must collect and report specified information about their users and transactions.  This information must be reported each year to us using a set electronic format.\nThese requirements begin 1 April 2026, with the first reporting due by 30 June 2027.\n\n## International information exchange\nWe will share information collected from New Zealand-based RCASPs with other tax authorities following the OECD framework. New Zealand will also receive information about its tax residents from overseas authorities.\nWe will use the information for tax administration purposes. This includes checking that crypto-related income earned by New Zealand tax residents is included in their tax returns.\nWe have updated our website with guidance to help RCASPs interpret and implement the CARF.\nCrypto-Asset Reporting Framework\nIf you have any questions about the framework, or your obligations, you can email us. CARF@ird.govt.nz",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

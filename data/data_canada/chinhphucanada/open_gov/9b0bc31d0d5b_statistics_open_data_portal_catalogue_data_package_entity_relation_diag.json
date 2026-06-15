@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/c4c5c7f1-bfa6-4ff6-b4a0-c164cb2060f7/resource/21ad0300-b9f5-444e-b43b-8bd164901b55",
+  "title": "Open Data Portal Catalogue - data package entity relation diagram - Open Government Portal",
+  "crawled_at": "2026-06-11T12:13:04.511407+07:00",
+  "content": "\n## Open Data Portal Catalogue - data package entity relation diagram\nDisplays the title and format for each resource in Data Package in the form of a ERD Diagram. The Data Package resource offers a text based version.\n\n## Additional Information\nMetadata last updated\ndata package entity relation diagram\nDefined by Statistics https://open.canada.ca/data/en/dataset/c4c5c7f1-bfa6-4ff6-b4a0-c164cb2060f7/resource/f13ed9cc-e460-42ca-a526-56e02ecaefaa\nDefined by Statistics https://open.canada.ca/data/en/dataset/c4c5c7f1-bfa6-4ff6-b4a0-c164cb2060f7/resource/f13ed9cc-e460-42ca-a526-56e02ecaefaa\n700.8 kB (700,819 bytes)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/special-payments/patronage-allowances.html",
+  "title": "Patronage allowances - Canada.ca",
+  "crawled_at": "2026-06-11T12:46:04.710959+07:00",
+  "content": "\n## Patronage allowances\nPatronage payments include all of the following:\n- certificates of indebtedness\n- amounts credited towards the balance a recipient can owe the payer of the patronage\n- shares of a corporation that an individual receives because of a patronage payment\nYou have to apply a withholding tax of 15% on the value of patronage payments that Canadian residents receive in a year. This withholding tax applies to the payment or to the total of several payments of more than $100 you made during the year.\nYou give Colin a $250 patronage payment. The amount on which you apply the 15% withholding tax is $150 ($250 – $100). The withholding tax is $22.50 ($150 × 15%).\nFill in the remittance voucher at the bottom of Form PD7A, Statement of account for current source deductions , and include it with the deducted amount you are sending to the Receiver General.\nThe withholding tax does not apply to Canadian residents who are exempt under section 149 of the Income Tax Act.\nFor more information, see Interpretation Bulletin IT-362 , Patronage Dividends .\nReport patronage payments using code 030 in the \"Other information\" area at the bottom of the T4A slip .\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

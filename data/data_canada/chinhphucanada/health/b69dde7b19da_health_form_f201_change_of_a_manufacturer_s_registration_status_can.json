@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/quality-systems-13485/form-f201-change-manufacturer-registration-status-medical-devices.html",
+  "title": "Form F201 Change of a Manufacturer's Registration Status - Canada.ca",
+  "crawled_at": "2026-06-11T13:10:50.632922+07:00",
+  "content": "\n## Form F201 Change of a Manufacturer's Registration Status\nThis HTML document is not a form. Its purpose is to display the information as found on the form for viewing purposes only. If you wish to use the form, you must use the alternate format below.\nHelp on accessing alternative formats, such as Portable Document Format ( PDF ) and Microsoft Word files, can be obtained in the alternate format help section .\n1. Pursuant  to sections 32.3 and 32.4 of the Canadian Medical Devices Regulations ,  the Auditing Organisation (AO) noted below hereby informs the Medical Devices Directorate  of the following:\n- Withdrawal /  Cancellation\n- Reduction  of scope (*attach copy of new certificate)\nof the MDSAP quality  management system certificate identified in section 2 of this form.\n2. MDSAP  ISO 13485:2016 registration information\n- Name of Auditing  Organisation (AO):\n- MDSAP Certificate  number:\n- Name of  manufacturer:\n- This change to the  above MDSAP certificate is effective as of (YY/MM/DD):\n- Name of Auditing  Organisation’s representative:\n- Number of pages  (including this form):\n- Fill  out all applicable fields of this form.\n- E-mail form to  Health Canada within 15 days of the effective date of suspension, withdrawal /  cancellation, or scope reduction.\n- If this is  to notify of a scope reduction, attach a copy of the new MDSAP certificate  including all attachments to the certificate.\n- E-mail a portable document format (PDF) version of  the completed form to f201@hc-sc.gc.ca",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

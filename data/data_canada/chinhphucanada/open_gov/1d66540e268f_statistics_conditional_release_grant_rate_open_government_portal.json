@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/7d2bfd95-d3fa-47a7-8067-624638415e10",
+  "title": "Conditional Release Grant Rate - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:49.762920+07:00",
+  "content": "\n## Conditional Release Grant Rate\nThe Conditional Release Grant Rate dataset provides information on the number of conditional releases granted/directed/continued/approved/authorized and the number of conditional releases denied/not directed/not approved/not authorized.  Decisions are sorted according to location and final decision. Items found in this dataset include, among others, jurisdiction, decision purpose, decision type, sentence type, review type, race, gender and offence type.\n- Publisher - Current Organization Name: Parole Board of Canada\n- Publisher - Organization Section Name: Performance Measurement\n- Licence: Open Government Licence - Canada\n- Overview and Glossary of Terms and Concepts PDF English guide PDF Explore More information Go to resource\n- Overview and Glossary of Terms and Concepts PDF French guide PDF Explore More information Go to resource\n- Conditional Release Grant Rate 2017-2018 CSV English dataset CSV Explore More information Go to resource\n- Conditional Release Grant Rate 2017-2018 CSV French dataset CSV Explore More information Go to resource\n- Conditional Release Grant Rate 2016-2017 CSV English dataset CSV Explore More information Go to resource\n- Conditional Release Grant Rate 2016-2017 CSV French dataset CSV Explore More information Go to resource\n- Conditional Release Grant Rate 2015-2016 CSV English dataset CSV Explore More information Go to resource\n- Conditional Release Grant Rate 2015-2016 CSV French dataset CSV Explore More information Go to resource\n- Conditional Release Grant Rate 2014-2015 CSV English dataset CSV Explore More information Go to resource\n- Conditional Release Grant Rate 2014-2015 CSV French dataset CSV Explore More information Go to resource",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/reports-publications/medeffect-canada/guidance-electronic-canadian-drug-fact-table-technical-standards.html",
+  "title": "Guidance document: Electronic Canadian Drug Facts Table (eCDFT) Technical Standards - Canada.ca",
+  "crawled_at": "2026-06-11T13:06:53.929406+07:00",
+  "content": "\n## Guidance document: Electronic Canadian Drug Facts Table (eCDFT) Technical Standards\nThis guidance document  provides direction to sponsors, manufacturers and license holders on the  technical web publication standards for the Electronic Canadian Drug Facts  Table (eCDFT) of non-prescription drugs.\n\n## Who this guide is for\nThe guide is intended for regulated parties  (industry) who are affected by the regulations.\n- 1. Introduction 1.1 Objectives 1.2 Policy Statements 1.3 Scope and Application 1.4 Background\n- 1.2 Policy Statements\n- 1.3 Scope and Application\n- 2. Technical Requirements for Electronic Canadian Drug Fact Table 2.1 Languages 2.2 URL (Uniform Resource Locator) naming conventions 2.3 Use of two-dimensional (2D) barcodes 2.4 Technical approaches for accessing individual eCDFT 2.5 Web Experience Toolkit publication template 2.6 Using a third party\n- 2.2 URL (Uniform Resource Locator) naming conventions\n- 2.3 Use of two-dimensional (2D) barcodes\n- 2.4 Technical approaches for accessing individual eCDFT\n- 2.5 Web Experience Toolkit publication template\n- 2.6 Using a third party\n- 3. Important  accessibility considerations implemented in the wet templates 3.1 Accessibility considerations 3.2 Language of the Page 3.3 Non-text Content 3.4 Sensory Characteristics 3.5 Language of Parts\n- 3.1 Accessibility considerations\n- 3.2 Language of the Page\n- 3.3 Non-text Content\n- 3.4 Sensory Characteristics\n- 3.5 Language of Parts\n- 4. Submission Process\nPublished: August 01, 2017\nUpdated: September 28, 2018\nConsulted: June 26, 2018\n- Find  templates and style sheets\n- Good  Label and Package Practices Guide for Non-prescription Drugs and Natural Health  Products\n- Guidance  Document: Labelling Requirements for Non-prescription Drugs\n- Guidance Document: Questions  and Answers: Plain Language Labelling Regulations for Non-prescription Drugs\n- Food and Drug Regulations",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

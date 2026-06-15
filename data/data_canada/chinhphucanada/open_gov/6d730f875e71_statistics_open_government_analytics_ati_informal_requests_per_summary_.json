@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/2916fad5-ebcc-4c86-b0f3-4f619b29f412/resource/e664cf3d-6cb7-4aaa-adfa-e459c2552e3e",
+  "title": "Open Government Analytics - ATI informal requests per summary - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:50.626438+07:00",
+  "content": "\n## Open Government Analytics - ATI informal requests per summary\n- Download CSV TSV JSON XML\nThis resource view is not available at the moment. Click here for more information.\nYour browser does not support iframes.\nYear of informal request data\n- does not refer to the year the ATI request was submitted or completed\nMonth of informal request data\n- does not refer to the month the ATI request was submitted or completed\nUnique ID for the ATI Package\n- It is possible to view the full details of the ATI Summary by visiting https://open.canada.ca/en/search/ati/reference/ {unique identifier}\n\n## Additional Information\nMetadata last updated\nATI informal requests per summary\nReferences Dataset https://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c\nReferences Dataset https://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c\n86.4 MB (86,449,984 bytes)\nData Includes URIs and Links\nThe most important data items in this resource have a URI, e.g. data in RDF format The data includes links to other data for providing context, and those links are kept up to date (not broken)\n- The most important data items in this resource have a URI, e.g. data in RDF format\n- The data includes links to other data for providing context, and those links are kept up to date (not broken)\nValidation timestamp\nJune 3, 2026, 18:34 (UTC)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

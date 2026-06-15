@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1245",
+  "title": "Wellington Weekly Train Passenger stats for educational use\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:24:58.798123+07:00",
+  "content": "\n## Wellington Weekly Train Passenger stats for educational use\nStats on vehicles, cyclists, and bus users are all publicly available in daily & weekly increments (at specific locations). It would be fantastic to have access to train user data as well (even passengers/day/line would be great). At the moment the best dataset available is annual and doesn't separate by line. As that's not broken down enough to understand how people are using the current infrastructure, this request is for a more detailed dataset to be made available. If passenger data is not available, perhaps # of non-passenger lines/day or /week could be? Really just looking for anything on how the rail system is currently used. \n\nThere is another data request from 2017 which was responded to, but only with a link to the annual data.\nLack of awareness of how people use the rail system. It would also help students studying urban design or landscape architecture (or a variety of other majors) to do research projects on transportation and infrastructure development with less barriers.\nBy giving access to the data\n\n### Response from New Zealand Railways Corporation\nStatus Different agency responsible\nComments Metlink and Transdev operate the Wellington Metro passenger services, so they should hold this information.\n\n#### Likely Source Agency\nNew Zealand Railways Corporation",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "DOL / FLAG",
+  "site_url": "https://www.dol.gov",
+  "category": "processing_times",
+  "page_url": "https://flag.dol.gov/announcement/2025-12-11",
+  "title": "OFLC Issues Technical Release Notes for an Update to Registration Number Linking Ability 12/11/2025 | Flag.dol.gov",
+  "crawled_at": "2026-06-08T12:02:31.844578+07:00",
+  "content": "\n## OFLC Issues Technical Release Notes for an Update to Registration Number Linking Ability 12/11/2025\nFLAG has updated the 9142B Registration Number linking to return matches for registration number records containing Primary Worksite MSAs, which were created in prior years but map to a current MSA value.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

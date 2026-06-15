@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/review-your-tax-return-cra/tax-returns-selected-review.html",
+  "title": "How tax returns are selected for review - Canada.ca",
+  "crawled_at": "2026-06-11T13:33:48.014496+07:00",
+  "content": "\n## How tax returns are selected for review\nYour income tax and benefit return may be selected for review for a number of reasons, such as:\n- the information on your return does not match the information received from third-party sources, such as T4 slips\n- the types of deductions or credits you claimed\n- your compliance history\nThe process of selecting returns for review is the same whether the return is filed on paper or online (EFILE and NETFILE). We refine the focus of our reviews annually based on review results and identified areas of non-compliance .\nThe Canada Revenue Agency (CRA) processes most returns without conducting a manual review of the information reported so that a notice of assessment can be issued as quickly as possible. However, all returns are screened by CRA's computer system and may be subject to review at a later date.\nYou should keep your income tax records , including all receipts and documents to support your claims for at least six years, in case your return is selected for review. We may also ask you for documents other than official receipts, such as cancelled cheques or bank statements, as proof of the deduction or credit you claimed.\n\n## Forms and publications\n- General income tax and benefit package\n- Information Circular IC78-10R5, Books and Records Retention/Destruction\n- Taxpayer Bill of Rights\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/ee9bd7e8-90a5-45db-9287-85c8cf3589b6",
+  "title": "Proactive Disclosure - Briefing Note Titles and Numbers - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:47.186175+07:00",
+  "content": "\n## Proactive Disclosure - Briefing Note Titles and Numbers\nIn accordance with the Access to Information Act , the government proactively publishes titles and reference numbers of memoranda received by ministers and deputy heads.\nBriefing note titles may be partially or fully redacted in accordance with the legislation; for example, if the titles contain information related to national security, personal information, or Cabinet confidences. Learn more about exemptions and exclusions .\nIf you find a title of interest, you may make an access to information request in order to obtain the records.\n- Publisher - Current Organization Name: Treasury Board of Canada Secretariat\n- Licence: Open Government Licence - Canada\n- Data Schema JSON English French specification JSON Explore More information Go to resource\n- Data Dictionary XLSX English French data_dictionary XLSX Explore More information Go to resource\n- Search Briefing Note Titles and Numbers (English) HTML English website HTML Explore More information Go to resource\n- Search Briefing Note Titles and Numbers (French) HTML French website HTML Explore More information Go to resource\n- Proactive Disclosure - Briefing Note Titles and Numbers CSV English French dataset CSV Explore Preview Download\n- Proactive Publication - Briefing Note Titles and Numbers Nothing to Report CSV English French dataset CSV Explore Preview Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

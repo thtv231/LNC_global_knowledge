@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1189",
+  "title": "GPS coordinates of all New Zealand postcodes\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:23:39.376360+07:00",
+  "content": "\n## GPS coordinates of all New Zealand postcodes\nCould you please supply a dataset of all New Zealand postcodes with gps coordinates for each.  Thank you\n\nPostcode\nLongitude\nLatitude\nLocality \nTerritory\nRegion\nEnable better care of our donor relationships with our charity.  We have about 17000 donors located across New Zealand.\nEnabling more precision of out mail communications with our donors and with the churches that are a match in their regions.\n\n### Response from New Zealand Post Limited\nComments This data is available for purchase and requires the completion of a licence agreement. Please contact datasolutions@nzpost.co.nz for more information.\n\n#### Likely Source Agency\nNew Zealand Post Limited",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/thalidomide-survivors-contribution-program-february-2016.html",
+  "title": "Thalidomide Survivors Contribution Program (February 2016) - Canada.ca",
+  "crawled_at": "2026-06-11T13:11:28.051909+07:00",
+  "content": "\n## Thalidomide Survivors Contribution Program (February 2016)\n\n## Description of Program\nThe Thalidomide Survivors Contribution Program provides financial support to Canadian Thalidomide Survivors. The Program is delivered by Health Canada through a contribution agreement with a third party administrator.\n\n## Why was a Privacy Impact Assessment (PIA) completed?\nThis PIA was completed as personal information is used to make administrative decisions about financial support to Canadian Thalidomide Survivors.\nThe PIA examines the privacy-related risks of the Thalidomide Survivors Contribution Program and proposes methods to lower these risks.\nThis PIA focused on Health Canada's collection, use, disclosure and retention and disposition of personal information involved in the Program's business processes. It did not include an examination of privacy practices of the third party administrator.\nThe PIA identified risks pertaining to control and disclosure of records, sharing of information within Health Canada, retention and disposition authorities, maintaining accuracy and the absence of a Personal Information Bank (PIB), which is currently being implemented.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

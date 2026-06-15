@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/applications-submissions/guidance-documents/food-drug-regulations-public-health-emergency/list-conditions-threaten-public-health.html",
+  "title": "List of Conditions that Threaten Public Health in Canada - Canada.ca",
+  "crawled_at": "2026-06-11T13:08:51.057186+07:00",
+  "content": "\n## List of conditions that threaten public health in Canada\nThis list is defined in section C.08.001.1 of the Food and Drug Regulations, and incorporated by reference in:\n- sections C.01A.005, C.01A.006 and C.01A.008\n- the definition of public health emergency drug in section C.08.001.1\n- sections C.08.001.2, C.08.001.3, C.08.002 and C.08.003\nConditions are only added to the list if the Minister, in accordance with subsection C.08.001.2(1) of the Food and Drug Regulations , has reasonable grounds to believe:\n- the condition presents, or is the result of, a significant risk to public health in Canada, and\n- immediate action is required to deal with the risk\nThe Minister may add COVID-19 as defined in subsection C.01.001(1) to the list under subsection C.08.001.2(2). They may do so if they have reasonable grounds to believe that the addition is necessary to protect public health or safety.\nClinical description\nCoronavirus disease 2019\n- Guidance on the Food and Drug Regulations for public health emergency drugs",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "express_entry",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/corporation-internet-filing/restrictions.html",
+  "title": "Restrictions - Canada.ca",
+  "crawled_at": "2026-06-11T13:23:29.437463+07:00",
+  "content": "You cannot use the Corporation Internet Filing service to file:\n- a return for any year prior to the 2002 tax year*; or\n- Form RC199, Voluntary Disclosures Program (VDP) Taxpayer Agreement, or if you are making a request to the Voluntary Disclosures Program.\n* Returns for some older tax years (2007 and prior) may automatically be saved using the Electronic Data Interchange (EDI) standard. We no longer support this standard, so you will need to file these returns on paper.\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

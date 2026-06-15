@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/catalogue-guide/releasing-data-on-data-govt-nz/adding-datasets-to-data-govt-nz",
+  "title": "Adding datasets to data.govt.nz\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:09:16.518967+07:00",
+  "content": "Learn how to prepare a machine readable CSV file and publish to the data.govt.nz data catalogue.\n\"Data.govt.nz - Making government data easy to find and use.\nOur new website - now powered by the CKAN platform - promises a much better user experience.\nSo how can agencies add data? I'll walk you through this... and show you some of the cool things the people who want to use your data, can do.\nThe first thing is to find the file with the data you want to release.\nIf it's a spreadsheet like this one - the format will need to be changed so it's machine readable.\nThe format you're aiming for is CSV. This means you've got to remove any presentational elements such as headers, footers, logos etc. Then make sure each row and column has a heading… Remove any empty rows too… and remove the text at the bottom of the spreadsheet. This explanatory text can be placed into an accompanying file.\nFinally, remove the colour shading and borders using clear formatting. Then save this file as a CSV.\nSo you don't forget, here's the main things to remember: Remove all white space and explanatory text. Make sure each row and column has a heading. Make sure each cell has a value. Clear all formatting.\nOnce the data is machine readable... upload it to your agency website.\nThen get in touch to tell us you'd like to add your data to data.govt.nz\nWe'll have a look at your data and talk you through next steps...If you need to update your data on a regular basis, it may be that you need a scheduled harvest. We can help you with that too.\nWe'll let you know when your data is live on data.govt.nz\nOnce live - users will be able to preview and download your data easily.\nSo why not add your data?\nGet in touch with our team... and we'll talk you through the best way to add your data to data.govt.nz.\"",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/2916fad5-ebcc-4c86-b0f3-4f619b29f412/resource/02a92b0f-b26d-4fbd-9601-d27651703715",
+  "title": "Open Government Analytics - Number of Visits, Downloads - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:50.872288+07:00",
+  "content": "\n## Open Government Analytics - Number of Visits, Downloads\n- Download CSV TSV JSON XML\n- Number of Visits, Downloads\nThis resource view is not available at the moment. Click here for more information.\nYour browser does not support iframes.\nYear of visits or downloads in four digits format (YYYY).\nMonth of visits or downloads in two digits format (MM).\n\n## Additional Information\nMetadata last updated\nNumber of Visits, Downloads\n3.2 kB (3,248 bytes)\nValidation timestamp\nJune 1, 2026, 16:56 (UTC)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

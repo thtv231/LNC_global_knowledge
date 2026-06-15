@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/fr/dataset/f9e5d480-2be8-477a-a060-67c3786667e7",
+  "title": "Liste des demandes d’Accès à l’information et Renseignements Personnels Reçues et Fermées - Portail du gouvernement ouvert",
+  "crawled_at": "2026-06-11T12:49:10.614963+07:00",
+  "content": "\n## Liste des demandes d’Accès à l’information et Renseignements Personnels Reçues et Fermées\nLa Loi sur l’accès à l’information (LAI) confère aux citoyens canadiens, aux résidents permanents et aux autres personnes et sociétés présentes au Canada un droit légal d’accès aux documents, peu importe le format, qui sont sous le contrôle de l’administration fédérale, sous réserve d’exceptions et d’exclusions précises et limitées, et les décisions quant à la communication des renseignements que détient le gouvernement sont susceptibles de recours indépendant du pouvoir exécutif.\nDans le cadre de l’engagement du gouvernement en matière de transparence, la Direction de l’accès à l’information et de la protection des renseignements personnels (DAIPRP) de la Défense Nationale travaille continuellement pour répondre aux demandes en vertu de la Loi sur l’accès à l’information et la Loi sur la protection des renseignements personnels. Cette base de données procure une liste des demandes reçues et fermées faites sous la LAI à la DAIPRP sur une période de 12 mois allant de Novembre à Octobre chaque année\n- Éditeur - Nom actuel de l’organisation : Défense nationale\n- Organisation - Titre lors de la publication : Direction d'accès à l'information et aux renseignements personnels\n- Licence : Licence du gouvernement ouvert - Canada\n\n## Données et ressources\n- List of Access Requests Received and Closed CSV anglais dataset CSV Explorer Plus d'information Télécharger\n- Liste des demandes d'accès à l'information reçues et fermées CSV français dataset CSV Explorer Plus d'information Télécharger\n- List of privacy requests received and closed CSV anglais dataset CSV Explorer Plus d'information Télécharger\n- Liste des demandes de renseigments personnels reçues et fermées CSV français dataset CSV Explorer Plus d'information Télécharger",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-20600-pension-adjustment/questions-answers-about-line-206-pension-adjustment.html",
+  "title": "Questions and answers about Line 206 – Pension adjustment - Canada.ca",
+  "crawled_at": "2026-06-11T14:13:23.236174+07:00",
+  "content": "\n## Questions and answers about Line 20600 – Pension adjustment\nI need to know where I claim this pension adjustment amount on my income tax and benefit return .\nI filed my income tax and benefit return late last year and forgot to enter my PA amount on line 20600 . How will this affect me?\n\n## I need to know where I claim this pension adjustment amount on my income tax and benefit return.\nThe pension adjustment (PA) amount is reported on line 20600 of your income tax and benefit return. The PA can be found in box 52 of your T4 slip or box 034 of your T4A slip .\nDo not include the PA amount as income, and do not deduct it on your income tax and benefit return. Simply enter this amount on line 20600 . We will use it to calculate your registered retirement savings plan (RRSP) deduction limit, which the CRA will show on your notice of assessment or notice of reassessment or T1028 , Your RRSP Information for 2025 .\n\n## I filed my income tax and benefit return late last year and forgot to enter my PA amount on line 206 00. How will this affect me?\nIf you forget to report your PA, your RRSP deduction limit will be overstated for the following year, and you may have overcontributed to your RRSP.\nYou can request an adjustment to your income tax and benefit return to include the PA in one of several ways. You can either:\n- request the adjustment, use Form T1ADJ, T1 Adjustment Request\n- write us a detailed letter explaining the requested change\nThe adjustment may result in a change to the following year's RRSP deduction limit and therefore reduce the amount allowed as a deduction at line 208 00.\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

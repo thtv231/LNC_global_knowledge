@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/blog/understanding-data-confidentiality",
+  "title": "Understanding data confidentiality\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:09:55.375310+07:00",
+  "content": "\n## Understanding data confidentiality\nOrganisations have different requirements for protecting data confidentiality, privacy, and security so people, households, and organisations can’t be identified without their permission.\nA Data Confidentiality Report [PDF 907KB], documenting best practice principles, and methodology-related content, has been produced by Stats NZ.\nThe report was written for technical experts and managers who supply and use data in New Zealand to implement, evaluate, and verify techniques for protecting confidentiality.\n\n### Why confidentialise data?\nGood data helps New Zealand grow and prosper. For planning, research, and information purposes, data must be high-quality, timely, and accurate.\nWhen data is confidential it means no individuals, households, or businesses can be identified.\nThe report details the various methods available for confidentialising data, and includes a simple infographic demonstrating the differences between identifiable, de-identified or confidentialised data. It illustrates how data is on a spectrum with multiple shades of identifiability.\nRead more about the report on data.govt.nz.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/special-payments/death-benefits.html",
+  "title": "Death benefits - Canada.ca",
+  "crawled_at": "2026-06-11T12:46:02.431400+07:00",
+  "content": "A death benefit is the gross amount of any payment made (including a payment to a surviving spouse or common-law partner , heir, or estate) on or after the death of an employee to recognize the employee’s service in an office or employment.\nWages and employment income earned up to and including the date of death are payments that are reported on a T4 slip, not a T4A slip. For more information, see Guide RC4120, Employers’ Guide – Filing the T4 Slip and Summary .\nIf you pay a death benefit to a surviving spouse, common-law partner, or heir, part of this payment can be exempt from tax (to a maximum of $10,000) when the person files an income tax and benefit return. Do not deduct income tax from this part of the payment. For more information, see archived Interpretation Bulletin IT-508R , Death Benefits .\nDo not deduct CPP contributions from payments you make after an employee died, except for amounts the employee earned and was owed before the date of death.\nDo not deduct employment insurance (EI) premiums from monies earned before the death of an employee (such as salary, banked overtime, a bonus, or vacation pay) and not yet paid at the time of death.\nDeduct income tax on the part of the death benefit that is more than $10,000. For more information, see Calculate income tax deductions .\nReport the death benefit with Code 106 – Death Benefits in the \"Other information\" area at the bottom of the recipient’s T4A slip . The T4A slip should be issued in the name of the recipient, not in the name of the deceased.\n\n## Forms and publications\n- Interpretation Bulletin IT-508R , Death Benefits\n- Guide T4011, Preparing Returns for Deceased Persons\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

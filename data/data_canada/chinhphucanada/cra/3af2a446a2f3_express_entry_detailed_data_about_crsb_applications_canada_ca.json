@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "express_entry",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/benefits/recovery-sickness-benefit/crsb-statistics/crsb-data.html",
+  "title": "Detailed data about CRSB applications - Canada.ca",
+  "crawled_at": "2026-06-11T14:14:18.584210+07:00",
+  "content": "\n## Detailed data about CRSB applications\nDetailed CRSB statistics data since launch, as of July 10, 2022 . Footnote 1\n\n## Tables in PDF format\nThe following tables provide the total approved Canada Recovery Sickness Benefit (CRSB) applications administered by the Canada Revenue Agency (CRA).\nThe tables are broken down by unique applicants, total gross amounts, age group, gender, and province/territory where applicant resides:\n- Table 1: Number of CRSB applications, unique applicants and total gross amount (in $000), by province and territory\n- Table 2: Number of CRSB unique applicants, by province and territory, and age group\n- Table 3: CRSB total gross amount (in $000), by province and territory, and age group\n- Table 4: Number of CRSB unique applicants, by province and territory, and gender\n- Table 5: CRSB total gross amount (in $000), by province and territory, and gender\n- Table 6: Number of Canada Recovery Sickness Benefit (CRSB) applications and total gross amount (in $000) by province and territory and eligibility period\n\n## Tables in CSV format\n- Table 1: Number of CRSB applications, unique applicants and total gross amount (in $000), by province and territory\n- Table 2: Number of CRSB unique applicants, by province and territory, and age group\n- Table 3: CRSB total gross amount (in $000), by province and territory, and age group\n- Table 4: Number of CRSB unique applicants, by province and territory, and gender\n- Table 5: CRSB total gross amount (in $000), by province and territory, and gender\n- Table 6: Number of Canada Recovery Sickness Benefit (CRSB) applications and total gross amount (in $000) by province and territory and eligibility period\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

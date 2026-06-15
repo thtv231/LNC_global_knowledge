@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/calculate-prepare-report/software-gst-hst-internet-file-transfer.html",
+  "title": "Software for GST/HST Internet File Transfer - Canada.ca",
+  "crawled_at": "2026-06-11T12:43:32.931963+07:00",
+  "content": "\n## Software for GST/HST Internet File Transfer\nWe certify some existing third-party accounting software packages that allow you to create, upload and file your return using our GST/HST Internet File Transfer service.\nGST/HST Internet File Transfer has been designed to accept a specific file format ( .tax extension), and the CRA-certified software will include instructions on how to save your return in that format.\nCertified tax preparation software means that the developer of the software package has gone through a process with the Canada Revenue Agency (CRA) to establish that the particular package is compatible with the CRA systems. This does not mean that we endorse software products on this list, or recommend any one product over any other.\nThe following table contains the list of software certified for use with GST/HST Internet File Transfer. We will update this list as new software products are certified.\nIntuit QuickBooks Financial Software\nSage Software Canada, Ltd.\nSage 50 , Sage X3 , Sage Business Cloud Accounting\nBusiness Central - Microsoft Dynamics 365 GP, NAV\nNetSuite One World Cloud Service\nBlue Link Associates Limited\nSAP Business ByDesign\nSAP Document and Reporting Compliance\nOneSource Sales and Use Tax Compliance\nPricewaterhouseCoopers LLP (PwC Canada)\nReInvestWealth AI Accounting Software\nTaxually International\nSoftware developers produce software for retail use. If you are interested in developing electronic filing software, contact us at:\nGST/HST Electronic Filing Services Section Canada Revenue Agency East Tower - E03 Canada Post Place 750 Heron Road Ottawa, ON K1A 0L5\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

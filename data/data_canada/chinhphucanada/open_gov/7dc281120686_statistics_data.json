@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "http://open.canada.ca/data/en/dataset?res_format=JSON",
+  "title": "data",
+  "crawled_at": "2026-06-11T12:14:30.271689+07:00",
+  "content": "\n## We couldn't understand your request\nWe are sorry you ended up here. There are problems with the requested webpage address.\nOften this happens because an address was entered directly into your web browser.\nPlease try again searching with the appropriate Open Government form .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

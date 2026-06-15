@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/natural-non-prescription/applications-submissions/site-licensing/list-site-licence-holders.html",
+  "title": "List of site licence holders - Canada.ca",
+  "crawled_at": "2026-06-11T12:16:35.534466+07:00",
+  "content": "\n## List of site licence and foreign site reference number holders\nSite licence and foreign site reference number (FSRN) holders information is made available in PDF and CSV format. The information consists of Company Name, Address, City, Province/State, Country, Postal Code, Licence Number/FSRN, Licence/FSRN Status.\n\n## Site licence holder and foreign site reference number Search Page and data extracts\nWith the information now being updated once a day, search capabilities allows search field criterion such as: Company Name, Site Licence or FSRN, Licence Status and/or Licence Number.\nThe site licence holder and foreign site reference number extracts are available upon a search on the Site Licence Holders List search page and extracts will be available in PDF and CSV.\n- List of Site Licence and Foreign Site Reference Number Holders\n\n## For more information\n- For technical support or for general questions about the content of this database, please contact the Natural and Non-prescription Health Products Directorate (NNHPD) at nhp.initiative-psn@hc-sc.gc.ca",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

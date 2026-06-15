@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/f7d4c308-83e0-4e07-8f55-64a005c146cc",
+  "title": "Dose Data from the Fixed Point Surveillance Network - Open Government Portal",
+  "crawled_at": "2026-06-11T12:04:52.844687+07:00",
+  "content": "\n## Dose Data from the Fixed Point Surveillance Network\nThe Fixed Point Surveillance (FPS) network monitors public radiation dose due to radioactive materials in the atmosphere. The FPS network is used primarily to measure the external dose from three noble gases in particular: Argon-41, Xenon-133 and Xenon-135, as well as the total combined external dose from all sources, measured as Total Air KERMA.\n- Publisher - Current Organization Name: Health Canada\n- Licence: Open Government Licence - Canada\n- 2026 Dose Data from the Fixed Point Surveillance Network CSV English dataset CSV Explore Preview Download\n- 2026 Dose Data from the Fixed Point Surveillance Network CSV French dataset CSV Explore Preview Download\n- 2025 Dose Data from the Fixed Point Surveillance Network CSV English dataset CSV Explore Preview Download\n- 2025 Dose Data from the Fixed Point Surveillance Network CSV French dataset CSV Explore Preview Download\n- Data Dictionary TXT English data_dictionary TXT Explore Preview Download\n- Data Dictionary TXT French data_dictionary TXT Explore Preview Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

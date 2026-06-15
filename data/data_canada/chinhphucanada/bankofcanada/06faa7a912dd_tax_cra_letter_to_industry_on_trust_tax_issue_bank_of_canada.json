@@ -1,0 +1,12 @@
+{
+  "site": "Bank of Canada",
+  "site_url": "https://www.bankofcanada.ca",
+  "category": "banking",
+  "page_url": "https://www.bankofcanada.ca/2025/09/letter-to-industry-on-trust-tax-issue/",
+  "title": "Letter to Industry on Trust Tax Issue - Bank of Canada",
+  "crawled_at": "2026-06-11T12:02:04.645126+07:00",
+  "content": "\n## Letter to Industry on Trust Tax Issue\nTo: Payment Service Providers\nAs of September 8, 2025, the Bank of Canada’s mandate to supervise Payment Service Providers (PSPs) under the Retail Payment Activities Act (RPAA) is in effect, including regulatory obligations related to operational risk and end-user funds safeguarding. The Bank and the Department of Finance have been made aware of possible unintended tax consequences for PSPs seeking to comply with the safeguarding requirements of the RPAA using the “in trust in a trust account” method.\nTo hold end-user funds in trust, a PSP must establish a trust arrangement that forms a valid express trust arrangement. For PSPs retaining interest income on the end-user funds they hold, there may be unintended tax consequences or administrative burden (e.g. issuance of tax slips to the end-user) under the Income Tax Act . The Department of Finance and tax authorities are currently working with industry to resolve this issue in a timely manner and recognize its importance for PSPs seeking to establish trust arrangements as required under the RPAA .\nAs the Bank has previously communicated to industry, while PSPs are expected to be in compliance with all in-force provisions of the RPAA as of September 8, there may be some issues that a PSP is still working on to meet its compliance obligations. In these circumstances, the Bank will take into consideration whether a PSP has taken all reasonable steps available to it to meet their obligations. Given this tax issue, and its implications for PSPs establishing a trust arrangement, the Bank recognizes that some PSPs may not be able to meet trust arrangement requirements until this issue is resolved and will recognize this as part of its supervisory activities.\nThe Bank will commence its supervisory activities effective September 8, 2025 and PSPs should expect to provide information to demonstrate their operational risk and end-user fund safeguarding practices in response to Bank supervisory inquiries.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

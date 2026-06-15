@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/56db4a35-4c23-4865-a1b6-5d3c2e0cf236",
+  "title": "Number of Unique Visitors who Logged onto Learning Platform - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:51.682949+07:00",
+  "content": "\n## Number of Unique Visitors who Logged onto Learning Platform\nNumber of unique visitors who logged onto GCcampus/BrightSpace per month.\n- Publisher - Current Organization Name: Canada School of Public Service\n- Licence: Open Government Licence - Canada\n- GCcampus – Number of Unique Visitors per Month – 2017–2018 XLSX English French dataset XLSX Explore More information Go to resource\n- GCcampus – Number of Unique Visitors per Month – 2017–2018 CSV English French dataset CSV Explore More information Go to resource\n- Data Dictionary - GCcampus/BrightSpace 2021-2022 XLSX English French guide XLSX Explore More information Download\n- GCampus Number of Unique Visitors by Month - 2018-2019 XLSX English French dataset XLSX Explore More information Download\n- GCampus Number of Unique Visitors by Month - 2018-2019 CSV English French dataset CSV Explore More information Download\n- GCcampus Number of Unique Visitors by Month - 2019-2020 XLSX English French dataset XLSX Explore More information Download\n- GCcampus Number of Unique Visitors by Month - 2019-2020 CSV English French dataset CSV Explore More information Download\n- GCcampus Number of Unique Visitors by Month - 2020-2021 XLSX English French dataset XLSX Explore More information Download\n- GCcampus Number of Unique Visitors by Month - 2020-2021 CSV English French dataset CSV Explore More information Download\n- GCcampus/BrightSpace Number of Unique Visitors by Month - 2021-2022 XLSX English French dataset XLSX Explore More information Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

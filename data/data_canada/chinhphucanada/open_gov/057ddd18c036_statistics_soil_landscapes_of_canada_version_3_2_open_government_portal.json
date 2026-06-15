@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/5ad5e20c-f2bb-497d-a2a2-440eec6e10cd",
+  "title": "Soil Landscapes of Canada Version 3.2 - Open Government Portal",
+  "crawled_at": "2026-06-11T12:13:07.289045+07:00",
+  "content": "\n## Soil Landscapes of Canada Version 3.2\nThe “Soil Landscapes of Canada (SLC) Version 3.2” dataset series provides a set of geo-referenced soil areas (polygons) that are linked to attribute data found in the associated Component Table (CMP), Component Rating Table (CRT), Soil Names Table (SNT), Soil Layer Table (SLT), Landscape Segmentation Table (LST), Landform Extent Table (LET), Landform Definition Table and Ecological Framework Table (EFT). Together, these datasets describe the spatial distribution of soils and associated landscapes for the agricultural areas of Canada. However, some provinces (Alberta, Nova Scotia, and Prince Edward Island) contain CMP, SNT and SLT data for the entire province (that is, beyond the agricultural areas). This version is complemented by the previous SLC version 2.2, which covers the entire country.\n- Publisher - Current Organization Name: Agriculture and Agri-Food Canada\n- Licence: Open Government Licence - Canada\n- Pre-packaged FGDB files FGDB/GDB English French dataset FGDB/GDB Explore More information Go to resource\n- Pre-packaged GeoPackage (GPKG) files GPKG English French dataset GeoPackage Explore More information Go to resource\n- Pre-packaged CSV files CSV English French dataset CSV Explore More information Go to resource\n- Data Product Specification (English) PDF English guide PDF Explore More information Go to resource\n- Data Product Specification (French) PDF French guide PDF Explore More information Go to resource\nElectronic Mail Address: aafc.cansis-siscan.aac@agr.gc.ca",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

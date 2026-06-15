@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "express_entry",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/corporation-internet-filing/your-browser.html",
+  "title": "Your browser - Canada.ca",
+  "crawled_at": "2026-06-11T14:16:14.726724+07:00",
+  "content": "Only browsers that support Transport Layer Security (TLS) 1.2 or higher encryption can use Corporation Internet Filing. If your browser does not meet this requirement, you can either download a browser that supports this encryption or upgrade the one you currently have.\nWe recommend using a fully supported browser to ensure there are no problems accessing Corporation Internet Filing. Although other Web browsers may also function, the following have proven to work with Corporation Internet Filing:\n- Microsoft Internet Explorer (version 9 or higher)\nYou must ensure that your browser supports cookies and that cookies are enabled in your browser settings.\nAll browsers are configured a little differently, so you should check the Internet options of your browser for ways to enable the cookie function.\nThe Canada Revenue Agency is not responsible for any difficulties or problems in downloading and installing software. Technical support is provided by the software suppliers.\n\n### What if I do not upgrade my browser?\nIf your browser does not meet the requirements listed above, you may not be able to use Corporation Internet Filing.\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

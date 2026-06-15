@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/microdata/data-centres/training-events",
+  "title": "Training and events - RDC",
+  "crawled_at": "2026-06-11T12:55:09.954276+07:00",
+  "content": "\n## Training and events - RDC\nResearch Data Centre (RDC) staff provide training on the protection of the data and on statistical methods appropriate for complex survey designs. Additionally, through joint efforts, the Canadian Research Data Centre Network (CRDCN) and Statistics Canada make new types of data available to researchers, promote data via data announcements and workshops and support programs of research. In addition, Statistics Canada DAD partners in student research competitions with the CRDCN and SAS Canada.\nList of training sessions, webinars and events.\n- Upcoming workshops and seminars\n\n### Confidentiality Vetting\nThese videos are part of the confidentiality vetting support series and presents examples of how to use different statistical software packages to perform the analyses required for researchers working with confidential data.\n- Confidentiality Vetting support: Dominance and homogeneity using R\n- Confidentiality Vetting Support: Proportion and Round Tool using SAS\n- Confidentiality Vetting Support: Rounding Proportions using Stata\n- Confidentiality Vetting Support: Dominance and Homogeneity using SAS\n- Confidentiality Vetting Support: Dominance and Homogeneity using the tcensus function (Stata)\n- Confidentiality Vetting Support: Rounding proportions using Rounder – An R Shiny App\n- Confidentiality Vetting Support: Histogram Output in Stata\n\n## Other training resources\n\n### Data literacy training\nFor those who are new to data or those who have some experience with data but may need a refresher or want to expand their knowledge, we invite you to check out the Data Literacy website. This website includes a Learning Catalogue where you can learn more about offerings including a great collection of short videos. Be sure to check back regularly as new training is continually being released.\nStatistics Canada develops and delivers quality workshops, conferences and training that provide valuable information on relevant and current statistical topics and applications.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

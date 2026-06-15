@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+  "title": "Drug Product Database: Access the database - Canada.ca",
+  "crawled_at": "2026-06-11T12:04:26.631348+07:00",
+  "content": "\n## Drug Product Database: Access the database\nFor industry information about COVID-19, visit our COVID-19 Drugs and vaccines section.\nSearch the Drug Product Database (DPD) to find drugs authorized for sale by Health Canada. The DPD is updated nightly and includes:\n- availability of the drug in Canada\n- product monograph (PM) for human drugs\n- labels for animal drugs\nGeneric drug manufacturers must update their PM to ensure it aligns with the Canadian Reference Product. The Product Monograph Brand Safety Updates table provides updates on safety information in PMs of brand name pharmaceutical drug products.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

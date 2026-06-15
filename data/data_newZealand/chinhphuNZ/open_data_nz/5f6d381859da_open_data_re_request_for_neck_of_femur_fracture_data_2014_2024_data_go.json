@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1275",
+  "title": "Re-request for neck of femur fracture data 2014-2024\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:24:42.291133+07:00",
+  "content": "\n## Re-request for neck of femur fracture data 2014-2024\nRecent request was made for data looking at neck of femur fractures and their associated cost. Unfortunately data was not specific enough for the research analysis.\nSpecific READ codes have been reviewed and the following data is requested.\n\nTotal number of claims each calendar year from 2014 to 2024 including the READ codes:\nS30..\nS3003\nS3013\nS30y.\nS30z.\nS300.\nS3000\nS3002\nS3003\nS3005\nS3006\nS3007\nS3008\nS3009\nS302.\nS3021\nS3022\nS3023\nS3024\nS305.\nS30y.\nS3100\nS300y\nS300z\n\nData should also include the total number of claims broken down into 5 year age brackets from 0-100+ for each calendar year.\n\nDemographic data of the claims including age, ethnicity, gender (and location if available) should be included.\n\nAverage cost per claim and total cost associated with claims each year from 2014-2024 should also be included and be broken down into the average and total costs for claims within each 5 year age bracket from 0-100+ years old.\nThere is limited published data assessing neck of femur fracture rates in New Zealand. We aim to publish a scientific paper documenting current rates and project into the future using population data.\nThis data will allow us to analyse the changes in rate of neck of femur fractures in New Zealand. It will estimate the current costs of neck of femur fracture claims and project into the future those costs to allow for predictions of future healthcare expenditure and planning of service provision.\n\n### Response from Accident Compensation Corporation\nStatus Dataset submitted\nComments https://catalogue.data.govt.nz/dataset/femur-fractures\n\n#### Likely Source Agency\nAccident Compensation Corporation\n1\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tSubscriber",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

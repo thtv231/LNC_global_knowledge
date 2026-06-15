@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "http://open.canada.ca/data/en/dataset/9c52df44-7a34-4a73-a92a-5e3b20de6c73",
+  "title": "Field data for the mapping of the Lake St. Pierre wetlands (St. Lawrence River), 2012 - Open Government Portal",
+  "crawled_at": "2026-06-11T14:11:47.062832+07:00",
+  "content": "\n## Field data for the mapping of the Lake St. Pierre wetlands (St. Lawrence River), 2012\nObservations on various types of wetlands, terrestrial environments, and vascular plants for 102 sites visited in 2012 and located on Lake Saint-Pierre are included in this dataset. Since the 1970s, Environment and Climate change Canada (ECCC) has been monitoring changes in wetlands under the State of the St. Lawrence River Monitoring program of the St. Lawrence Action Plan.\nSupplemental Information\nDocument describing the methodology used for the field survey available upon request\nSupporting Projects: Changes in wetlands of the St. Lawrence River\n- Publisher - Current Organization Name: Environment and Climate Change Canada\n- Licence: Open Government Licence - Canada\n- MilieuxHumides-lacSaintPierre-inventaire-2012.csv CSV French dataset CSV Explore More information Go to resource\n- Wetlands-lakeSaintPierre-inventory-2012.csv CSV English dataset CSV Explore More information Go to resource\n- MilieuxHumides-lacSaintPierre-sites-2012.csv CSV French dataset CSV Explore More information Go to resource\n- Wetlands-LakeSaintPierre-sites-2012.csv CSV English dataset CSV Explore More information Go to resource\n- View ECCC Data Mart (English) HTML English web_service HTML Explore More information Go to resource\n- View ECCC Data Mart (French) HTML French web_service HTML Explore More information Go to resource",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

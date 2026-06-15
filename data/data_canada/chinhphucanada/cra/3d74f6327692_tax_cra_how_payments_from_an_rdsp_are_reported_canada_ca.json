@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-disability-savings-plan-rdsp/payments-rules/payments-rdsp-reported.html",
+  "title": "How payments from an RDSP are reported - Canada.ca",
+  "crawled_at": "2026-06-11T12:46:03.773885+07:00",
+  "content": "\n## Reporting of payments from an RDSP\nProceeds from rollover amounts as well as the grant, bond and investment income earned in the plan are included in the beneficiary's income for tax purposes when they are paid out of the RDSP. RDSP issuers report the taxable portions of the payments from the plan in box 131 , located in the \"Other information\" area of a T4A slip and send two copies of the slip to the beneficiary or the beneficiary's legal representative. The beneficiary has to include this amount as income on line 12500 - Registered disability savings plan (RDSP) income , of their income tax and benefit return for the year in which they receive it.\nFor more information on the taxable portion of the payments, see Tax payable on disability assistance payments (DAPs) .\n- Registered disability savings plan administration\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

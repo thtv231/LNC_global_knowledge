@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations/how-to-determine-what-is-controlled.html",
+  "title": "How to determine what is controlled as cannabis under the Cannabis Act - Canada.ca",
+  "crawled_at": "2026-06-11T13:20:56.582642+07:00",
+  "content": "\n## How to determine what is controlled as cannabis under the Cannabis Act\nCannabis is controlled under the Cannabis Act (the Act) and is defined as a cannabis plant as well as anything listed in Schedule 1 of the Act, but excluding anything listed in Schedule 2 . Schedule 1 includes:\n- any processed or unprocessed part of a cannabis plant, including its phytocannabinoids, but not including the excluded parts\n- any substance or mixture of substances that contains cannabis (such as liquids containing cannabis)\n- molecules that are identical to any phytocannabinoid produced by, or found in a cannabis plant, regardless of how they were obtained (such as THC or CBD obtained by extraction or synthesis)\nSchedule 2 of the Act lists the cannabis plant parts excluded from the regulatory definition of cannabis:\n- root or any part of the root\n- mature stalk (without any leaf, flower, seed or branch)\n- fibre derived from a mature stalk\n- a derivative made from non-viable seed, root or any part of the root, or fibre derived from a mature stalk\n- a derivative made from mature stalk if it does not contain an isolated or concentrated phytocannabinoid\nSchedule 2 means you can do activities, such as import, export, sell and process derivatives, with excluded cannabis plant parts without a licence. However, if you wish to isolate or concentrate phytocannabinoids from cannabis stalks, you would require a processing licence.\nHealth Canada also controls, on a case-by-case basis, molecules that are derivatives, isomers and metabolites of phytocannabinoids under the Act, depending on the structure of the molecule and how it was obtained.\nIf you need information on whether a substance is controlled under the Act, you can email the Cannabis Status Service at cs_sc@hc-sc.gc.ca .\n- Information about how hemp is regulated\n- How to determine what substances are controlled under the Controlled Drugs and Substances Act",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1260",
+  "title": "Perishable food waste in New Zealand retail supermarkets\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:24:19.189421+07:00",
+  "content": "\n## Perishable food waste in New Zealand retail supermarkets\nI am planning to research reducing perishable food waste in retail supermarkets in New Zealand using a machine learning approach. For this purpose, I intend to utilise secondary data on perishable food waste from supermarkets. I need data in Excel format.\nHigh wastages of perishable food from supermarkets in New Zealand.\nDeveloping a machine learning model to minimise the wastage from supermarkets.\n\n### Response from Statistics New Zealand\nStatus Data not available for release\nComments Stats NZ does not hold this type of data. I suggest trying an alternative source such as:\nhttps://lovefoodhatewaste.co.nz/food-waste/resources/research/\n\n#### Likely Source Agency\nStatistics New Zealand\n1\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tSubscriber",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

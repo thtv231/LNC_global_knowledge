@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-disability-savings-plan-rdsp/payments-rules.html",
+  "title": "Payments and rules - Canada.ca",
+  "crawled_at": "2026-06-11T14:18:21.090022+07:00",
+  "content": "This page provides information on the types of payments you can expect to receive from your RDSP, how they are calculated and how they are reported. We also provide information on the rules that apply when the grants and bonds exceed the contributions made to the RDSP. You will also find an example of the calculation to determine the amount of the payment and a tool for estimating the potential growth of the beneficiary's RDSP.\n- What types of payments are made from an RDSP\n- Additional rules if the RDSP is a primarily government-assisted plan (PGAP) in the year\n- Reporting of payments from an RDSP\n\n## Forms and publications\n- Guide RC4460, Registered Disability Savings Plan\n- Form T4A, Statement of Pension, Retirement, Annuity and Other Income\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

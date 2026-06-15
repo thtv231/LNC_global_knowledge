@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/20181844-93f9-4624-a9cf-f677336644fc",
+  "title": "Nutrient Data - Open Government Portal",
+  "crawled_at": "2026-06-11T13:18:48.262615+07:00",
+  "content": "Health Canada publishes two databases which list nutrient values in Canadian foods: The Canadian Nutrient File (CNF) and the Nutrient Value of Some Common Foods (NVSCF)\n- Publisher - Current Organization Name: Health Canada\n- Licence: Open Government Licence - Canada\n- Nutrient Data HTML English publication HTML Explore More information Go to resource\n- Nutrient Data HTML French publication HTML Explore More information Go to resource\n- The Canadian Nutrient File HTML English publication HTML Explore More information Go to resource\n- The Canadian Nutrient File HTML French publication HTML Explore More information Go to resource\n- Nutrient Value of Some Common Foods HTML English publication HTML Explore More information Go to resource\n- Nutrient Value of Some Common Foods HTML French publication HTML Explore More information Go to resource",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

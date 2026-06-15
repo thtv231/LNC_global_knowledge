@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/understanding-covid-19-testing.html",
+  "title": "Understanding COVID-19 testing - Canada.ca",
+  "crawled_at": "2026-06-11T13:39:03.034938+07:00",
+  "content": "\n## Understanding COVID-19 testing\nDownload in PDF format (702 KB, 1 page)\nOrganization: Public Health Agency of Canada\nDate published: 2020-08-07\n\n## Testing for the virus\nSample collection: A swab is taken from the inside of the nose or back of the throat.\nProcessing: Molecular tests detect whether there is genetic material from the virus.\n\n### Positive test result\nTrue positive: You are currently infected. Almost all positive results are true positives.\nFalse positive: You are not infected, but test positive (very rare).\n\n### Negative test result\nTrue negative: You are not currently infected. There is no risk of infecting others.\nFalse negative: You are infected, but test negative. Can happen when the test is done too early to detect the disease or when sample collection is poor.\nPositive test result: individual isolates.\nFalse negative test result: unaware of their infection and could infect others.\n\n## Testing accuracy depends on when you get tested\nTest accuracy based on a 5-day incubation period from exposure to symptoms.\n- Days 0-2: very low virus\n- Approximately 98% not detected Footnote *\n- Those tested too early will be unaware of infection and may infect others\n- Days 0 to 5: virus multiplying\n- Approximately 50% not detected Footnote *\n- Up to half of those tested will get a false negative result and may infect others\n- Day 5 or more: virus plentiful\n- Approximately 10% not detected Footnote *\n- Low false negative rate\n- Day 15 or more: virus decreasing\n- May take longer to recover from severe disease\n- May not be infectious to others\n\n## Testing for antibodies\nA blood test detects antibodies to the virus that usually start to appear when a person is recovering.\nThis blood test is not used to diagnose active COVID-19.\nResearch is underway to find out whether antibodies protect you from future infections.\nBased on preliminary data and expert opinion. Some do not develop symptoms. Test accuracy for asymptomatic cases is unclear as it is not known where they are in the disease timeline.\nReturn to footnote * referrer",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

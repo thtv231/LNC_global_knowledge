@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "express_entry",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/efile-electronic-filers/transmission-history.html",
+  "title": "Transmission history - Canada.ca",
+  "crawled_at": "2026-06-11T12:22:20.766852+07:00",
+  "content": "\n## Transmission history\nEFILE web service users are able to request a listing of initial and amended T1 return transmissions sent to the Canada Revenue Agency for which they were the transmitter. Transmissions for the entire filing program are available, from the first day of production up to the current date.\nTo view your transmission history, sign in with your EFILE number and password and select the action you want to perform on the resulting webpage. The options available are \"Accepted transmission(s)\"; \"Rejected transmission(s) requiring correction(s)\"; \"View ReFILE service transmission history\"; and \"Maintain account.\"\nThe webpage you selected will be displayed. On this screen you will enter the end date (in the format YYYYMMDD) on which you require the list to begin and then click on the \"Submit\" button.\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

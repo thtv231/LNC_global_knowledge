@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/business-registration/business-number-program-account.html",
+  "title": "Business number and CRA program accounts - Canada.ca",
+  "crawled_at": "2026-06-11T12:26:49.255887+07:00",
+  "content": "\n## Business number and CRA program accounts\nWhen you register your business, you get a unique 9-digit business number (BN) that identifies your business. Your BN is used to interact with provincial or territorial, municipal, and other federal programs.\nYou can only have one BN for your business. When you register for a program account, such as GST/HST or payroll, a program identifier and reference number are added to your existing BN.\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

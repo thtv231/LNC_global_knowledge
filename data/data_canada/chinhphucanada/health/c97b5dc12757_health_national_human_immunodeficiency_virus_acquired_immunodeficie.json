@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/corporate/mandate/about-agency/access-information-privacy/national-human-immunodeficiency-virus-syndrome-surveillance-system-april-2016.html",
+  "title": "National Human Immunodeficiency Virus/Acquired Immunodeficiency Syndrome (HIV/AIDS) Surveillance System (HASS) (April 2016) - Canada.ca",
+  "crawled_at": "2026-06-11T13:42:52.923579+07:00",
+  "content": "\n## National Human Immunodeficiency Virus/Acquired Immunodeficiency Syndrome (HIV/AIDS) Surveillance System (HASS) (April 2016)\n\n## Description of Initiative\nThe Public Health Agency of Canada (PHAC) manages  the National HIV/AIDS Surveillance System (HASS) and works in  collaboration with the provinces and territories (PTs).  HASS is a passive case-based surveillance system that collates non-nominal data  on HIV and AIDS cases in Canada. Data is voluntarily submitted to PHAC from all  PT public health authorities.\n\n### Why was a Privacy Impact Assessment  (PIA) completed?\nA  PIA was completed on HASS due to the sensitive nature of the personal  information collected by the HASS program.\nThis PIA focused on PHAC’s  collection, use, disclosure, retention and disposition of personal information  involved in HASS business processes. It did not include an examination of collection,  retention and disclosure practices of P/T partners; data received from the  Canadian Perinatal HIV Surveillance Program; and international notices of HIV  contacts or diagnoses for foreign nationals for the purpose of public health  follow-up.\nThe PIA recommended  mitigation actions in the following risk areas: data collection, retention and  disposition authorities; Threat and Risk Assessment (TRA); Statement of  Sensitivity (SoS); and safeguards.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

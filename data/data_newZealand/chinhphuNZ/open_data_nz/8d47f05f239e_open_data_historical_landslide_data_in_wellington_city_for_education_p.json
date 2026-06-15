@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1216",
+  "title": "Historical landslide Data in Wellington City for education purpose - Massey University\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:23:37.777722+07:00",
+  "content": "\n## Historical landslide Data in Wellington City for education purpose - Massey University\nI am doing Post Graduate diploma in Geospatial Science, and planning to do a project predicting land slide probability. For that I need the Historical landslide locations in wellington to train the model.\nAppreciate if I can get a suitable vector dataset.\nIdeally a Shapefiles (.shp) or GeoDatabase feature classes or GeoJSON or other vector formats\n\n### Response from Massey University\nComments We have closed your request due to the absence of a response to our email dated 8 May 2025.\nAs noted previously, we are unable to reasonably assume that we hold this information unless there is specific published research supporting it. Should you wish to proceed, please contact us at oia@massey.ac.nz to formally lodge a new request.\n\n#### Likely Source Agency",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

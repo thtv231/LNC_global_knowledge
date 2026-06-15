@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/catalogue-guide/showcase/thundermaps",
+  "title": "Thundermaps - Staying safe from hazards around you\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:08:50.605857+07:00",
+  "content": "\n## Thundermaps - Staying safe from hazards around you\nThunderMaps aims to make workplaces safer.\nIndividuals can see any dangers that are near their workplaces and surrounding environments, so they can be prepared and keep themselves safe.\nLaunched in 2012, Thundermaps has helped make millions of open data incidents available to members of the public, including police call-out locations, fire alerts, earthquakes, weather hazards and traffic accidents.\nThunderMaps is mobile hazard and incident reporting application.\nUsers automatically receive alerts for hazards and incidents using a combination of real-time open data, private data and crowdsourced data. They can see these events relative to their location, and can also investigate those reports.\nHazard and incident reporting is a key productivity driver within businesses, but when using traditional methods the processes involved are usually slow and time-consuming, and incur substantial costs. ThunderMaps offers offline mobile reporting, where users can report the location of incidents and events without reception. The report is then uploaded to other users and selected businesses when the user is back within mobile coverage. This has been especially valuable in the forestry, mining and energy sectors.\nWho: ThunderMaps What: A mobile hazard reporting application Where: https://www.thundermaps.com/ Why: Providing real-time risk awareness to ensure the right information gets to the right people When: From 2012\nData: Multiple traffic APIs Source: NZ Transport Agency Formats: API Licence: © NZ Transport Agency\nData: GeoNet data Source: GeoNet Formats: CSV, XML, JSON, KML Licence: Creative Commons Attribution 3.0\nData: Rainfall Source: Environment Canterbury Formats: CSV, XML, JSON, KML Licence: Creative Commons Attribution 3.0\nThe impacts of ThunderMaps include ‘real-time’ reporting, which reduces the occurrence of related incidents, brings immediate safety improvements, and provides the opportunity for quick analysis and elimination of hazards. Time and cost savings are made as mobile hazard reporting can easily be integrated into business processes.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

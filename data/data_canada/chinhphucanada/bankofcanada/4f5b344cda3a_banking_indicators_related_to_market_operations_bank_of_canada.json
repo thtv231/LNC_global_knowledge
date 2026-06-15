@@ -1,0 +1,12 @@
+{
+  "site": "Bank of Canada",
+  "site_url": "https://www.bankofcanada.ca",
+  "category": "banking",
+  "page_url": "https://www.bankofcanada.ca/rates/indicators/market-operations-indicators/",
+  "title": "Indicators related to market operations - Bank of Canada",
+  "crawled_at": "2026-06-11T12:01:52.759239+07:00",
+  "content": "\n## Indicators related to market operations\nA table of indicators related to the implementation of monetary policy that includes the operating band, settlement balances and other Bank of Canada operations.\n\n## Monetary Policy Implementation\n\n## Lynx Settlement Balances\nDaily Target Rate Intervention (Settlement Date Effect)\nOvernight Repos (OR) ($M)\nOvernight Reverse Repos (ORR) ($M)\nOther Bank of Canada Operations (Settlement Date Effect)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

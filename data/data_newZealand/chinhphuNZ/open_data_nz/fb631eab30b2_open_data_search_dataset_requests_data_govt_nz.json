@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/requests?AgencySearch=Ministry of Business, Innovation and Employment",
+  "title": "Search dataset requests\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:25:06.885339+07:00",
+  "content": "\n## Search dataset requests\n\n### Financial Service Provider Register\nCreated : 11 May 2026  —  Modified 20 May 2026 Status : Agency responded (19 May 2026) Response : Other\nCreated : 12 Mar 2026  —  Modified 23 Apr 2026 Status : Agency responded (23 Apr 2026) Response : Request received",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

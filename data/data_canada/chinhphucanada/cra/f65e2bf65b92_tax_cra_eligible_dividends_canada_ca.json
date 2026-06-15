@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/eligible-dividends.html",
+  "title": "Eligible dividends - Canada.ca",
+  "crawled_at": "2026-06-11T13:43:53.877059+07:00",
+  "content": "An eligible dividend is any taxable dividend paid to a resident of Canada by a Canadian corporation that is designated by that corporation to be an eligible dividend. A corporation's capacity to pay eligible dividends depends mostly on its status.\n- Designation of eligible dividends\n- General rate income pool (GRIP)\n- Low rate income pool (LRIP)\n- Election to treat excessive eligible dividend designations as ordinary dividends\n- Election not to be a Canadian-controlled private corporation (CCPC)\n\n## Forms and Publications\n- Form T2002, Election, or Revocation of an Election, Not to Be a Canadian-Controlled Private Corporation\n- Schedule 53, General Rate Income Pool (GRIP) Calculation\n- Schedule 54, Low Rate Income Pool (LRIP) Calculation\n- Schedule 55, Part III.1 Tax on Excessive Eligible Dividend Designations\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

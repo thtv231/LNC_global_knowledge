@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-disability-savings-plan-rdsp/cessation-disability-death-a-beneficiary.html",
+  "title": "Cessation of disability or death of a beneficiary - Canada.ca",
+  "crawled_at": "2026-06-11T13:48:48.415995+07:00",
+  "content": "\n## Cessation of disability or death of a beneficiary\n\n## What happens if the beneficiary is no longer approved for the DTC\nSince 2021, if a beneficiary is no longer approved for DTC, the holder of their RDSP has the option of closing the plan or keeping it open.\nIf the holder decides to keep it open, amounts can still be withdrawn from the RDSP, but:\n- new contributions are not allowed to be made to the RDSP\n- new grants or bonds cannot be paid to the RDSP\n- amounts from a deceased parent or grandparent’s RRSP, RRIF, RPP, PRPP or SPP which the beneficiary was financially dependent for support, can be rolled over into the RDSP provided the rollover is completed before the end of the fifth taxation year throughout which the beneficiary is no longer DTC-eligible\nThe grants and bonds that were received by the plan are not required to be repaid solely due to the loss of the beneficiary’s DTC approval.\nAmounts from the RDSP can still be withdrawn at the request of the holder. Prior to the year the beneficiary turns 60, withdrawals will result in the repayment of grants and bonds that were paid into the RDSP in the 10 years before the beneficiary lost their DTC approval.\nIf the beneficiary regains DTC approval, the RDSP will operate normally and contributions can be made to the plan.\n\n## What happens if the beneficiary dies\nThe RDSP must be closed and all amounts remaining in the plan must be paid out to the beneficiary's estate by December 31st of the year following the calendar year in which the beneficiary dies. Any funds remaining in the RDSP, after any required repayment of government grants and bonds, will be paid to the estate. If a DAP had been made and the beneficiary is deceased, the taxable portion of the DAP must be included in the income of the beneficiary's estate in the tax year in which the payment is made.\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

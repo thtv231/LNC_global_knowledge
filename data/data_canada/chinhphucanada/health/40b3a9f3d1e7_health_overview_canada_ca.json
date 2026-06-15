@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/licences/overview.html",
+  "title": "Overview - Canada.ca",
+  "crawled_at": "2026-06-11T13:11:07.376036+07:00",
+  "content": "MDALL contains product-specific information on all medical devices that are currently licensed for sale in Canada, or have been licensed in the past. This system has been designed to help health care workers, who are contemplating the purchase of a Class II, III or IV medical device, to verify that the manufacturer has an active medical device licence. Since medical device licences can be suspended by Health Canada, cancelled during the annual renewal of licences by Health Canada, or discontinued by the manufacturer, it is important to conduct this verification each time the purchase of a medical device is considered.\nThere are two types of searches supported in MDALL:\n- Search Active Licences and;\n- Search Archived Licences.\nSelecting Search Active Licences takes you to the Medical Devices Active Licence Search window. This window offers the capability to search the database using one of six available parameters: Company Name, Licence Name, Device Name, Company ID, Licence Number and Device Identifier. Only the products that are currently licensed for sale in Canada will be listed in the Search Active Licence window.\nSelecting Search Archived Licences takes you to the Medical Devices Archive Licence Search window. This area of the system provides information on all products ever licensed by the Medical Devices Bureau with the query result colour-coded. Obsolete products are displayed in red, while currently active product are in black. This window offers limited search capability with only three parameters available: Licence Number, Device Name and Device Identifier. The most recent Manufacturer and Licence Name are displayed.\nNote: Health Canada advises that medical devices that are not licensed for sale in Canada must not be imported or purchased by health care facilities or consumers.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

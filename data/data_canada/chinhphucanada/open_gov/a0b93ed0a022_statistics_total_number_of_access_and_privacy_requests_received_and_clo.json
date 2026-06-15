@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/bd6e7995-54c6-4e95-bd38-4c9afda69837",
+  "title": "Total number of Access and Privacy Requests Received and Closed - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:45.469795+07:00",
+  "content": "\n## Total number of Access and Privacy Requests Received and Closed\nThe Access to Information Act (ATIA) gives Canadian citizens, permanent residents, and other persons and corporations present in Canada the legal right to access records, in any form, that are under the control of a government institution, subject to limited and specific exemptions and exclusions, with decisions on the disclosure of government information reviewed independently of government.\nAs part of the Government’s commitment to transparency, the Directorate of Access to Information and Privacy (DAIP) at National Defence works continuously to respond to requests related to the ATIA. The following dataset shows the total numbers of information and privacy requests that DAIP has received and closed over a rolling 12 months period of November to October each year.\n- Publisher - Current Organization Name: National Defence\n- Publisher - Organization Name at Publication: Directorate of Access to Information and Privacy\n- Licence: Open Government Licence - Canada\n- Total number of Access Requests Received and Closed CSV English dataset CSV Explore More information Download\n- Nombre total de Demandes d'Accès à l’information Reçues et Fermées CSV French dataset CSV Explore More information Download\n- Total number of Privacy Requests Received and Closed CSV English dataset CSV Explore More information Download\n- Nombre total de Demandes de Renseignements Personnels Reçues et Fermées CSV French dataset CSV Explore More information Download\n- Access to information requests and privacy requests received and closed CSV English French dataset CSV Explore More information Download\n- Access to information requests received and closed – Number of requests, rolling 12 months CSV English French dataset CSV Explore More information Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

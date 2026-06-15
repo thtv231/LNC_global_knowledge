@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1246",
+  "title": "Injury Data for Paediatrics\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:25:09.130081+07:00",
+  "content": "\n## Injury Data for Paediatrics\nCurrently, I’m undertaking research related to Paediatric Trauma and need injury data, including new injury-related claims for those aged 0-15 years from 2012 to 2024 and active claims for the same group. The ethnicity and gender split is much appreciated.\nUnderstanding the burden of Paediatric injuries and providing necessary information to make policy and pretension decisions.\n\n### Response from Accident Compensation Corporation\nStatus Dataset submitted\nComments Kia ora, \n\nThe data to your official information act response, can be found here:\n\nhttps://catalogue.data.govt.nz/dataset/injury-data-for-children-aged-15-and-under\n\nNga mihi,\nAnalytics & Reporting\n\n#### Likely Source Agency\nAccident Compensation Corporation\n1\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tSubscriber",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

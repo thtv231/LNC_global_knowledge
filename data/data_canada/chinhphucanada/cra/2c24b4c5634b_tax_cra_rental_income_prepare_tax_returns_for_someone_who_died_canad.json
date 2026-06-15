@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/rental-income.html",
+  "title": "Rental income - Prepare tax returns for someone who died - Canada.ca",
+  "crawled_at": "2026-06-11T12:57:02.336951+07:00",
+  "content": "- Determine on which return to report rental income\n- Calculate the rental income of the person who died\n- Capital Cost Allowance (CCA) recapture or terminal loss\n\n## Determine on which return to report rental income\n- Before date of death : Option 1 Rental income earned between January 1 and the date of death must be reported in the final return on lines 12599 and 12600 .\n\n### Before date of death : Option 1\nRental income earned between January 1 and the date of death must be reported in the final return on lines 12599 and 12600 .\n- After date of death If the estate earned rental income after the date of death, it should be reported on line 8 of a T3 Trust Income Tax and Information Return (T3 Return) .\nIf the estate earned rental income after the date of death, it should be reported on line 8 of a T3 Trust Income Tax and Information Return (T3 Return) .\n\n## Calculate the rental income of the person who died\nCalculate the rental income of the person who died using the accrual or cash methods . Refer to the T4036, Rental Income guide for further details.\nThe calculation is completed in Form T776, Statement of Real Estate Rentals , which should be attached to a final return for income before the death or T3 Return for income after the death.\n\n## Capital Cost Allowance (CCA) recapture or terminal loss\nIf a deduction for CCA was ever claimed, recapture of CCA may need to be calculated and reported on the final return. Alternatively, a terminal loss may have to be calculated. Refer to recapture of capital allowance and terminal loss .\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

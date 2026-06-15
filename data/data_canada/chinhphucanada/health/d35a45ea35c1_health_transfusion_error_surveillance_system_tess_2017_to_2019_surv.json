@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/surveillance/blood-safety-contribution-program/transfusion-error-surveillance-system-2017-2019-infographic.html",
+  "title": "Transfusion error surveillance system (TESS): 2017 to 2019 Surveillance data - Canada.ca",
+  "crawled_at": "2026-06-11T13:39:12.550771+07:00",
+  "content": "\n## Transfusion error surveillance system (TESS), 2017-2019\nDownload the alternative format (PDF format, 151 Kb, 1 page)\n- Organization: Health Canada\n- Date published: September 2022\nTo improve transfusion processes and patient safety, TESS captures non-nominal data regarding errors that occurred at any point in the transfusion chain Footnote 1\nThis project was initiated in 2005. The Transfusion Error Surveillance System (TESS):2012-2016 report contains a detailed methodology of TESS\nFour jurisdictions participating in TESS monitor 16% of national blood transfusion activities in Canada\n\n## Surveillance data summary\n30,157 errors Footnote 2 (e.g. blood sample labelled with incorrect patient identification) were reported during 2017-2019\n0.1% of all reported errors resulted in harm Footnote 3 to the patient\nAll Errors: 30,157 (100%)\n- Near Miss: 29,095 (96.5%) Planned Discovery: 28,824 (95.6%) Unplanned Discovery: 271 (0.9%)\n- Planned Discovery: 28,824 (95.6%)\n- Unplanned Discovery: 271 (0.9%)\n- Actual Event: 1,062 (3.5%) Harm: 23 (0.1%) No Harm: 1,039 (3.4%)\n- No Harm: 1,039 (3.4%)\nNumber of errors (n)\nMedical/surgical ward\nOutpatient clinics and procedures\nTransfusion laboratory\nReporting and investigating errors in both transfusion services and clinical settings help identify and control risks before resulting in harm to the patient, thus providing valuable opportunities to improves transfusion safety\n\n## Learn more about TESS\nMore information on the Blood Safety Contribution Program web page",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

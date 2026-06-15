@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/research-programs-analytical-methods/analytical-methods/compendium-methods/join-mailing-list.html",
+  "title": "Join our Mailing List - Canada.ca",
+  "crawled_at": "2026-06-11T13:17:14.455036+07:00",
+  "content": "\n## Join our Mailing List\nTo subscribe, submit an email to analytical_methods-subscribe-request@list.hc-sc.gc.ca with the email subject containing only the text \" Subscribe \".\nYou will receive a confirmation e-mail from Analytical Methods. You must reply to this confirmation e-mail in order to activate your subscription.\n\n## Cancelling your subscription\nIf you are already a subscriber and wish to cancel, submit an email to analytical_methods-unsubscribe-request@list.hc-sc.gc.ca with the email subject containing only the text \" Unsubscribe \".\nYou will receive a confirmation e-mail from Analytical Methods.\nNote : If you're having problems subscribing or unsubscribing, contact mmc-cmm@hc-sc.gc.ca .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

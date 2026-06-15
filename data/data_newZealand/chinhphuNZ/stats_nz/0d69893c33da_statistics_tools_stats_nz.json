@@ -1,0 +1,12 @@
+{
+  "site": "Statistics New Zealand (Stats NZ)",
+  "site_url": "https://www.stats.govt.nz",
+  "category": "statistics",
+  "page_url": "https://www.stats.govt.nz/tools/?filters=Census&start=12",
+  "title": "Tools | Stats NZ",
+  "crawled_at": "2026-06-11T15:18:15.208624+07:00",
+  "content": "\n## Which industries contributed to your region’s GDP?\nAn interactive tool that shows the top five industries that contributed most to a selected region’s production measure of gross domestic product (GDP).\n\n## 2013 Census QuickStats about a place\nFind out how to get 2013 Census statistics by place.\n\n## Wellbeing time series explorer\nThe wellbeing time series explorer provides information on wellbeing measures such as overall life satisfaction, financial wellbeing, and self-rated general health status over the 2014, 2016, and 2018 general social survey (GSS).\n\n## 2018 Census table finder\nFind all datasets and tables from our 2018 Census publications with the 2018 Census table finder.\n\n## Which industries contributed to New Zealand’s GDP?\nWhich industries contributed to New Zealand’s GDP? is an interactive tool that shows the top 10 industries that contributed the most to the production measure of gross domestic product in a given year.\nBuild tables from our biggest range of datasets, including long-term time series. View on screen or download Excel or CSV files.\n\n## Disability estimates for small areas 2013\nThis interactive data tool allows people to look at the rate of disability and specific impairments across territorial authority areas in New Zealand.\n\n## Geographic data service\nSearch, browse, and download geographic boundaries and maps for New Zealand, plus a selection of 2018 and 2013 Census spatial data.\n\n## 2013 Census ethnic group profiles\nFind statistics from the 2013 Census about the different ethnic groups living in New Zealand.\nFind and download concepts and definitions, classifications, concordances, and standards used for data and statistical activities across government.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

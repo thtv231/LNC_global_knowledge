@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/application-information/forms/medical-devices-licence-amendment-form-guidance.html",
+  "title": "Regulatory enrolment process (REP) for medical devices",
+  "crawled_at": "2026-06-11T13:11:24.899135+07:00",
+  "content": "\n## Regulatory enrolment process (REP) for medical devices\nIn order to access the most up-to-date version of the template, please be reminded to delete your cache frequently and “refresh” the template links on your web browser prior to each use.\n\n## REP template & form links\n- Template revision history (2026-05-22)\n\n## Outside the regulatory transaction process\n\n### Company (CO) template (2026-05-22)\n- Required to obtain a company ID and/or provide updated company information to Health Canada.\n- Sent by email. Attach draft CO XML file to email prior to sending.\n- Attach draft CO XML file to email prior to sending.\n- Refer to section “Company enrolment/amendments process” of the REP guidance document for medical devices.\n\n### Dossier ID request form for medical devices\n- Required to obtain a dossier ID.\n- Refer to section “Dossier ID request process” of the REP guidance document for medical devices.\n\n## Within the regulatory transaction process\n\n### Regulatory transaction template (2026-05-22)\n- Required with each regulatory transaction filed to Health Canada.\n- Refer to section “Application process” of the REP guidance document for medical devices.\n\n### Application information template (2026-03-25)\n- Required for only a subset of transactions. Refer to section “Application information (AI) template and process” of the REP guidance document for medical devices.\n\n### Device details (2026-03-25)\n- Required for all new licence applications, as well as any amendment applications that may impact a manufacturers catalogue listing.\n- Download device details xlsx file\n\n### Application attestation form (2026-03-25)\n- Required for the initial transaction of a new regulatory activity\n- Download application attestation pdf form\n\n## Stylesheet download links\n- Download stylesheet zip file (2026-03-25)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

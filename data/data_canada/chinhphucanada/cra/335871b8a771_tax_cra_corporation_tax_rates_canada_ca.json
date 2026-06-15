@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html",
+  "title": "Corporation tax rates - Canada.ca",
+  "crawled_at": "2026-06-11T13:43:53.025105+07:00",
+  "content": "\n## Corporation tax rates\nThe basic rate of Part I tax is 38% of your taxable income, 28% after the federal tax abatement .\nAfter the general tax reduction , the net tax rate is 15% ( 7.5% for manufacturers of qualifying zero-emission technology).\nAn additional tax applies to banks and life insurers at a rate of 1.5% on taxable income (subject to a $100 million exemption to be shared by group members).\nFor Canadian-controlled private corporations claiming the small business deduction , the net tax rate is 9% ( 4.5% for manufacturers of qualifying zero-emission technology).\n\n## Provincial or territorial rates\nGenerally, provinces and territories have two rates of income tax – a lower rate and a higher rate.\nThe lower rate applies to the income eligible for the federal small business deduction. One component of the small business deduction is the business limit. Some provinces or territories choose to use the federal business limit . Others establish their own business limit.\nThe higher rate applies to all other income.\n\n### Provincial and territorial tax rates (except Quebec and Alberta)\nThe following table shows the income tax rates and business limits for provinces and territories (except Quebec and Alberta , which do not have corporation tax collection agreements with the CRA ). If the rate changes during the tax year, you have to base your calculation on the number of days in the year that each rate is in effect. For more information, go to Dual tax rates .\nProvince or territory\nNewfoundland and Labrador\nNorthwest Territories\nPrince Edward Island\n\n## Forms and publications\n- Guide T4012, T2 Corporation – Income Tax Guide\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/tax-slips/understand-your-tax-slips/t5-slips/t5008-statement-securities-transactions-slip-information-individuals.html",
+  "title": "T5008 Statement of Securities Transactions – slip information for individuals - Canada.ca",
+  "crawled_at": "2026-06-11T12:24:14.300910+07:00",
+  "content": "\n## T5008 Statement of Securities Transactions – slip information for individuals\nFor detailed information on the amounts shown in the boxes of your T5008 slip , see the corresponding box number below the following image:\nThis information slip reports the amount paid or credited to you for securities you disposed of or redeemed during the year. These transactions may be on account of income or capital. For more information, see Interpretation Bulletin IT-479, Transactions in Securities .\nIf you are an individual having to file a T1 return, report transactions on account of capital on Schedule 3 . You can report transactions on account of income as either business income ( line 13500 of your income tax return) or, for debt obligations in bearer form, as investment income ( line 12100 of your income tax return).\nSince the 2021 taxation year, financial institutions, traders or dealers in securities can send recipients who reside in Quebec a consolidated T5008/RL-18 slip for all transactions. We recommend reviewing each page carefully, as the transactions to be reported are located starting from page 3. For more information, visit the Revenu Québec website RL-18 Slip .\nThe amount in box 20 may or may not reflect your adjusted cost base (ACB) for the purpose of determining the gain or loss from the disposition of the security. You are required to make the adjustments, as needed, to the amount indicated in box 20, at the time of determining and reporting your gain or loss from the disposition.\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

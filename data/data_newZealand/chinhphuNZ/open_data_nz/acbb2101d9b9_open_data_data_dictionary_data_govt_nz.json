@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/toolkit/data-management/creating-a-data-dictionary",
+  "title": "Data dictionary\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:08:14.433945+07:00",
+  "content": "Data dictionaries make it easier and faster for others, and future you, to find and use your data. This means less time spent looking for data, duplicating data, or trying to understand it. This guide describes the what, why, and how of data dictionaries.\nWhat is a data dictionary?\nLearn the basics about data dictionaries. What are they, what do they look like, and what could they include?\nWhy create a data dictionary?\nFind out about the benefits of data dictionaries for individuals, organisations, and Aotearoa NZ. The benefits don't stop at merely describing your own data.\nHow do you create a data dictionary?\nLearn about the decisions you need to make before creating a data dictionary and the tools that might help. Explore examples of data dictionaries published by other government organisations.\n\n## Does this guidance help you?\nWe aim to provide guidance material that helps you with your data practice. Let us know if this content includes something missing, something confusing, or something unhelpful.\nWe can't help you, without you.\nIf you’d like more information, have a question, or want to provide feedback, email datalead@stats.govt.nz .\nContent last reviewed 11 January 2021.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

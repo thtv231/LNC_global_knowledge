@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/toolkit/data-capability-framework",
+  "title": "Data capability framework\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:08:26.034325+07:00",
+  "content": "\n## Data capability framework\n- Data capability framework guide This guide provides expanded information about the Data capability framework, including the levels of capability, descriptions of use, and example use cases.\n\n### Data capability framework guide\nThis guide provides expanded information about the Data capability framework, including the levels of capability, descriptions of use, and example use cases.\n- The framework by capability All 25 capabilities together, in no particular order. This view is useful if you want to get a complete view of the framework and the capabilities, regardless of their categories.\n\n### The framework by capability\nAll 25 capabilities together, in no particular order. This view is useful if you want to get a complete view of the framework and the capabilities, regardless of their categories.\n- The framework by category The capabilities in their 7 possible categories. Each of these categories relates to a stage in the data lifecycle. This view is useful if you want to focus in on a particular category to assess an individual or a team. Category: Plan Category: Collect Category: Describe Category: Store Category: Analyse Category: Use Category: Save/Destroy\n\n### The framework by category\nThe capabilities in their 7 possible categories. Each of these categories relates to a stage in the data lifecycle. This view is useful if you want to focus in on a particular category to assess an individual or a team.\n- Category: Save/Destroy\n\n#### Category: Save/Destroy\n- Data capability assessment questionnaire This questionnaire complements the guide to ensure the best use of the Data capability framework. Look through the guide first, as it will cover the purpose of the framework and the context for its use.\n\n### Data capability assessment questionnaire\nThis questionnaire complements the guide to ensure the best use of the Data capability framework. Look through the guide first, as it will cover the purpose of the framework and the context for its use.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

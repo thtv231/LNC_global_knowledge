@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/toolkit/data-management/managing-data-changes-for-comparison-over-time",
+  "title": "Managing data changes for comparison over time\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:08:22.768732+07:00",
+  "content": "Changes to data, statistics and information can happen over time, and can include changes to the structure of the information to improve accuracy, relevance or efficiency or to adhere to international best practice. They may be forced due to changes in the source data for other reasons. All such changes need to be managed to ensure information is comparable over time.\n- Recognise changes to the structure of your information.\n- Understand the need to manage changes to ensure continuity and consistency.\n- Understand the different types of changes to the data structure.\n- Understand the techniques available to maintain continuity.\nAny change in the data structure introduces a break in the time series. This is called a discontinuity.\nPoints of discontinuity in a time series must be identified and explained.\nSubstantial revisions to time series should, if possible, provide:\n- consistent back-data series\n- analysis of the differences between the old and revised series\n- explanation of the effect on any previously published commentary or interpretation.\nUsers must be advised of substantial conceptual and methodological changes before statistics are released based on the new methods.\nA number of statistical modelling methods are available to produce estimates for past time periods under the new measurement conditions. This is called backcasting.\nThe method chosen depends on the needs of the users, and the availability of information and resources.\n- Principles and Protocols for producers of Tier 1 statistics (New Zealand’s most important official statistics): Protocol 1 – Quality Element 7 – Consistency\n- Protocol 1 – Quality Element 7 – Consistency\n- Element 7 – Consistency",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

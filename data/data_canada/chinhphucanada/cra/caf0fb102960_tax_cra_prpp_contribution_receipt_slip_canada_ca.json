@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pooled-registered-pension-plan-prpp-information-individuals/prpp-contribution-receipt-slip.html",
+  "title": "PRPP contribution receipt slip - Canada.ca",
+  "crawled_at": "2026-06-11T12:24:15.912244+07:00",
+  "content": "\n## PRPP contribution receipt slip\nThe PRPP contract number issued by the administrator of the PRPP.\n\n### Employee contributed amount prior year\nThis is the PRPP contribution made by the employee, in dollars and cents, in the final 10 months of the prior year. Enter this amount on line 2 of Schedule 7.\n\n### Employee contributed amount current year\nThis is the PRPP contribution made by the employee, in dollars and cents, in the first 60 days of the current year. Enter this amount on line 3 of Schedule 7.\n\n### Employee contributed amount from exempt income prior year\nThis is the PRPP contribution made by the employee, in dollars and cents, in the final 10 months of the prior year from exempt income. For more information refer to Form RC383, Tax-Exempt Earned Income and Contributions for a Pooled Registered Pension Plan .\n\n### Employee contributed amount from exempt income current year\nThis is the PRPP contribution made by the employee, in dollars and cents, in the first 60 days of the current year from exempt income. For more information refer to Form RC383, Tax-Exempt Earned Income and Contributions for a Pooled Registered Pension Plan .\n\n### Employer contributed amount\nThis is the PRPP contribution made by the employer, in dollars and cents, between January 1st and December 31st of the tax year.\n\n### Forms and publications\n- Guide T4040, RRSPs and Other Registered Plans for Retirement\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

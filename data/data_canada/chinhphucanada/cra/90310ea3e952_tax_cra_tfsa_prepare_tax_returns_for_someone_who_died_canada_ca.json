@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/tfsa.html",
+  "title": "TFSA - Prepare tax returns for someone who died - Canada.ca",
+  "crawled_at": "2026-06-11T12:57:00.884434+07:00",
+  "content": "When the holder of a deposit or an annuity contract under a TFSA dies, the holder is considered to have received, immediately before death, an amount equal to the fair market value (FMV) of all the property held in the TFSA at the time of death.\nAs a result, no income should be reported by the deceased on the Final Return or any optional T1 returns.\nAfter the holder's death, the annuity contract is no longer considered a TFSA and all earnings after the holder's death are taxable to the beneficiaries in the year they receive this income. For more information, see Guide RC4466 , Tax-Free Savings Account (TFSA), Guide for Individuals .\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

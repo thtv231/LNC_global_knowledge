@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/data-sources/prices-price-indexes?wbdisable=true",
+  "title": "Administrative data sources in the research and production of official statistics – Prices and price indexes",
+  "crawled_at": "2026-06-11T12:54:59.117886+07:00",
+  "content": "\n## Administrative data sources in the research and production of official statistics – Prices and price indexes\n- Consumer price indexes\n\n## Consumer price indexes\nStatistics Canada uses the following insurance rate data:\n- passenger vehicle insurance rates\n- homeowners' home insurance rates.\nThe following statistical program uses these data for statistical and research purposes only:\n- Consumer Price Index\nPersonal information is not included in these data.\nStatistics Canada uses the following retail scanner data:\n- retail sales; prices and volumes.\nStatistical programs using these data for statistical and research purposes only:\n- Consumer Price Index\n- Retail Trade Survey (Monthly)\nPersonal information is not included in these data.\n\n### Cellular service rates\nStatistics Canada uses the following cellular service rate data:\n- Cellular plan and rate data\nThe following statistical program uses these data for statistical and research purposes only:\n- Consumer Price Index\nPersonal information is not included in these data.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

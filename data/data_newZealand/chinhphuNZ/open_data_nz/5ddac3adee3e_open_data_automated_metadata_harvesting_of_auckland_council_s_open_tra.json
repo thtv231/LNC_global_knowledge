@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/blog/automated-metadata-harvesting-of-auckland-councils-open-transport-data",
+  "title": "Automated metadata harvesting of Auckland Council's open transport data\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:10:11.628785+07:00",
+  "content": "\n## Automated metadata harvesting of Auckland Council's open transport data\nEarly in April (prior to our launch of data.govt.nz), I met with Stu Smith and Helen Donaldson from the Auckland Council open data Community of Practice to demo and discuss data.govt.nz's new features.\nTheir new Geographic Information System open data portal has recently featured in NZ Surveying+Spatial Magazine and the article mentions that \"harvesting links between data repositories is important\".\nI recorded a walk-through of the data preview features on data.govt.nz, including geojson map layers, geospatial searching and the tabular data explorer.\nWe also did a live metadata harvest of Auckland Council's transport data in the process (may as well get some work done at the same time right?).\nI'm interested in getting more local and regional government open datasets to data.govt.nz and taking advantage of some 'easy-wins'.\nFor example, the geospatial portal Auckland Council use includes an international open standard data catalog harvesting end point used globally by many other open data portals. This endpoint automatically provides data.govt.nz with the metadata it needs to fully automate the update process.\n\"Metadata that informs you of when the data has been updated is gold, so metadata harvesting is the key to making open data relevant and current!\" ~ Stu Smith, Auckland Council GIS team.\nAuckland Council simply release their data via their o pen data portal as usual, and data.govt.nz checks the endpoint periodically to see if there's anything new or updated. If there is a change, data.govt.nz gets updated 'automagically', saving time, effort and making the process of open data release more sustainable in the long term.\nIf you’re a local or regional government open data custodian, get in touch if you'd like to talk about open data and how data.govt.nz can help New Zealanders discover and use your data.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

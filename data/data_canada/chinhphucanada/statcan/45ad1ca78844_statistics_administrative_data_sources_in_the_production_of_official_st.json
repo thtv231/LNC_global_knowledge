@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/our-data/data-sources/business-consumer-services-culture",
+  "title": "Administrative data sources in the production of official statistics – Business and consumer services and culture",
+  "crawled_at": "2026-06-11T12:13:16.781476+07:00",
+  "content": "\n## Administrative data sources in the production of official statistics – Business and consumer services and culture\n\n### Provincial film and television production data\nStatistics Canada uses the following provincial film and television production data:\n- start and end dates of filming activity\n- total production expenditures\n- salaries, wages and benefits.\nThe following statistical program uses these data for statistical and research purposes only:\n- Survey of Service Industries: Film, Television and Video Production\nPersonal information is not included in these data.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

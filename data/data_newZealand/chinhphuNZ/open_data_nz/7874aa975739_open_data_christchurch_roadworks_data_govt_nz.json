@@ -1,0 +1,12 @@
+{
+  "site": "Data.govt.nz (Open Data NZ)",
+  "site_url": "https://data.govt.nz",
+  "category": "open_data",
+  "page_url": "https://data.govt.nz/datasetrequest/show/1319",
+  "title": "Christchurch Roadworks\n\t - data.govt.nz",
+  "crawled_at": "2026-06-11T15:08:37.748053+07:00",
+  "content": "\n## Christchurch Roadworks\nA layer that displays Roadworks (Excavation, Non-excavation and Events) across the Christchurch City region sourced from MyWorksites. The layer would display the location and extent of project sites lodged in the MyWorksites system, across the Christchurch City region. MyWorksites is an online system for managing Corridor Access Requests (CARs) and Traffic Management Plans (TMPs) The data would be extracted using the MyWorksites API feed and refreshed on a daily basis.\n\nAuckland Transport already has this, see: https://data-atgis.opendata.arcgis.com/datasets/ATgis::roadworks/about\nUnderstanding when works are planned or occurring in an area to allow people to make informed travel choices.\nMaking the data more accessible may allow new and innovative solutions to be developed in the community.\n\n#### Likely Source Agency\nChristchurch City Council",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

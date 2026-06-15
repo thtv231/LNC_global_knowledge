@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "tax_cra",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/sole-proprietorships-partnerships/t5013-partnership-information-return-filing-requirements/reporting-partnership-income.html",
+  "title": "Reporting partnership income - Canada.ca",
+  "crawled_at": "2026-06-11T14:12:32.302127+07:00",
+  "content": "\n## Reporting partnership income\nGenerally, a partnership does not pay income tax on its income and does not file an income tax return.\nInstead, each partner files an income tax return to report their share of the partnership's net income or loss.\nThis requirement for each partner to report their share of the partnership's net income is the same whether the share of income was received in cash or as a credit to one of the partnership's capital accounts.\nAlthough the partnership can have a loss, the loss carry-over rules apply to each partner and not to the partnership.\nFor example, when you complete your own income tax return, combine your share of the partnership non-capital losses with any other non-capital losses you have in the year. Apply this amount against your income .\nThe losses can be carried back 3 years and carried forward for 20 years for n on-capital losses, farming or fishing losses, restricted farming or fishing losses, and life insurers' Canadian life investment losses incurred.\nFor information about the loss carry-forward period for non-capital losses, go to Line 25200 – Non-capita l losses of other years .\n\n## Forms and publications\n- T4002, Self-employed Business, Professional, Commission, Farming, and Fishing Income\n- T5013 forms and T4068, Guide for the Partnership Information Return\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

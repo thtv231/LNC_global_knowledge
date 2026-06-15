@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/e7cd6412-a544-48cf-8e56-7bc1502716de",
+  "title": "Travel history - Open Government Portal",
+  "crawled_at": "2026-06-11T12:12:52.227005+07:00",
+  "content": "Data containing the details of trips made via the BIXI Montréal self-service bike network.\nDisclaimer: The intellectual property rights and copyright of this data set are owned by BIXI Montreal. Under the Creative Commons Attribution License, authorship of the data must be attributed to BIXI Montreal.\n\n#### Made available by the Government and Municipalities of Québec\nThese resources are not under the control of the Government of Canada and the link is provided solely for the convenience of our website visitors. We are not responsible for the accuracy, currency or reliability of the content of this website. The Government of Canada does not offer any guarantee in that regard and is not responsible for the information found through this link.\nVisitors should also be aware that information offered by this non-Government of Canada site is not subject to the Privacy Act or the Official Languages Act and may not be accessible to persons with disabilities. The information offered may be available only in the language used by the site. With respect to privacy, visitors should research the privacy policies of this non-government website before providing personal information.\n- Publisher - Current Organization Name: Government and Municipalities of Québec\n- Licence: Creative Commons 4.0 Attribution (CC-BY) licence – Quebec\n- BIXI trips - per month CSV French dataset CSV Explore More information Go to resource\n- Original metadata (https://www.donneesquebec.ca) HTML French website HTML Explore More information Go to resource\nElectronic Mail Address: donneesouvertes@montreal.ca",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/969c8571-3330-4d16-9757-fb11a98acef6",
+  "title": "The commuter air pollution intervention study (CAPI) volatile organic compound (VOC) dataset - Open Government Portal",
+  "crawled_at": "2026-06-11T12:04:52.806742+07:00",
+  "content": "\n## The commuter air pollution intervention study (CAPI) volatile organic compound (VOC) dataset\nAlthough traffic pollutants can travel long distances, exposure to the highest levels of emissions occurs closest to the source, e.g., in a car in dense traffic. Time spent in vehicles may contribute up to half of commuters’ daily exposure to certain air pollutants. The commuter air pollution intervention study (CAPI) was conducted in 2014 in Montreal, Quebec. As part of a broader intervention study, Health Canada measured air pollutant levels inside and outside of cars driven for two hours through rush hour traffic during the fall. This dataset presents the descriptive VOC statistics obtained as part of this study and is intended to provide relevant Canadian data on exposure to VOCs while driving.\n- Publisher - Current Organization Name: Health Canada\n- Licence: Open Government Licence - Canada\n- Commuter air pollution intervention study (CAPI) VOC Dataset CSV English dataset CSV Explore Preview Download\n- Commuter air pollution intervention study (CAPI) VOC Dataset CSV French dataset CSV Explore Preview Download\n- Dataset readme file TXT English data_dictionary TXT Explore More information Download\n- Dataset readme file TXT French data_dictionary TXT Explore More information Download",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/census-environment/reference?wbdisable=true",
+  "title": "Reference materials, Census of Environment",
+  "crawled_at": "2026-06-11T12:55:17.970477+07:00",
+  "content": "\n## Reference materials, Census of Environment\nReference and documentation for the Census of Environment are intended to support the use of the data and provide additional sources of information for our users.\n\n## Environmental-economic accounting\nEcosystem accounting is a framework to track the extent, condition, and services of ecosystems over time.\n- Canadian System of Environmental-Economic Accounts - Ecosystem Accounts\n- Canadian System of Environmental-Economic Accounts - Natural Resource Asset Accounts\n- System of Environmental Economic Accounting Central Framework\n- System of environmental Economic Accounting Ecosystem Accounting\n\n## Geographic classification\nCensus of Environment data are aggregated and reported for different geographic areas, with a focus on ecological and hydrological boundaries:\n- Ecological Land Classification (ELC) 2017\n- Federal Marine Bioregions\n- Standard Drainage Area Classification (SDAC) 2003\nInformation on the Standard Geographical Classification, the Population Centre and Rural Area Classification, and other classifications is available on the Geographic classifications page.\n\n## Methods and documentation\nThis includes documentation and technical papers that describe methods or provide a framework for the development of ecosystem accounts as part of the Census of Environment. Ecosystem accounts will measure ecosystem extent, condition and services following the internationally accepted environmental-economic accounting standard.\n- Methodological Guide: Canadian System of Environmental-Economic Accounting\n- Ecosystem Accounting for Large Urban Areas in Canada\n- Ecosystem accounting in Canadian agroecosystems\n- Valuing the Salt Marsh Ecosystem: Developing Ecosystem Accounts\n- The Water Yield for Canada As a Thirty-year Average (1971 to 2000): Concepts, Methodology and Initial Results: Main article\nThe Census of Environment produces data that can support reporting for these relevant indicator frameworks:\n- Kunming-Montreal Global Biodiversity Framework\n- United Nations Sustainable Development\n- Canadian environmental sustainability indicators",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

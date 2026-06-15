@@ -1,0 +1,12 @@
+{
+  "site": "Environment and Climate Change Canada",
+  "site_url": "https://www.canada.ca/en/environment-climate-change.html",
+  "category": "statistics",
+  "page_url": "https://www.canada.ca/en/environment-climate-change/services/weather-general-tools-resources/canadian-surface-weather-climate-monitoring-dataset-catalogue.html",
+  "title": "Canadian Surface Weather and Climate Monitoring Dataset Catalogue  - Canada.ca",
+  "crawled_at": "2026-06-11T12:57:15.294209+07:00",
+  "content": "\n## Canadian Surface Weather and Climate Monitoring Dataset Catalogue\nMany groups across Canada collect weather and climate information. Governments at all levels, along with non-government groups, universities, and private companies, gather this data to support their work. They use it to help with things like fighting wildfires, managing water resources, and keeping roads safe.\nWe created the Canadian Surface Weather and Climate Monitoring Dataset Catalogue to make this data easier to find. It's a single place to find information about weather and climate monitoring across Canada.\nWe update and maintain the catalogue every four months with our current partners in these provinces and territories:\n- Northwest Territories\n- Prince Edward Island\n- Newfoundland and Labrador\n\n## What's in the Catalogue?\nThe Catalogue gives you information about each dataset. You can find:\n- The monitored location\n- The number of weather stations\n- The reported weather details (like temperature , precipitation , and wind speed )\n- Where to get the public data (like the Meteorological Service of Canada [MSC] Datamart )\n\n## Search the Catalogue\nGo to the search bar at the top of the catalogue screen. You can search by:\n- Location (type in a province or territory)\n- Any filters on the left side of the screen\nFor more information on the catalogue, or if you would like to add a new dataset, please contact us at SurveillanceCollaborative-CollaborativeMonitoring@ec.gc.ca .\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

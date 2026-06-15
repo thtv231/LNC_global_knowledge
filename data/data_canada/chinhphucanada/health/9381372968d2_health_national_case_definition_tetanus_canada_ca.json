@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/immunization/vaccine-preventable-diseases/tetanus/health-professionals/national-case-definition.html",
+  "title": "National case definition: Tetanus - Canada.ca",
+  "crawled_at": "2026-06-11T13:38:40.927710+07:00",
+  "content": "\n## National case definition: Tetanus\nDate of last revision/review: May 2008\n\n## National notification\nOnly confirmed cases of disease should be notified.\n\n## Type of surveillance\nRoutine case-by-case notification to the federal level\nClinical evidence of illness (see Clinical evidence section) without other apparent medical cause with or without isolation of Clostridium tetani and with or without history of injury\nClinical illness is characterized by acute onset of hypertonia and/or painful muscular contractions (usually of the muscles of the jaw and neck), and generalized muscle spasms without other apparent medical cause.\n\n### ICD-9/ICD-9CM code(s)\nDetection of C. tetani toxin should not be considered among the list of laboratory methods for confirmation of tetanus since this assay is not available or in use.\n\n## Previous case definitions\nCanadian Communicable Disease Surveillance System: disease-specific case definitions and surveillance methods. Can Dis Wkly Rep 1991;17(S3).\nCase definitions for diseases under national surveillance. CCDR 2000;26(S3).\nRetrieved May 2008, from http://www.phac-aspc.gc.ca/publicat/ccdr-rmtc/00vol26/26s3/index.html",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

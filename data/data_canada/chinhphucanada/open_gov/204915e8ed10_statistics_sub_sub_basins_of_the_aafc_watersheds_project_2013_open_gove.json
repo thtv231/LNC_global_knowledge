@@ -1,0 +1,12 @@
+{
+  "site": "Open Government Canada",
+  "site_url": "https://open.canada.ca/en",
+  "category": "statistics",
+  "page_url": "https://open.canada.ca/data/en/dataset/0e62c919-4933-40d4-8e77-8057f343e8af",
+  "title": "Sub-sub-basins of the AAFC Watersheds Project - 2013 - Open Government Portal",
+  "crawled_at": "2026-06-11T12:13:07.771886+07:00",
+  "content": "\n## Sub-sub-basins of the AAFC Watersheds Project - 2013\nThe “Sub-sub-basins of the AAFC Watersheds Project – 2013” dataset is a geospatial data layer containing polygon features representing the Standard Drainage Area Classification (SDAC) 2003 defined sub-sub-drainage areas of the Agriculture and Agri-Food Canada (AAFC) Watersheds Project.\nCanada has eleven major drainage areas which are divided into 164 sub-drainage areas; the 164 sub-drainage areas are then further divided into 978 sub-sub-drainage areas. All drainage areas, sub-drainage areas and sub-sub-drainage areas are named and have an identifying ‘number’. Sub-sub-drainage areas have ‘numbers’ that share a common ‘four-character’ designation. For example, the 05AB sub-sub-basin contains amongst others, station 05AB006, while the 05AC sub-sub-basin contains station 05AC007 (and others).\n- Publisher - Current Organization Name: Agriculture and Agri-Food Canada\n- Licence: Open Government Licence - Canada\n- Data Product Specification (English) PDF English guide PDF Explore More information Go to resource\n- Data Product Specification (French) PDF French guide PDF Explore More information Go to resource\n- Pre-packaged FGDB files (Bilingual) FGDB/GDB English French dataset FGDB/GDB Explore More information Go to resource\n- Pre-packaged GeoJSON files (Bilingual) GEOJSON English French dataset GEOJSON Explore More information Go to resource\nElectronic Mail Address: Agri-Geomatics-Agrog@agr.gc.ca",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

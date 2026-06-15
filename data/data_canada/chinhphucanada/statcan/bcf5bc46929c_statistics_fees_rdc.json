@@ -1,0 +1,12 @@
+{
+  "site": "Statistics Canada (StatCan)",
+  "site_url": "https://www.statcan.gc.ca",
+  "category": "statistics",
+  "page_url": "https://www.statcan.gc.ca/en/microdata/data-centres/fees",
+  "title": "Fees - RDC",
+  "crawled_at": "2026-06-11T12:55:09.930044+07:00",
+  "content": "- University access fees\n- Government access fees\n\n## University access fees\nFor academic researchers, fees are determined upon proposal submission in accordance with the Canadian Research Data Centre Network (CRDCN) Access and Fee for Service (AFFS) Policy .\nFor more information, please contact the CRDCN .\n\n## Government access fees\n\n### Government and non-government organization access fees\nFor non-academic researchers, including government researchers and those working for non-government organizations, fees are determined upon proposal submission based on the access needs of the research team, accessing organization and location of access.\nFor more information, please contact our client service team .",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

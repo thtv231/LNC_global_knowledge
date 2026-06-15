@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity/biosafety-directives-advisories-notifications.html",
+  "title": "Biosafety directives and advisories – Public Health Agency of Canada - Canada.ca",
+  "crawled_at": "2026-06-11T12:26:42.540061+07:00",
+  "content": "\n## Biosafety directives and advisories\n\n## Biosafety directives\nBiosafety directives provide regulated parties with the customized containment requirements for activities with a specific pathogen or group of pathogens when the containment level does not align with the risk group.\n- New and emerging influenza A viruses ( Alphainfluenzavirus influenzae ) (November 15, 2024)\n- Risk group 3 fungi (March 31, 2023)\n- Human immunodeficiency virus (HIV), human T-lymphotropic virus (HTLV), and related simian retroviruses (June 1, 2017)\n- Mycobacterium tuberculosis complex (MTBC) (March 10, 2017)\n\n## Biosafety advisories\nBiosafety advisories are developed when the data obtained from a risk assessment of a new or emerging pathogen of interest indicates that new physical or operational requirements are required to work with the pathogen safely. The new operational and physical requirements need to be disseminated to interested parties as soon as possible.\n- Avian influenza A(H5N1) (June 28, 2024)\n- Monkeypox virus (MPXV) (August 10, 2022)\n- Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (July 5, 2022)\n- Zika Virus (April 14, 2016)\n- Middle East Respiratory Syndrome Coronavirus (MERS-CoV) (Updated July 7, 2015)\n- Efficiently Transmissible Engineered Influenza A H5N1 Viruses: Biosafety Advisory (February 1, 2012)",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

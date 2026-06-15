@@ -1,0 +1,12 @@
+{
+  "site": "CRA (Canada Revenue Agency)",
+  "site_url": "https://www.canada.ca/en/revenue-agency.html",
+  "category": "express_entry",
+  "page_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/sole-proprietorships-partnerships/t5013-partnership-information-return-filing-requirements/capital-cost-allowance-partnership.html",
+  "title": "Capital cost allowance (CCA) – Partnership - Canada.ca",
+  "crawled_at": "2026-06-11T14:12:31.993302+07:00",
+  "content": "\n## Capital cost allowance (CCA) – Partnership\nA partnership can own depreciable property and claim capital cost allowance (CCA) on it. Individual partners, however, cannot claim CCA on property the partnership owns .\nThe partnership can deduct CCA on the depreciable property it owns, to the extent allowed under the Regulations. The partnership can deduct CCA up to the maximum available for the fiscal period, or it can deduct none at all. Generally, if a fiscal period is less than 12 months, you have to prorate the deduction based on the number of days in the fiscal period.\nIf the partnership's activities include a rental operation, some restrictions apply to the amount of CCA the partnership can claim for the rental assets.\nFrom the capital cost of depreciable property, subtract any investment tax credit allocated to the individual partners. We consider this allocation to be made at the end of the partnership's fiscal period . You also reduce capital cost by any type of government assistance.\nBox 040 of your Form T5013, Statement of Partnership Income will show the amount of CCA the partnership claimed on your behalf. This amount has already been deducted from the business income in box 116 or the professional income in box 120 of the T5013 slip. Do not deduct this amount again.\nAny taxable capital gain or recapture from the sale of property the partnership owns is income of the partnership.\nAlso, any allowable capital or terminal loss from the sale of partnership-owned property is the loss of the partnership.\n\n## Forms and publications\n- Guide T4068, Guide for the Partnership Information Return (T5013 Forms)\n- Guide T4002, Self-employed Business, Professional, Commission, Farming, and Fishing Income\n- Claiming capital cost allowance (CCA)\n\n### Give feedback about this page\nThank you for your feedback.",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}

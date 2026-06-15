@@ -1,0 +1,12 @@
+{
+  "site": "Health Canada",
+  "site_url": "https://www.canada.ca/en/health-canada.html",
+  "category": "health",
+  "page_url": "https://www.canada.ca/en/public-health/services/diseases/flu-influenza/influenza-surveillance/influenza-surveillance-resources.html",
+  "title": "Influenza surveillance resources - Canada.ca",
+  "crawled_at": "2026-06-11T13:38:30.995183+07:00",
+  "content": "\n## Influenza surveillance resources\n\n## Canadian Influenza Datasets\nNational influenza data are available within text description links found under the figures in the weekly FluWatch and Respiratory Virus Detection reports and the Annual FluWatch report.\nReports dating back to 2010 can be found in the Government of Canada Publication Archives\nDownloadable national influenza datasets can also be found in the Government of Canada Open Data Portal\n\n## Provincial and territorial\n- British Columbia: BC respiratory disease surveillance BC influenza vaccine effectiveness monitoring\n- BC respiratory disease surveillance\n- BC influenza vaccine effectiveness monitoring\n- Alberta: Respiratory Virus Surveillance\n- Saskatchewan: CRISP (Community Respiratory Illness Surveillance Program) Reports\n- Manitoba: Seasonal Influenza Reports\n- Ontario: Ontario Respiratory Virus Tool (ORVT)\n- Québec: Système de surveillance de la grippe (available in French only)\n- New Brunswick: Respiratory Watch (gnb.ca)\n- Prince Edward Island: PEI Respiratory Illness Summary 2023-2024 Season | Government of Prince Edward Island\n- Nova Scotia: CDPC - Respiratory Watch Report | novascotia.ca\n- Newfoundland and Labrador: Newfoundland and Labrador Multi Respiratory Application (arcgis.com)\n- Yukon: Respiratory surveillance report\n- Northwest Territories: Influenza / Flu Information\n- Nunavut: Influenza Information\n\n### World Health Organization\n- World Health Organization: Global Influenza Programme\n\n### Pan American Health Organization\n- Pan American Health Organization: Influenza situation report\n- U.S. Centers for Disease Prevention and Control (CDC): Weekly Influenza Summary Update\n- European Centre for Disease Prevention and Control (ECDC): Surveillance reports and disease data on seasonal influenza\n- United Kingdom: National flu and COVID-19 surveillance reports\n- Hong Kong Centre for Health Protection: Flu Express\n\n### Australia and New Zealand\n- Australia: Influenza Surveillance Report and Activity Updates\n- New Zealand: Influenza Dashboard",
+  "structured_data": {},
+  "status": "ok",
+  "error": null
+}
