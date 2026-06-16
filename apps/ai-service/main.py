@@ -195,11 +195,21 @@ async def chat_stream(req: ChatRequest):
         "topic":         None,
         "graph_chunks":  [],
         "vector_chunks": [],
+        "web_chunks":    [],
         "merged_chunks": [],
         "answer":        "",
         "sources":       [],
         "suggestions":   [],
         "stream_tokens": [],
+    }
+
+    # Which nodes emit visible status messages (in order of appearance)
+    NODE_STATUS: dict[str, str] = {
+        "extract_entities": "🔍 Đang phân tích câu hỏi...",
+        "web_search":       "🌐 Đang tìm kiếm thông tin mới nhất từ web...",
+        "vector_retrieve":  "📚 Đang tra cứu cơ sở dữ liệu...",
+        "build_context":    "⚙️ Đang tổng hợp thông tin...",
+        "generate":         "✍️ Đang soạn câu trả lời...",
     }
 
     async def event_stream():
@@ -208,7 +218,13 @@ async def chat_stream(req: ChatRequest):
             async for event in workflow.astream_events(initial_state, version="v2"):
                 kind = event.get("event")
 
-                if kind == "on_chat_model_stream":
+                # Emit status when a node starts executing
+                if kind == "on_chain_start":
+                    node = event.get("metadata", {}).get("langgraph_node", "")
+                    if node in NODE_STATUS:
+                        yield f"data: {json.dumps({'type': 'status', 'step': node, 'message': NODE_STATUS[node]})}\n\n"
+
+                elif kind == "on_chat_model_stream":
                     # Filter: only stream tokens from the generator node, not entity extractor
                     node = event.get("metadata", {}).get("langgraph_node", "")
                     if node != "generate":

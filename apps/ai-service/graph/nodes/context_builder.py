@@ -3,14 +3,17 @@ from graph.state import ChatState
 
 def build_context(state: ChatState) -> dict:
     """
-    Merge graph + vector chunks, dedup theo chunk_id,
+    Merge graph + vector + web chunks, dedup by chunk_id,
     rank: trust_score * 0.4 + similarity_score * 0.6
-    Giữ tối đa 6 chunks để context không quá dài.
+    Keep top 8 chunks (up to 3 can be web results).
     """
     seen: set[str] = set()
     all_chunks: list[dict] = []
 
-    for chunk in state.get("graph_chunks", []) + state.get("vector_chunks", []):
+    kb_chunks = state.get("graph_chunks", []) + state.get("vector_chunks", [])
+    web_chunks = state.get("web_chunks", [])
+
+    for chunk in kb_chunks + web_chunks:
         cid = chunk.get("chunk_id")
         if cid and cid not in seen:
             seen.add(cid)
@@ -25,7 +28,6 @@ def build_context(state: ChatState) -> dict:
         tl = title.lower()
         if "404" in tl or "error" in tl or "not found" in tl:
             return False
-        # Skip food/health regulation noise unrelated to immigration
         NOISE = ["hydrogenated oil", "contaminant", "adulterating", "hospitality", "food safety"]
         if any(kw in tl for kw in NOISE):
             return False
@@ -33,16 +35,28 @@ def build_context(state: ChatState) -> dict:
 
     all_chunks = [c for c in all_chunks if _is_valid(c)]
     all_chunks.sort(key=lambda x: x["combined_score"], reverse=True)
-    top = all_chunks[:6]
+
+    # Cap web results at 3 to avoid drowning out KB knowledge
+    web_kept = 0
+    top: list[dict] = []
+    for c in all_chunks:
+        if c.get("is_web"):
+            if web_kept >= 3:
+                continue
+            web_kept += 1
+        top.append(c)
+        if len(top) >= 8:
+            break
 
     sources = []
     for c in top:
         if c.get("source_url"):
             sources.append({
-                "title":      c["title"] or c["category"] or "",
+                "title":      c["title"] or c.get("category") or "",
                 "source_url": c["source_url"],
-                "category":   c["category"] or "",
-                "country":    c["country"] or "",
+                "category":   c.get("category") or "",
+                "country":    c.get("country") or "",
+                "is_web":     bool(c.get("is_web")),
             })
 
     return {"merged_chunks": top, "sources": sources}

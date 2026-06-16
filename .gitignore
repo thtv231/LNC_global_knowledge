@@ -24,8 +24,12 @@ apps/web/.env.*
 # Neo4j local data
 data/neo4j/
 
-# Embeddings / Neo4j local
-data/neo4j/
+# Raw data directories (too large for git, store separately)
+data/data_canada/
+data/data_usa/
+data/data_newZealand/
+data-2026/
+data/curated/
 
 # Logs
 *.log

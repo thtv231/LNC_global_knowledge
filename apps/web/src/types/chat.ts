@@ -14,6 +14,7 @@ export interface Message {
   consultant_ask?: boolean;
   contact_form?: boolean;
   isStreaming?: boolean;
+  statusMessage?: string;
 }
 
 export interface Source {

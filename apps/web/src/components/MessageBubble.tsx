@@ -42,11 +42,19 @@ export function MessageBubble({ message, isLoading, sessionId, onSuggestionSelec
         {message.content
           ? <MarkdownText content={message.content} isStreaming={message.isStreaming ?? false} />
           : message.isStreaming
-            ? <span className="flex gap-1 items-center h-5">
-                <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
-                <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
-                <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
-              </span>
+            ? message.statusMessage
+              ? <div className="flex items-center gap-2 py-0.5">
+                  <svg className="animate-spin shrink-0 w-3.5 h-3.5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
+                  </svg>
+                  <span className="text-xs text-gray-500 italic transition-all duration-300">{message.statusMessage}</span>
+                </div>
+              : <span className="flex gap-1 items-center h-5">
+                  <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
+                  <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
+                  <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+                </span>
             : null
         }
         <IntakeCard

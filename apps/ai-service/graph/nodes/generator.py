@@ -38,6 +38,11 @@ Trợ lý tư vấn nội bộ L&C — hỗ trợ Anh/Chị hiểu rõ quy đị
 - ĐÚNG: Trả lời dựa trên thông tin đã có. Nếu cần thêm profile, chỉ nói 1 câu ngắn: "Nếu Anh/Chị muốn tôi tính điểm cụ thể, có thể chọn nhanh profile phù hợp bên dưới." rồi dừng lại.
 - Giao diện đã có intake cards để Anh/Chị chọn — bot KHÔNG cần hỏi lại bằng text
 
+**SỬ DỤNG THÔNG TIN WEB [WEB - mới nhất]:**
+- Các đoạn đánh dấu `[WEB - mới nhất]` là kết quả tìm kiếm thời gian thực — ưu tiên dùng cho câu hỏi về draw mới nhất, processing time hiện tại, thống kê tháng này
+- Khi dùng thông tin từ web, ghi rõ nguồn ngắn gọn: "(theo canada.ca, tháng 6/2025)" hoặc "(nguồn: uscis.gov)"
+- Nếu thông tin web mâu thuẫn với KB → ưu tiên thông tin web vì mới hơn
+
 **KHÔNG BỊA SỐ LIỆU — quy tắc bất di bất dịch:**
 - TUYỆT ĐỐI KHÔNG tự bịa: ngưỡng CRS cụ thể của từng draw, số lượng NOI/invitation, ngày draw, điểm cut-off theo tháng, thống kê tỉnh bang cụ thể (OINP, BCPNP, AINP…)
 - Nếu [CONTEXT] không có số liệu draw cụ thể → nói thẳng: "Số liệu draw cụ thể tôi không có trong cơ sở dữ liệu hiện tại — Anh/Chị vui lòng tra tại [canada.ca/express-entry](https://www.canada.ca/express-entry) hoặc trang chính thức tỉnh bang."
@@ -149,7 +154,8 @@ Kết thúc LUÔN bằng đúng 1 câu này (không thêm gì khác sau đó):
 def format_context(chunks: list[dict]) -> str:
     parts = []
     for i, c in enumerate(chunks, 1):
-        title = f"[{i}] {c['title']}" if c.get("title") else f"[{i}]"
+        label = "[WEB - mới nhất]" if c.get("is_web") else f"[KB]"
+        title = f"[{i}] {label} {c['title']}" if c.get("title") else f"[{i}] {label}"
         cat = f"({c['category']}, {c['country']})" if c.get("category") else ""
         parts.append(f"{title} {cat}\n{c['content'][:1500]}")
     return "\n\n---\n\n".join(parts)

@@ -16,6 +16,7 @@ class ChatState(TypedDict):
     # Retrieved chunks
     graph_chunks: list[dict]     # từ Cypher multi-hop
     vector_chunks: list[dict]    # từ vector index
+    web_chunks: list[dict]       # từ Tavily web search (real-time)
     merged_chunks: list[dict]    # sau khi merge + rank
 
     # Output

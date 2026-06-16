@@ -53,10 +53,16 @@ export function useChat(sessionId: string) {
           try {
             const event = JSON.parse(raw);
 
-            if (event.type === 'token') {
+            if (event.type === 'status') {
               setMessages(prev => prev.map(m =>
                 m.id === assistantId
-                  ? { ...m, content: m.content + event.content }
+                  ? { ...m, statusMessage: event.message as string }
+                  : m
+              ));
+            } else if (event.type === 'token') {
+              setMessages(prev => prev.map(m =>
+                m.id === assistantId
+                  ? { ...m, content: m.content + (event.content as string), statusMessage: undefined }
                   : m
               ));
             } else if (event.type === 'meta') {

@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     embedding_model: str = "intfloat/multilingual-e5-base"
     embedding_dim: int = 768
     redis_url: str = "redis://localhost:6379"
+    tavily_api_key: str = ""
 
     class Config:
         env_file = "../../.env"
