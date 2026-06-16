@@ -5,7 +5,7 @@ from graph.state import ChatState
 CYPHER_VECTOR = """
 CALL db.index.vector.queryNodes('knowledge-chunk-embeddings', $top_k, $embedding)
 YIELD node AS c, score
-WHERE score > 0.62
+WHERE score > 0.70
   {country_filter}
 RETURN c.chunk_id    AS chunk_id,
        c.content     AS content,
@@ -21,9 +21,15 @@ LIMIT $top_k
 
 
 def vector_retrieve(state: ChatState) -> dict:
-    query = state["query"]
+    # Use the extracted topic (specific immigration term) when available;
+    # fall back to raw query. This prevents vague phrases like "xác nhận lại"
+    # from matching unrelated government documents.
+    topic = state.get("topic") or ""
+    raw   = state["query"]
+    search_text = f"{raw} {topic}".strip() if topic else raw
+
     country = state.get("country")
-    embedding = embed_query(query)
+    embedding = embed_query(search_text)
 
     country_filter = "AND c.country = $country" if country else ""
     cypher = CYPHER_VECTOR.replace("{country_filter}", country_filter)

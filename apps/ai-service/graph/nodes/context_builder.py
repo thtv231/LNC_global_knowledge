@@ -34,6 +34,8 @@ def build_context(state: ChatState) -> dict:
         return True
 
     all_chunks = [c for c in all_chunks if _is_valid(c)]
+    # Drop KB chunks whose vector similarity is very low (likely off-topic noise)
+    all_chunks = [c for c in all_chunks if c.get("is_web") or c.get("score", 0) >= 0.65 or c.get("source") == "graph"]
     all_chunks.sort(key=lambda x: x["combined_score"], reverse=True)
 
     # Cap web results at 3 to avoid drowning out KB knowledge

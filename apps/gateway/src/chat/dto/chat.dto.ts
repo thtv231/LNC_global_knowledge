@@ -8,5 +8,5 @@ export class ChatRequestDto {
 
   @IsString()
   @IsOptional()
-  sessionId?: string;
+  session_id?: string;
 }

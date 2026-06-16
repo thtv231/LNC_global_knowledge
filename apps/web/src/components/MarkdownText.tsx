@@ -76,7 +76,7 @@ export function MarkdownText({ content, isStreaming }: { content: string; isStre
                 <thead>
                   <tr className="bg-[#0C3656] text-white">
                     {t.headers.map((h, hi) => (
-                      <th key={hi} className="px-3 py-2 text-left font-semibold whitespace-nowrap">
+                      <th key={hi} className="px-3 py-2 text-left font-semibold whitespace-nowrap text-white [&_strong]:text-white">
                         {renderInline(h)}
                       </th>
                     ))}

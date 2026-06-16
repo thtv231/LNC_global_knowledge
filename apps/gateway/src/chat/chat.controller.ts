@@ -34,11 +34,12 @@ export class ChatController {
   @HttpCode(200)
   @UsePipes(new ValidationPipe({ whitelist: true }))
   streamChat(@Body() dto: ChatRequestDto, @Res() res: Response): void {
-    const sessionId = this.sessionService.getSessionId(dto.sessionId);
+    const sessionId = this.sessionService.getSessionId(dto.session_id);
 
     res.setHeader('Content-Type', 'text/event-stream');
     res.setHeader('Cache-Control', 'no-cache');
     res.setHeader('Connection', 'keep-alive');
+    res.setHeader('X-Accel-Buffering', 'no');
     res.setHeader('X-Session-Id', sessionId);
     res.flushHeaders();
 

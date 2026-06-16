@@ -131,6 +131,39 @@ def _is_contact_request(query: str) -> bool:
     return any(kw in q for kw in _CONTACT_KEYWORDS)
 
 
+# ── Profile entity parser ─────────────────────────────────────────────────────
+_INTAKE_COUNTRY_MAP = {
+    "canada":      "canada",
+    "usa":         "usa",
+    "mỹ":          "usa",
+    "new zealand": "newzealand",
+}
+
+_INTAKE_CATEGORY_MAP = {
+    "express entry":     "Express-Entry",
+    "pnp":               "PNP",
+    "lmia":              "LMIA",
+    "bảo lãnh gia đình": "family-sponsorship",
+    "eb-2 niw":          "EB2-NIW",
+    "niw":               "EB2-NIW",
+    "eb-1a":             "EB1-A",
+    "h-1b":              "H1B",
+    "l-1":               "L1-Visa",
+    "skilled migrant":   "skilled-migrant",
+    "aewv":              "accredited-employer",
+    "investor nz":       "investor-visa",
+    "student nz":        "student-visa",
+}
+
+
+def _parse_profile_entities(text: str) -> tuple[str | None, str | None]:
+    """Parse country/category directly from structured intake message text."""
+    tl = text.lower()
+    country  = next((v for k, v in _INTAKE_COUNTRY_MAP.items() if k in tl), None)
+    category = next((v for k, v in _INTAKE_CATEGORY_MAP.items() if k in tl), None)
+    return country, category
+
+
 # ── History helpers ────────────────────────────────────────────────────────────
 HISTORY_TTL = 7200  # 2 hours
 
@@ -220,6 +253,8 @@ async def chat_stream(req: ChatRequest):
 
     async def event_stream():
         final_state = None
+        node_country: str | None = None   # captured from extract_entities node directly
+        node_category: str | None = None
         try:
             async for event in workflow.astream_events(initial_state, version="v2"):
                 kind = event.get("event")
@@ -232,6 +267,14 @@ async def chat_stream(req: ChatRequest):
 
                 elif kind == "on_chain_end":
                     node = event.get("metadata", {}).get("langgraph_node", "")
+                    # Capture country/category right when entity extractor node finishes
+                    # Must check isinstance(dict) because sub-chain events also fire here
+                    # with AIMessage output (from the LLM call inside the node)
+                    if node == "extract_entities":
+                        out = event.get("data", {}).get("output") or {}
+                        if isinstance(out, dict):
+                            node_country  = out.get("country")
+                            node_category = out.get("category")
                     # Emit web results right after web_search node finishes
                     if node == "web_search":
                         web_chunks = event.get("data", {}).get("output", {}).get("web_chunks", [])
@@ -254,17 +297,25 @@ async def chat_stream(req: ChatRequest):
                     if token:
                         yield f"data: {json.dumps({'type': 'token', 'content': token})}\n\n"
 
-            if final_state:
-                new_history = history + [
-                    {"role": "user",      "content": req.query},
-                    {"role": "assistant", "content": final_state.get("answer", "")},
-                ]
-                country  = final_state.get("country")
-                category = final_state.get("category")
-                await save_history(req.session_id, new_history[-20:], country, category, session)
+            is_profile = req.query.startswith("📋 Đăng ký tư vấn chuyên sâu:")
+            is_contact = _is_contact_request(req.query) and not is_profile
 
-                is_profile  = req.query.startswith("📋 Đăng ký tư vấn chuyên sâu:")
-                is_contact  = _is_contact_request(req.query) and not is_profile
+            # Resolve country/category: final_state → entity extractor node → profile parse
+            country  = (final_state or {}).get("country")  or node_country
+            category = (final_state or {}).get("category") or node_category
+            if is_profile:
+                p_country, p_category = _parse_profile_entities(req.query)
+                country  = country  or p_country
+                category = category or p_category
+
+            answer = (final_state or {}).get("answer", "")
+            new_history = history + [
+                {"role": "user",      "content": req.query},
+                {"role": "assistant", "content": answer},
+            ]
+            await save_history(req.session_id, new_history[-20:], country, category, session)
+
+            if final_state:
                 is_greeting = _is_greeting(req.query)
 
                 # For greetings: don't inherit previous country — show country picker fresh
