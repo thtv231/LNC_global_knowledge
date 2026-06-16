@@ -1,6 +1,7 @@
 import {
   Controller,
   Post,
+  Get,
   Body,
   UsePipes,
   ValidationPipe,
@@ -24,6 +25,11 @@ export class ChatController {
    * Body: { query: string, sessionId?: string }
    * Returns SSE stream với Content-Type: text/event-stream
    */
+  @Get('news')
+  async latestNews() {
+    return this.chatService.fetchNews();
+  }
+
   @Post()
   @HttpCode(200)
   @UsePipes(new ValidationPipe({ whitelist: true }))

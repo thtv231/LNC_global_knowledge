@@ -3,6 +3,12 @@ export interface IntakeOption {
   value: string;
 }
 
+export interface WebResult {
+  title: string;
+  url: string;
+  snippet: string;
+}
+
 export interface Message {
   id: string;
   role: 'user' | 'assistant';
@@ -15,6 +21,7 @@ export interface Message {
   contact_form?: boolean;
   isStreaming?: boolean;
   statusMessage?: string;
+  webResults?: WebResult[];
 }
 
 export interface Source {
@@ -22,6 +29,7 @@ export interface Source {
   source_url: string;
   category: string;
   country: string;
+  is_web?: boolean;
 }
 
 export interface ChatMeta {

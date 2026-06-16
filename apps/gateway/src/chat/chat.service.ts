@@ -19,6 +19,15 @@ export class ChatService {
     this.timeout = this.config.get<number>('AI_SERVICE_TIMEOUT', 60000);
   }
 
+  async fetchNews(): Promise<{ items: unknown[] }> {
+    try {
+      const res = await fetch(`${this.aiServiceUrl}/news`);
+      return res.json() as Promise<{ items: unknown[] }>;
+    } catch {
+      return { items: [] };
+    }
+  }
+
   /**
    * Proxy SSE stream từ Python FastAPI về browser.
    * Dùng native fetch + ReadableStream để không buffer toàn bộ response.

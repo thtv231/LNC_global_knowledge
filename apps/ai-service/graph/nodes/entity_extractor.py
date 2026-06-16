@@ -79,10 +79,14 @@ def extract_entities(state: ChatState) -> dict:
         role = "Người dùng" if h["role"] == "user" else "Bot"
         history_lines.append(f"{role}: {h['content'][:150]}")
 
+    # Hint about known country from session
+    known_country = state.get("country")  # pre-seeded from session last_country
+    country_hint = f"\n[Quốc gia đang thảo luận: {known_country}]" if known_country else ""
+
     if history_lines:
-        query_input = f"[Lịch sử]\n{chr(10).join(history_lines)}\n\n[Câu hỏi]\n{state['query']}"
+        query_input = f"[Lịch sử]\n{chr(10).join(history_lines)}{country_hint}\n\n[Câu hỏi]\n{state['query']}"
     else:
-        query_input = state["query"]
+        query_input = f"{country_hint}\n{state['query']}".strip() if country_hint else state["query"]
 
     result = chain.invoke({"query": query_input})
     raw = result.content.strip()
@@ -91,8 +95,11 @@ def extract_entities(state: ChatState) -> dict:
         data = json.loads(raw)
     except json.JSONDecodeError:
         data = {"country": None, "category": None, "topic": state["query"][:50]}
+
+    # If LLM couldn't determine country, keep the session's known country
+    extracted_country = data.get("country") or known_country
     return {
-        "country": data.get("country"),
-        "category": data.get("category"),
-        "topic": data.get("topic", ""),
+        "country":  extracted_country,
+        "category": data.get("category") or state.get("category"),
+        "topic":    data.get("topic", ""),
     }

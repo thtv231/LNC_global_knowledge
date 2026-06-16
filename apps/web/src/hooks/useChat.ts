@@ -53,7 +53,13 @@ export function useChat(sessionId: string) {
           try {
             const event = JSON.parse(raw);
 
-            if (event.type === 'status') {
+            if (event.type === 'web_results') {
+                              setMessages(prev => prev.map(m =>
+                                m.id === assistantId
+                                  ? { ...m, webResults: event.items as import('../types/chat').WebResult[] }
+                                  : m
+                              ));
+                            } else if (event.type === 'status') {
               setMessages(prev => prev.map(m =>
                 m.id === assistantId
                   ? { ...m, statusMessage: event.message as string }

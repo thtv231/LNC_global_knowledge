@@ -114,6 +114,12 @@ def _intake_options(country: str | None, category: str | None) -> list[dict]:
     return []
 
 
+_GREETINGS = {"hi", "hello", "xin chào", "chào", "hey", "alo", "helo", "good morning", "good evening"}
+
+def _is_greeting(query: str) -> bool:
+    return query.strip().lower() in _GREETINGS
+
+
 _CONTACT_KEYWORDS = [
     "gặp tư vấn", "gặp chuyên viên", "gặp consultant", "gặp trực tiếp",
     "liên hệ tư vấn", "muốn tư vấn riêng", "tư vấn trực tiếp",
@@ -190,8 +196,8 @@ async def chat_stream(req: ChatRequest):
         "query":         req.query,
         "session_id":    req.session_id,
         "history":       history,
-        "country":       None,
-        "category":      None,
+        "country":       session.get("last_country"),   # pre-seed so extractor uses it as fallback
+        "category":      session.get("last_category"),
         "topic":         None,
         "graph_chunks":  [],
         "vector_chunks": [],
@@ -224,17 +230,29 @@ async def chat_stream(req: ChatRequest):
                     if node in NODE_STATUS:
                         yield f"data: {json.dumps({'type': 'status', 'step': node, 'message': NODE_STATUS[node]})}\n\n"
 
+                elif kind == "on_chain_end":
+                    node = event.get("metadata", {}).get("langgraph_node", "")
+                    # Emit web results right after web_search node finishes
+                    if node == "web_search":
+                        web_chunks = event.get("data", {}).get("output", {}).get("web_chunks", [])
+                        if web_chunks:
+                            items = [
+                                {"title": c["title"], "url": c["source_url"], "snippet": c["content"][:160]}
+                                for c in web_chunks if c.get("title") and c.get("source_url")
+                            ]
+                            if items:
+                                yield f"data: {json.dumps({'type': 'web_results', 'items': items})}\n\n"
+                    # Capture final state when entire graph finishes
+                    if event.get("name") == "LangGraph":
+                        final_state = event.get("data", {}).get("output")
+
                 elif kind == "on_chat_model_stream":
-                    # Filter: only stream tokens from the generator node, not entity extractor
                     node = event.get("metadata", {}).get("langgraph_node", "")
                     if node != "generate":
                         continue
                     token = event.get("data", {}).get("chunk", {}).content
                     if token:
                         yield f"data: {json.dumps({'type': 'token', 'content': token})}\n\n"
-
-                elif kind == "on_chain_end" and event.get("name") == "LangGraph":
-                    final_state = event.get("data", {}).get("output")
 
             if final_state:
                 new_history = history + [
@@ -245,13 +263,19 @@ async def chat_stream(req: ChatRequest):
                 category = final_state.get("category")
                 await save_history(req.session_id, new_history[-20:], country, category, session)
 
-                # Fall back to last known country/category so intake cards don't reset
-                eff_country  = country  or session.get("last_country")
-                eff_category = category or session.get("last_category")
+                is_profile  = req.query.startswith("📋 Đăng ký tư vấn chuyên sâu:")
+                is_contact  = _is_contact_request(req.query) and not is_profile
+                is_greeting = _is_greeting(req.query)
+
+                # For greetings: don't inherit previous country — show country picker fresh
+                if is_greeting:
+                    eff_country  = None
+                    eff_category = None
+                else:
+                    eff_country  = country or session.get("last_country")
+                    eff_category = category or session.get("last_category")
 
                 has_topic = bool(country or category)
-                is_profile = req.query.startswith("📋 Đăng ký tư vấn chuyên sâu:")
-                is_contact = _is_contact_request(req.query) and not is_profile
                 meta = {
                     "type":            "meta",
                     "sources":         final_state.get("sources", []) if has_topic else [],
@@ -279,6 +303,39 @@ async def chat_stream(req: ChatRequest):
             "X-Accel-Buffering": "no",
         },
     )
+
+
+@app.get("/news")
+async def latest_news():
+    """Fetch latest immigration news from Tavily for the welcome panel."""
+    from graph.nodes.web_searcher import _COUNTRY_DOMAINS
+    if not settings.tavily_api_key:
+        return {"items": []}
+    try:
+        from tavily import TavilyClient
+        client = TavilyClient(api_key=settings.tavily_api_key)
+        response = client.search(
+            query="latest immigration news Express Entry draw Canada USCIS update New Zealand 2025",
+            search_depth="basic",
+            max_results=6,
+            include_domains=[
+                "canada.ca", "moving2canada.com", "canadavisa.com",
+                "uscis.gov", "travel.state.gov",
+                "immigration.govt.nz",
+            ],
+        )
+        items = [
+            {
+                "title":   r.get("title", ""),
+                "url":     r.get("url", ""),
+                "snippet": r.get("content", "")[:160],
+            }
+            for r in response.get("results", [])
+            if r.get("title") and r.get("url")
+        ]
+        return {"items": items}
+    except Exception:
+        return {"items": []}
 
 
 @app.get("/health")

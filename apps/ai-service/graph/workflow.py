@@ -13,23 +13,22 @@ def build_workflow() -> StateGraph:
     g = StateGraph(ChatState)
 
     g.add_node("extract_entities",     extract_entities)
+    g.add_node("web_search",           web_search)
     g.add_node("graph_retrieve",       graph_retrieve)
     g.add_node("vector_retrieve",      vector_retrieve)
-    g.add_node("web_search",           web_search)
     g.add_node("build_context",        build_context)
     g.add_node("generate",             generate)
     g.add_node("generate_suggestions", generate_suggestions)
 
     g.set_entry_point("extract_entities")
 
-    # Run KB retrieval + web search in parallel after entity extraction
-    g.add_edge("extract_entities", "graph_retrieve")
-    g.add_edge("extract_entities", "vector_retrieve")
+    # web_search runs first (fast, keyword-gated), then KB nodes run in parallel (2-way fan-in)
     g.add_edge("extract_entities", "web_search")
+    g.add_edge("web_search",       "graph_retrieve")
+    g.add_edge("web_search",       "vector_retrieve")
 
     g.add_edge("graph_retrieve",       "build_context")
     g.add_edge("vector_retrieve",      "build_context")
-    g.add_edge("web_search",           "build_context")
 
     g.add_edge("build_context",        "generate")
     g.add_edge("generate",             "generate_suggestions")

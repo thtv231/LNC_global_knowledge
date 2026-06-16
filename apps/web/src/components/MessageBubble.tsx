@@ -39,6 +39,35 @@ export function MessageBubble({ message, isLoading, sessionId, onSuggestionSelec
 
       {/* Bubble */}
       <div className="max-w-[80%] bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm">
+        {/* Web results — hiện ngay khi search xong, trước khi bot trả lời */}
+        {message.webResults && message.webResults.length > 0 && (
+          <div className="mb-3 rounded-xl border border-emerald-200 dark:border-emerald-800 overflow-hidden">
+            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-emerald-50 dark:bg-emerald-900/30">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse shrink-0" />
+              <span className="text-[10px] font-semibold text-emerald-700 dark:text-emerald-400 uppercase tracking-wide">
+                Tìm kiếm web · mới nhất
+              </span>
+            </div>
+            <div className="divide-y divide-gray-50 dark:divide-gray-700">
+              {message.webResults.map((r, i) => {
+                let host = r.url;
+                try { host = new URL(r.url).hostname.replace('www.', ''); } catch { /* noop */ }
+                return (
+                  <a key={i} href={r.url} target="_blank" rel="noopener noreferrer"
+                     className="flex gap-2 px-3 py-2 hover:bg-emerald-50/60 dark:hover:bg-emerald-900/10 transition-colors group">
+                    <span className="shrink-0 text-[9px] font-semibold mt-0.5 px-1.5 py-0.5 h-fit rounded bg-gray-100 dark:bg-gray-700 text-gray-500">
+                      {host}
+                    </span>
+                    <span className="text-xs text-gray-700 dark:text-gray-300 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 line-clamp-2 transition-colors">
+                      {r.title}
+                    </span>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
         {message.content
           ? <MarkdownText content={message.content} isStreaming={message.isStreaming ?? false} />
           : message.isStreaming
