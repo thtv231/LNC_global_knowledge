@@ -28,6 +28,20 @@ export class ChatService {
     }
   }
 
+  async submitIntake(body: Record<string, unknown>): Promise<unknown> {
+    const res = await fetch(`${this.aiServiceUrl}/intake`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    return res.json();
+  }
+
+  async getHistory(sessionId: string): Promise<unknown> {
+    const res = await fetch(`${this.aiServiceUrl}/history/${sessionId}`);
+    return res.json();
+  }
+
   /**
    * Proxy SSE stream từ Python FastAPI về browser.
    * Dùng native fetch + ReadableStream để không buffer toàn bộ response.

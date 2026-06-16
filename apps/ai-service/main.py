@@ -131,6 +131,21 @@ def _is_contact_request(query: str) -> bool:
     return any(kw in q for kw in _CONTACT_KEYWORDS)
 
 
+import re as _re
+_PHONE_RE = _re.compile(r'(0\d{8,9})')
+
+def _extract_name_phone(text: str) -> tuple[str | None, str | None]:
+    """Detect name+phone from free text like 'Trần Nhật Phi 0912345678'."""
+    m = _PHONE_RE.search(text)
+    if not m:
+        return None, None
+    phone = m.group(1)
+    before = text[:m.start()].strip().rstrip(',').strip()
+    after  = text[m.end():].strip()
+    name = before or after
+    return (name or None), phone
+
+
 # ── Profile entity parser ─────────────────────────────────────────────────────
 _INTAKE_COUNTRY_MAP = {
     "canada":      "canada",
@@ -202,6 +217,8 @@ class IntakeSubmit(BaseModel):
     name: str
     phone: str
     profile: str
+    note: str = ""
+    conversation: str = ""
     session_id: str = ""
 
 
@@ -209,12 +226,28 @@ class IntakeSubmit(BaseModel):
 @app.post("/intake")
 async def intake_submit(req: IntakeSubmit):
     lead = {
-        "name":    req.name,
-        "phone":   req.phone,
-        "profile": req.profile,
-        "session": req.session_id,
+        "name":         req.name,
+        "phone":        req.phone,
+        "note":         req.note,
+        "profile":      req.profile,
+        "conversation": req.conversation,
+        "session":      req.session_id,
     }
     await redis_client.lpush("leads", json.dumps(lead, ensure_ascii=False))
+
+    # Forward to Google Sheet webhook if configured
+    if settings.google_sheet_webhook:
+        try:
+            import httpx
+            async with httpx.AsyncClient(timeout=10, follow_redirects=True) as client:
+                await client.post(
+                    settings.google_sheet_webhook,
+                    json=lead,
+                    headers={"Content-Type": "application/json"},
+                )
+        except Exception:
+            pass  # Don't fail the request if sheet write fails
+
     return {"status": "ok", "message": "Chuyên viên sẽ liên hệ trong 24 giờ."}
 
 
@@ -315,6 +348,38 @@ async def chat_stream(req: ChatRequest):
             ]
             await save_history(req.session_id, new_history[-20:], country, category, session)
 
+            # Auto-save intake khi user gõ tên + SĐT trực tiếp vào chat
+            chat_name, chat_phone = _extract_name_phone(req.query)
+            if chat_name and chat_phone:
+                conv_text = "\n---\n".join(
+                    f"{'Khách' if m['role'] == 'user' else 'Bot'}: {m['content']}"
+                    for m in new_history if m.get("content")
+                )
+                profile_hint = " - ".join(filter(None, [
+                    session.get("last_country") or country,
+                    session.get("last_category") or category,
+                ]))
+                auto_lead = {
+                    "name":         chat_name,
+                    "phone":        chat_phone,
+                    "note":         "",
+                    "profile":      profile_hint,
+                    "conversation": conv_text,
+                    "session":      req.session_id,
+                }
+                await redis_client.lpush("leads", json.dumps(auto_lead, ensure_ascii=False))
+                if settings.google_sheet_webhook:
+                    try:
+                        import httpx
+                        async with httpx.AsyncClient(timeout=10, follow_redirects=True) as client:
+                            await client.post(
+                                settings.google_sheet_webhook,
+                                json=auto_lead,
+                                headers={"Content-Type": "application/json"},
+                            )
+                    except Exception:
+                        pass
+
             if final_state:
                 is_greeting = _is_greeting(req.query)
 
@@ -354,6 +419,17 @@ async def chat_stream(req: ChatRequest):
             "X-Accel-Buffering": "no",
         },
     )
+
+
+@app.get("/history/{session_id}")
+async def get_history(session_id: str):
+    """Return saved chat messages for a session."""
+    session = await load_history(session_id)
+    return {
+        "messages": session.get("messages", []),
+        "last_country": session.get("last_country"),
+        "last_category": session.get("last_category"),
+    }
 
 
 @app.get("/news")

@@ -30,6 +30,7 @@ export class ChatController {
     return this.chatService.fetchNews();
   }
 
+
   @Post()
   @HttpCode(200)
   @UsePipes(new ValidationPipe({ whitelist: true }))

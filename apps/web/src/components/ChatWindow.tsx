@@ -25,7 +25,7 @@ Bạn muốn tìm hiểu về chương trình nào?`;
 
 export function ChatWindow() {
   const sessionId = useSession();
-  const { messages, isLoading, sendMessage } = useChat(sessionId);
+  const { messages, isLoading, sendMessage, clearHistory } = useChat(sessionId);
   const [input, setInput] = useState('');
   const [showWizard, setShowWizard] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
@@ -61,9 +61,23 @@ export function ChatWindow() {
               <p className="text-[11px] text-gray-400">Canada · Mỹ · New Zealand</p>
             </div>
           </div>
-          <div className="ml-auto flex items-center gap-1 text-[11px] text-gray-400 bg-gray-50 dark:bg-gray-700 px-2.5 py-1 rounded-full border border-gray-200 dark:border-gray-600">
-            <span>🤖</span>
-            <span>AI Assistant</span>
+          <div className="ml-auto flex items-center gap-2">
+            {messages.length > 0 && (
+              <button
+                onClick={clearHistory}
+                title="Cuộc trò chuyện mới"
+                className="flex items-center gap-1 text-[11px] text-gray-400 hover:text-red-500 dark:hover:text-red-400
+                           bg-gray-50 dark:bg-gray-700 px-2.5 py-1 rounded-full border border-gray-200 dark:border-gray-600
+                           hover:border-red-300 dark:hover:border-red-500 transition-colors"
+              >
+                <span>✏️</span>
+                <span>Cuộc trò chuyện mới</span>
+              </button>
+            )}
+            <div className="flex items-center gap-1 text-[11px] text-gray-400 bg-gray-50 dark:bg-gray-700 px-2.5 py-1 rounded-full border border-gray-200 dark:border-gray-600">
+              <span>🤖</span>
+              <span>AI Assistant</span>
+            </div>
           </div>
         </div>
       </div>
@@ -110,6 +124,7 @@ export function ChatWindow() {
             <MessageBubble
               key={msg.id}
               message={msg}
+              messages={messages}
               isLoading={isLoading}
               sessionId={sessionId}
               onSuggestionSelect={sendMessage}

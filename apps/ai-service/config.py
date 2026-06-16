@@ -14,6 +14,7 @@ class Settings(BaseSettings):
     embedding_dim: int = 768
     redis_url: str = "redis://localhost:6379"
     tavily_api_key: str = ""
+    google_sheet_webhook: str = ""
 
     class Config:
         env_file = "../../.env"

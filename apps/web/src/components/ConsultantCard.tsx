@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
+import type { Message } from '../types/chat';
 
 const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:8000';
 
@@ -52,6 +53,7 @@ function Toast({ name, phone, onDone }: { name: string; phone: string; onDone: (
 
 interface Props {
   profileSummary: string;
+  messages: Message[];
   sessionId: string;
   startAtForm?: boolean;
   onContinueChat: () => void;
@@ -59,21 +61,26 @@ interface Props {
 
 type State = 'ask' | 'form' | 'done';
 
-export function ConsultantCard({ profileSummary, sessionId, startAtForm = false, onContinueChat }: Props) {
+export function ConsultantCard({ profileSummary, messages, sessionId, startAtForm = false, onContinueChat }: Props) {
   const [state, setState] = useState<State>(startAtForm ? 'form' : 'ask');
   const [name, setName]   = useState('');
   const [phone, setPhone] = useState('');
+  const [note, setNote]   = useState('');
   const [loading, setLoading] = useState(false);
   const [toast, setToast] = useState(false);
 
   const handleSubmit = async () => {
     if (!name.trim() || !phone.trim()) return;
     setLoading(true);
+    const conversation = messages
+      .filter(m => m.content.trim())
+      .map(m => `${m.role === 'user' ? 'Khách' : 'Bot'}: ${m.content.trim()}`)
+      .join('\n---\n');
     try {
       await fetch(`${API_URL}/intake`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, phone, profile: profileSummary, session_id: sessionId }),
+        body: JSON.stringify({ name, phone, note, profile: profileSummary, conversation, session_id: sessionId }),
       });
       setToast(true);
       setState('done');
@@ -93,6 +100,12 @@ export function ConsultantCard({ profileSummary, sessionId, startAtForm = false,
             Chuyên viên L&C sẽ liên hệ <strong>{name}</strong> qua SĐT <strong>{phone}</strong> trong vòng <strong>24 giờ</strong>.
           </p>
           <p className="text-[10px] text-gray-400 pt-1">Hotline: 0903 857 257 · hai.tran@lncglobal.vn</p>
+          <button
+            onClick={() => setState('form')}
+            className="mt-2 text-[11px] text-gray-400 hover:text-blue-500 underline underline-offset-2 transition-colors"
+          >
+            Sửa lại thông tin
+          </button>
         </div>
       </>
     );
@@ -120,10 +133,19 @@ export function ConsultantCard({ profileSummary, sessionId, startAtForm = false,
             placeholder="Số điện thoại *"
             value={phone}
             onChange={e => setPhone(e.target.value)}
-            onKeyDown={e => e.key === 'Enter' && handleSubmit()}
             className="w-full rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-900
                        text-sm px-3 py-2 outline-none focus:ring-2 focus:ring-[#0C3656] focus:border-transparent
                        text-gray-800 dark:text-white placeholder:text-gray-400"
+          />
+          <textarea
+            rows={2}
+            placeholder="Ghi chú thêm (không bắt buộc)"
+            value={note}
+            onChange={e => setNote(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && e.ctrlKey && handleSubmit()}
+            className="w-full rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-900
+                       text-sm px-3 py-2 outline-none focus:ring-2 focus:ring-[#0C3656] focus:border-transparent
+                       text-gray-800 dark:text-white placeholder:text-gray-400 resize-none"
           />
         </div>
         <div className="flex gap-2">

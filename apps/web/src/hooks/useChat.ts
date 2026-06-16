@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import type { Message, ChatMeta } from '../types/chat';
 
@@ -7,7 +7,34 @@ const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3000';
 export function useChat(sessionId: string) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [historyLoaded, setHistoryLoaded] = useState(false);
   const abortRef = useRef<(() => void) | null>(null);
+
+  // Load history from server on mount
+  useEffect(() => {
+    if (!sessionId || historyLoaded) return;
+    const load = async () => {
+      try {
+        const res = await fetch(`${API_URL}/history/${sessionId}`);
+        if (!res.ok) return;
+        const data = await res.json() as { messages: { role: string; content: string }[] };
+        const saved = data.messages ?? [];
+        if (saved.length > 0) {
+          const restored: Message[] = saved.map(m => ({
+            id: uuidv4(),
+            role: m.role as 'user' | 'assistant',
+            content: m.content,
+          }));
+          setMessages(restored);
+        }
+      } catch {
+        // silently fail — start fresh
+      } finally {
+        setHistoryLoaded(true);
+      }
+    };
+    void load();
+  }, [sessionId, historyLoaded]);
 
   const sendMessage = useCallback(async (query: string) => {
     if (!query.trim() || isLoading) return;
@@ -54,12 +81,12 @@ export function useChat(sessionId: string) {
             const event = JSON.parse(raw);
 
             if (event.type === 'web_results') {
-                              setMessages(prev => prev.map(m =>
-                                m.id === assistantId
-                                  ? { ...m, webResults: event.items as import('../types/chat').WebResult[] }
-                                  : m
-                              ));
-                            } else if (event.type === 'status') {
+              setMessages(prev => prev.map(m =>
+                m.id === assistantId
+                  ? { ...m, webResults: event.items as import('../types/chat').WebResult[] }
+                  : m
+              ));
+            } else if (event.type === 'status') {
               setMessages(prev => prev.map(m =>
                 m.id === assistantId
                   ? { ...m, statusMessage: event.message as string }
@@ -86,7 +113,7 @@ export function useChat(sessionId: string) {
               ));
             }
           } catch {
-            // JSON parse error — bỏ qua dòng này
+            // JSON parse error — skip
           }
         }
       }
@@ -110,5 +137,12 @@ export function useChat(sessionId: string) {
     abortRef.current?.();
   }, []);
 
-  return { messages, isLoading, sendMessage, cancelStream };
+  const clearHistory = useCallback(() => {
+    localStorage.removeItem('chat_session_id');
+    setMessages([]);
+    setHistoryLoaded(false);
+    window.location.reload();
+  }, []);
+
+  return { messages, isLoading, historyLoaded, sendMessage, cancelStream, clearHistory };
 }

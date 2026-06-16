@@ -8,13 +8,15 @@ import { ConsultantCard } from './ConsultantCard';
 
 interface Props {
   message: Message;
+  messages: Message[];
   isLoading: boolean;
   sessionId: string;
   onSuggestionSelect: (q: string) => void;
 }
 
-export function MessageBubble({ message, isLoading, sessionId, onSuggestionSelect }: Props) {
+export function MessageBubble({ message, messages, isLoading, sessionId, onSuggestionSelect }: Props) {
   const [showConsultant, setShowConsultant] = useState(true);
+  const [showForm, setShowForm] = useState(message.contact_form ?? false);
   const isUser = message.role === 'user';
 
   if (isUser) {
@@ -93,12 +95,52 @@ export function MessageBubble({ message, isLoading, sessionId, onSuggestionSelec
           variant="program"
         />
         {message.consultant_ask && showConsultant && !message.isStreaming && (
-          <ConsultantCard
-            profileSummary={message.content}
-            sessionId={sessionId}
-            startAtForm={message.contact_form}
-            onContinueChat={() => setShowConsultant(false)}
-          />
+          showForm ? (
+            <ConsultantCard
+              profileSummary={(() => {
+                const idx = messages.findIndex(m => m.id === message.id);
+                const prev = messages.slice(0, idx).reverse().find(m => m.role === 'user');
+                return prev?.content ?? '';
+              })()}
+              messages={messages}
+              sessionId={sessionId}
+              startAtForm={true}
+              onContinueChat={() => setShowConsultant(false)}
+            />
+          ) : (
+            <div className="mt-3 pt-2 border-t border-gray-100 dark:border-gray-700 space-y-1.5">
+              <button
+                onClick={() => setShowForm(true)}
+                className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-left text-sm
+                           border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800
+                           hover:border-[#2D9E34] hover:bg-green-50 dark:hover:bg-green-900/10
+                           hover:shadow-sm transition-all duration-150 group"
+              >
+                <span className="shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-700 text-xs
+                                 flex items-center justify-center font-semibold
+                                 group-hover:bg-[#2D9E34] group-hover:text-white transition-colors">1</span>
+                <span className="flex-1 text-gray-700 dark:text-gray-300 group-hover:text-[#2D9E34] transition-colors">
+                  ✅ Có, chuyên viên L&C liên hệ tôi trực tiếp
+                </span>
+                <span className="text-gray-300 group-hover:text-[#2D9E34] transition-colors">→</span>
+              </button>
+              <button
+                onClick={() => setShowConsultant(false)}
+                className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-left text-sm
+                           border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800
+                           hover:border-[#0C3656] hover:bg-blue-50 dark:hover:bg-blue-900/20
+                           hover:shadow-sm transition-all duration-150 group"
+              >
+                <span className="shrink-0 w-6 h-6 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-500 text-xs
+                                 flex items-center justify-center font-semibold
+                                 group-hover:bg-[#0C3656] group-hover:text-white transition-colors">2</span>
+                <span className="flex-1 text-gray-700 dark:text-gray-300 group-hover:text-[#0C3656] transition-colors">
+                  💬 Không, tiếp tục hỏi chatbot
+                </span>
+                <span className="text-gray-300 group-hover:text-[#0C3656] transition-colors">→</span>
+              </button>
+            </div>
+          )
         )}
         <CitationPanel sources={message.sources ?? []} />
         <SuggestionChips
