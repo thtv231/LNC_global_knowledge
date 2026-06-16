@@ -84,7 +84,7 @@ export function MarkdownText({ content, isStreaming }: { content: string; isStre
                 </thead>
                 <tbody>
                   {t.rows.map((row, ri) => (
-                    <tr key={ri} className={ri % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-750'}>
+                    <tr key={ri} className={ri % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-700'}>
                       {row.map((cell, ci) => (
                         <td key={ci} className="px-3 py-2 border-t border-gray-100 dark:border-gray-700 text-gray-700 dark:text-gray-300">
                           {renderInline(cell)}
