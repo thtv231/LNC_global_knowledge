@@ -34,7 +34,7 @@ def vector_retrieve(state: ChatState) -> dict:
     country_filter = "AND c.country = $country" if country else ""
     cypher = CYPHER_VECTOR.replace("{country_filter}", country_filter)
 
-    params: dict = {"embedding": embedding, "top_k": 6}
+    params: dict = {"embedding": embedding, "top_k": 10}
     if country:
         params["country"] = country
 

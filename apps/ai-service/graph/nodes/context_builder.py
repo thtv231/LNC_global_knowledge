@@ -43,11 +43,11 @@ def build_context(state: ChatState) -> dict:
     top: list[dict] = []
     for c in all_chunks:
         if c.get("is_web"):
-            if web_kept >= 3:
+            if web_kept >= 4:
                 continue
             web_kept += 1
         top.append(c)
-        if len(top) >= 8:
+        if len(top) >= 12:
             break
 
     sources = []

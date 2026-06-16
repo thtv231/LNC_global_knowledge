@@ -172,13 +172,13 @@ def format_context(chunks: list[dict]) -> str:
         label = "[WEB - mới nhất]" if c.get("is_web") else f"[KB]"
         title = f"[{i}] {label} {c['title']}" if c.get("title") else f"[{i}] {label}"
         cat = f"({c['category']}, {c['country']})" if c.get("category") else ""
-        parts.append(f"{title} {cat}\n{c['content'][:1500]}")
+        parts.append(f"{title} {cat}\n{c['content'][:3000]}")
     return "\n\n---\n\n".join(parts)
 
 
 def format_history(history: list[dict]) -> list:
     messages = []
-    for h in history[-6:]:  # giữ 6 turn gần nhất
+    for h in history[-20:]:  # giữ 20 turn gần nhất
         if h["role"] == "user":
             messages.append(HumanMessage(content=h["content"]))
         else:
