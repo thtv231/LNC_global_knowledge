@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import type { Message } from '../types/chat';
 
-const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3000';
 
 function Toast({ name, phone, onDone }: { name: string; phone: string; onDone: () => void }) {
   const [visible, setVisible] = useState(false);

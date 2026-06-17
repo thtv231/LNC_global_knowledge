@@ -6,7 +6,7 @@ import { useChat } from '../hooks/useChat';
 import { useSession } from '../hooks/useSession';
 
 const SUGGESTIONS = [
-  'Điều kiện Express Entry Canada 2024?',
+  'Điều kiện Express Entry Canada?',
   'So sánh EB2-NIW và EB1-A Mỹ',
   'Chương trình Skilled Migrant New Zealand',
   'Chi phí định cư Canada mất bao nhiêu?',
@@ -25,7 +25,7 @@ Bạn muốn tìm hiểu về chương trình nào?`;
 
 export function ChatWindow() {
   const sessionId = useSession();
-  const { messages, isLoading, sendMessage, clearHistory } = useChat(sessionId);
+  const { messages, isLoading, serverError, setServerError, sendMessage, clearHistory } = useChat(sessionId);
   const [input, setInput] = useState('');
   const [showWizard, setShowWizard] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
@@ -45,6 +45,27 @@ export function ChatWindow() {
 
   return (
     <div className="flex flex-col h-screen bg-gray-50 dark:bg-gray-900">
+
+      {/* ── Server error popup ── */}
+      {serverError && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl px-8 py-7 max-w-sm mx-4 text-center">
+            <div className="text-4xl mb-3">🔧</div>
+            <h2 className="text-base font-bold text-gray-900 dark:text-white mb-1">
+              Server đang bảo trì
+            </h2>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-5">
+              Vui lòng chờ trong chốc lát và thử lại.
+            </p>
+            <button
+              onClick={() => setServerError(false)}
+              className="px-5 py-2 rounded-xl bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700 transition-colors"
+            >
+              Đã hiểu
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* ── Header ── */}
       <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 shadow-sm">

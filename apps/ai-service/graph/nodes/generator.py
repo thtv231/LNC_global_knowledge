@@ -186,9 +186,6 @@ def format_history(history: list[dict]) -> list:
     return messages
 
 
-llm = get_llm(temperature=0.3, max_tokens=2048, streaming=True)
-
-
 def generate(state: ChatState) -> dict:
     context = format_context(state.get("merged_chunks", []))
     history = format_history(state.get("history", []))
@@ -199,6 +196,7 @@ def generate(state: ChatState) -> dict:
         HumanMessage(content=f"Thông tin tham khảo:\n{context}\n\nCâu hỏi: {state['query']}"),
     ]
 
+    llm = get_llm(temperature=0.3, max_tokens=2048, streaming=True)
     answer = ""
     tokens = []
     for chunk in llm.stream(messages):

@@ -8,6 +8,7 @@ export function useChat(sessionId: string) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [historyLoaded, setHistoryLoaded] = useState(false);
+  const [serverError, setServerError] = useState(false);
   const abortRef = useRef<(() => void) | null>(null);
 
   // Load history from server on mount
@@ -59,6 +60,12 @@ export function useChat(sessionId: string) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query, session_id: sessionId }),
       });
+
+      if (res.status >= 500) {
+        setServerError(true);
+        setMessages(prev => prev.filter(m => m.id !== assistantId));
+        return;
+      }
 
       const reader = res.body!.getReader();
       const decoder = new TextDecoder();
@@ -119,11 +126,8 @@ export function useChat(sessionId: string) {
       }
     } catch (err) {
       if (!cancelled) {
-        setMessages(prev => prev.map(m =>
-          m.id === assistantId
-            ? { ...m, content: 'Không thể kết nối đến server. Vui lòng thử lại.', isStreaming: false }
-            : m
-        ));
+        setServerError(true);
+        setMessages(prev => prev.filter(m => m.id !== assistantId && m.id !== userMsg.id));
       }
     } finally {
       setMessages(prev => prev.map(m =>
@@ -144,5 +148,5 @@ export function useChat(sessionId: string) {
     window.location.reload();
   }, []);
 
-  return { messages, isLoading, historyLoaded, sendMessage, cancelStream, clearHistory };
+  return { messages, isLoading, historyLoaded, serverError, setServerError, sendMessage, cancelStream, clearHistory };
 }

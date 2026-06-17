@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     groq_model: str = "llama-3.3-70b-versatile"
     groq_suggest_model: str = "llama-3.1-8b-instant"
     deepseek_api_key: str = ""
+    deepseek_api_keys: str = ""  # comma-separated list of keys
     deepseek_model: str = "deepseek-chat"
     embedding_model: str = "intfloat/multilingual-e5-base"
     embedding_dim: int = 768
