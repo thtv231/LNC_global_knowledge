@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "PowerShell(docker start redis nginx-proxy 2>&1)",
+      "PowerShell(Start-Sleep -Seconds 5; 8001..8005 | ForEach-Object { $port = $_; try { $r = Invoke-WebRequest \"http://localhost:$port/health\" -TimeoutSec 5 -ErrorAction Stop; Write-Host \"Worker $port`: OK\" } catch { Write-Host \"Worker $port`: FAIL\" } })",
+      "PowerShell(Start-Sleep -Seconds 8; 8001..8005 | ForEach-Object { $port = $_; try { $r = Invoke-WebRequest \"http://localhost:$port/health\" -TimeoutSec 5 -ErrorAction Stop; Write-Host \"Worker $port`: OK\" } catch { Write-Host \"Worker $port`: FAIL - $\\($_.Exception.Message\\)\" } })",
+      "PowerShell(try { $r = Invoke-WebRequest \"http://localhost:5173\" -TimeoutSec 5 -ErrorAction Stop; Write-Host \"Frontend: OK \\($\\($r.StatusCode\\)\\)\" } catch { Write-Host \"Frontend: FAIL - $\\($_.Exception.Message\\)\" })",
+      "PowerShell(Start-Process -FilePath \"cmd.exe\" -ArgumentList \"/c cd C:\\\\graph_knowledge\\\\apps\\\\web && npm run dev\" -NoNewWindow)",
+      "PowerShell(Start-Sleep -Seconds 6; try { $r = Invoke-WebRequest \"http://localhost:5173\" -TimeoutSec 5 -ErrorAction Stop; Write-Host \"Frontend: OK \\($\\($r.StatusCode\\)\\)\" } catch { Write-Host \"Frontend: FAIL - $\\($_.Exception.Message\\)\" })"
+    ]
+  }
+}
