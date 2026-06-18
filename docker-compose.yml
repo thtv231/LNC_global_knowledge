@@ -1,21 +1,42 @@
 services:
   redis:
     image: redis:7-alpine
-    ports:
-      - "6379:6379"
+    restart: unless-stopped
     command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
 
-  # Neo4j chỉ cần cho local dev — production dùng AuraDB
-  neo4j:
-    image: neo4j:5.20
-    ports:
-      - "7474:7474"
-      - "7687:7687"
+  ai-service:
+    build:
+      context: ./apps/ai-service
+    restart: unless-stopped
+    env_file: .env
     environment:
-      - NEO4J_AUTH=neo4j/yourpassword
-      - NEO4J_PLUGINS=["apoc"]
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - redis
     volumes:
-      - neo4j_data:/data
+      - hf_cache:/root/.cache/huggingface
+
+  gateway:
+    build:
+      context: ./apps/gateway
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - AI_SERVICE_URL=http://ai-service:8000
+      - PORT=3000
+    depends_on:
+      - ai-service
+
+  web:
+    build:
+      context: ./apps/web
+      args:
+        - VITE_API_URL=
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - gateway
 
 volumes:
-  neo4j_data:
+  hf_cache:

@@ -1,0 +1,29 @@
+# Local dev overrides — merged automatically by `docker compose up`
+# Production (GCP) uses docker-compose.yml only: `docker compose -f docker-compose.yml up`
+services:
+  neo4j:
+    image: neo4j:5.20
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/yourpassword
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      - neo4j_data:/data
+
+  ai-service:
+    ports:
+      - "8000:8000"
+
+  gateway:
+    ports:
+      - "3000:3000"
+
+  web:
+    build:
+      args:
+        - VITE_API_URL=http://localhost:3000
+
+volumes:
+  neo4j_data:
