@@ -2,7 +2,7 @@ fastapi==0.111.0
 uvicorn[standard]==0.29.0
 langgraph==0.1.19
 langchain-groq==0.1.6
-langchain-core==0.2.10
+langchain-core==0.2.38
 neo4j==5.20.0
 sentence-transformers==3.0.1
 redis==5.0.4
