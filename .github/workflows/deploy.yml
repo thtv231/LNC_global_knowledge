@@ -21,4 +21,4 @@ jobs:
           ssh -i ~/.ssh/deploy_key \
             -o StrictHostKeyChecking=no \
             ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
-            "cd ~/LNC_global_knowledge && git pull origin master && docker compose -f docker-compose.yml up -d --build && docker image prune -f"
+            "cd ~/LNC_global_knowledge && git fetch origin master && git reset --hard origin/master && docker compose -f docker-compose.yml up -d --build && docker image prune -f"
