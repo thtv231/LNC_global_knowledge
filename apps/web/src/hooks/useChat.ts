@@ -4,6 +4,11 @@ import type { Message, ChatMeta } from '../types/chat';
 
 const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3000';
 
+// bypass localtunnel confirmation page for API calls
+const TUNNEL_HEADERS: Record<string, string> = API_URL.includes('loca.lt')
+  ? { 'bypass-tunnel-reminder': 'true' }
+  : {};
+
 export function useChat(sessionId: string) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -16,7 +21,7 @@ export function useChat(sessionId: string) {
     if (!sessionId || historyLoaded) return;
     const load = async () => {
       try {
-        const res = await fetch(`${API_URL}/history/${sessionId}`);
+        const res = await fetch(`${API_URL}/history/${sessionId}`, { headers: TUNNEL_HEADERS });
         if (!res.ok) return;
         const data = await res.json() as { messages: { role: string; content: string }[] };
         const saved = data.messages ?? [];
@@ -57,7 +62,7 @@ export function useChat(sessionId: string) {
     try {
       const res = await fetch(`${API_URL}/chat`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', ...TUNNEL_HEADERS },
         body: JSON.stringify({ query, session_id: sessionId }),
       });
 
@@ -141,6 +146,14 @@ export function useChat(sessionId: string) {
     abortRef.current?.();
   }, []);
 
+  const addMessage = useCallback((msg: Message) => {
+    setMessages(prev => [...prev, msg]);
+  }, []);
+
+  const removeMessage = useCallback((id: string) => {
+    setMessages(prev => prev.filter(m => m.id !== id));
+  }, []);
+
   const clearHistory = useCallback(() => {
     localStorage.removeItem('chat_session_id');
     setMessages([]);
@@ -148,5 +161,5 @@ export function useChat(sessionId: string) {
     window.location.reload();
   }, []);
 
-  return { messages, isLoading, historyLoaded, serverError, setServerError, sendMessage, cancelStream, clearHistory };
+  return { messages, isLoading, historyLoaded, serverError, setServerError, sendMessage, cancelStream, addMessage, removeMessage, clearHistory };
 }

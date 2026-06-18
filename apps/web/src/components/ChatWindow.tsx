@@ -11,6 +11,9 @@ import { useSession } from '../hooks/useSession';
 import type { CVAnalysisData } from '../types/chat';
 
 const CV_API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3000';
+const TUNNEL_HEADERS: Record<string, string> = CV_API_URL.includes('loca.lt')
+  ? { 'bypass-tunnel-reminder': 'true' }
+  : {};
 
 const SUGGESTIONS = [
   'Điều kiện Express Entry Canada?',
@@ -47,7 +50,7 @@ export function ChatWindow() {
     const formData = new FormData();
     formData.append('file', file);
     try {
-      const res = await fetch(`${CV_API_URL}/cv/analyze`, { method: 'POST', body: formData });
+      const res = await fetch(`${CV_API_URL}/cv/analyze`, { method: 'POST', body: formData, headers: TUNNEL_HEADERS });
       if (!res.ok) throw new Error(`API error: ${res.status}`);
       const data = await res.json() as CVAnalysisData;
       removeMessage(analyzingId);
