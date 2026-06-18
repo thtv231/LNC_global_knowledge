@@ -9,6 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
@@ -25,12 +28,17 @@ jobs:
                git clone https://github.com/${{ github.repository }}.git ~/LNC_global_knowledge
              fi"
 
-      - name: Sync .env from secrets
+      - name: Write .env from secret
+        run: printf '%s' "$DEPLOY_ENV_B64" | base64 -d > .env
+        env:
+          DEPLOY_ENV_B64: ${{ secrets.DEPLOY_ENV_B64 }}
+
+      - name: Copy .env to VM
         run: |
-          ssh -i ~/.ssh/deploy_key \
+          scp -i ~/.ssh/deploy_key \
             -o StrictHostKeyChecking=no \
-            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
-            "printf '%s' '${{ secrets.DEPLOY_ENV_B64 }}' | base64 -d > ~/LNC_global_knowledge/.env"
+            .env \
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:~/LNC_global_knowledge/.env
 
       - name: Pull latest code and rebuild
         run: |
