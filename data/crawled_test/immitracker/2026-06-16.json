@@ -1,0 +1,437 @@
+[
+  {
+    "content": "MyImmiTracker Canada: Canadian Citizenship Processing Tracker. Category: Immigration. This tracker has 2965 cases tracked by community members. Last updated 33 minutes ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/canadian-citizenship-processing-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: Canadian Citizenship Processing Tracker",
+    "category": "general",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/canadian-citizenship-processing-tracker",
+    "structured_data": {
+      "chunk_id": "e43b6d8afbeee79fa41d0dd95d5e2299",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: Consolidated Express Entry PR Application Tracker. Category: Permanent Skilled Streams. This tracker has 21462 cases tracked by community members. Last updated about 2 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/consolidated-express-entry-pr-application-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: Consolidated Express Entry PR Application Tracker",
+    "category": "express_entry",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/consolidated-express-entry-pr-application-tracker",
+    "structured_data": {
+      "chunk_id": "62c21b7b4ebbd90181c377d986993606",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "permanent skilled streams",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: CEC Express Entry Tracker (subtracker). Category: Permanent Skilled Streams. This tracker has 6889 cases tracked by community members. Last updated about 2 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/cec-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: CEC Express Entry Tracker",
+    "category": "express_entry",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/cec-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "0637d57cf924aabe04d35817ff09c798",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "permanent skilled streams",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: 2025 Express Entry PR Application Tracker (subtracker). Category: Immigration. This tracker has 701 cases tracked by community members. Last updated about 2 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/2025-express-entry-pr-application-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: 2025 Express Entry PR Application Tracker",
+    "category": "general",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/2025-express-entry-pr-application-tracker",
+    "structured_data": {
+      "chunk_id": "3d94dbe984d6ab9a94c080da0390e1e0",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: Consolidated Spousal Sponsorship Tracker. Category: Family Sponsored. This tracker has 2395 cases tracked by community members. Last updated about 2 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/consolidated-spousal-sponsorship-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: Consolidated Spousal Sponsorship Tracker",
+    "category": "general",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/consolidated-spousal-sponsorship-tracker",
+    "structured_data": {
+      "chunk_id": "506cb229fd9e98f476e71daf7cc25d4f",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "family sponsored",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: Outland Spousal Sponsorship Tracker (subtracker). Category: Family Sponsored. This tracker has 1756 cases tracked by community members. Last updated about 2 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/outland-spousal-sponsorship-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: Outland Spousal Sponsorship Tracker",
+    "category": "general",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/outland-spousal-sponsorship-tracker",
+    "structured_data": {
+      "chunk_id": "7e1f16ba6b6180a4b938e545f430de72",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "family sponsored",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: Indian Nationals Express Entry Tracker (subtracker). Category: Permanent Skilled Streams. This tracker has 10381 cases tracked by community members. Last updated about 2 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/indian-nationals-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: Indian Nationals Express Entry Tracker",
+    "category": "express_entry",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/indian-nationals-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "dd1e91076d0297a91fe4b6b8c4ff1120",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "permanent skilled streams",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: Inland Spousal Sponsorship Tracker (subtracker). Category: Family Sponsored. This tracker has 640 cases tracked by community members. Last updated about 2 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/inland-spousal-sponsorship-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: Inland Spousal Sponsorship Tracker",
+    "category": "general",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/inland-spousal-sponsorship-tracker",
+    "structured_data": {
+      "chunk_id": "a11bfbcd16971708747ca39400494cbb",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "family sponsored",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: Ukrainian Nationals Express Entry Tracker (subtracker). Category: Permanent Skilled Streams. This tracker has 226 cases tracked by community members. Last updated about 3 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/ukrainian-nationals-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: Ukrainian Nationals Express Entry Tracker",
+    "category": "express_entry",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/ukrainian-nationals-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "f93c6b149ba07bb5e9cfab834a0d53e8",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "permanent skilled streams",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: Russian Nationals Express Entry Tracker (subtracker). Category: Permanent Skilled Streams. This tracker has 359 cases tracked by community members. Last updated about 4 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/russian-nationals-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: Russian Nationals Express Entry Tracker",
+    "category": "express_entry",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/russian-nationals-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "a8d0b0e7ca2203a56a85b3bf72fe2359",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "permanent skilled streams",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: Chinese Nationals Express Entry Tracker (subtracker). Category: Permanent Skilled Streams. This tracker has 1837 cases tracked by community members. Last updated about 8 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/chinese-nationals-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: Chinese Nationals Express Entry Tracker",
+    "category": "express_entry",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/chinese-nationals-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "8f7af56744fec71edf0c5b8456e183c5",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "permanent skilled streams",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: PNP Inland Express Entry Tracker (subtracker). Category: Permanent Skilled Streams. This tracker has 1742 cases tracked by community members. Last updated about 10 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/pnp-inland-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: PNP Inland Express Entry Tracker",
+    "category": "express_entry",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/pnp-inland-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "ac33b26e780b939a0fd02a22d494c341",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "permanent skilled streams",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: PNP Express Entry Tracker (subtracker). Category: Immigration. This tracker has 4927 cases tracked by community members. Last updated about 10 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/pnp-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: PNP Express Entry Tracker",
+    "category": "general",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/pnp-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "c18b9f728c730d7d51d4434b1432f62d",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: PNP Non-Express Entry Tracker. Category: Permanent Skilled Streams. This tracker has 290 cases tracked by community members. Last updated about 10 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/pnp-non-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: PNP Non-Express Entry Tracker",
+    "category": "express_entry",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/pnp-non-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "754f84ee3aec2cd8eed2ccd3875ed19b",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "permanent skilled streams",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: FSW Outland Express Entry Tracker (subtracker). Category: Permanent Skilled Streams. This tracker has 8738 cases tracked by community members. Last updated about 12 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/fsw-outland-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: FSW Outland Express Entry Tracker",
+    "category": "express_entry",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/fsw-outland-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "055f256285d054b5541a0866ca86eebf",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "permanent skilled streams",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: Federal Skilled Worker (FSW) Express Entry Tracker (subtracker). Category: Immigration. This tracker has 9647 cases tracked by community members. Last updated about 12 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/federal-skilled-worker-fsw-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: Federal Skilled Worker (FSW) Express Entry Tracker",
+    "category": "general",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/federal-skilled-worker-fsw-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "e394e23084045db44a657da3936e6fae",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: USA Nationals Express Entry Tracker (subtracker). Category: Permanent Skilled Streams. This tracker has 134 cases tracked by community members. Last updated about 12 hours ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/usa-nationals-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: USA Nationals Express Entry Tracker",
+    "category": "express_entry",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/usa-nationals-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "e566faedd9b6a99d4419616da4b4bef0",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "permanent skilled streams",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: PNP Outland Express Entry Tracker (subtracker). Category: Permanent Skilled Streams. This tracker has 3185 cases tracked by community members. Last updated 1 day ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/pnp-outland-express-entry-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: PNP Outland Express Entry Tracker",
+    "category": "express_entry",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/pnp-outland-express-entry-tracker",
+    "structured_data": {
+      "chunk_id": "3b17c45091d1b8ac689f5f336027e760",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "permanent skilled streams",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: 2024 Express Entry PR Application Tracker (subtracker). Category: Immigration. This tracker has 1727 cases tracked by community members. Last updated 1 day ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/2024-express-entry-pr-application-tracker. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: 2024 Express Entry PR Application Tracker",
+    "category": "general",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/2024-express-entry-pr-application-tracker",
+    "structured_data": {
+      "chunk_id": "2861164153846e0678b11508ae7274e8",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  },
+  {
+    "content": "MyImmiTracker Canada: Mississauga VO Spouse Sponsorship Applicants (subtracker). Category: Family Sponsored. This tracker has 525 cases tracked by community members. Last updated 2 days ago. Tracker URL: https://myimmitracker.com/en/ca/trackers/mississauga-vo-spouse-sponsorship-applicants. This is a crowd-sourced Canada immigration timeline tracker where applicants share their case milestones (submission date, AOR, biometrics, medical, PPR, COPR). Data reflects real applicant experiences as of 2026-06-16.",
+    "title": "MyImmiTracker: Mississauga VO Spouse Sponsorship Applicants",
+    "category": "general",
+    "site": "myimmitracker",
+    "page_url": "https://myimmitracker.com/en/ca/trackers/mississauga-vo-spouse-sponsorship-applicants",
+    "structured_data": {
+      "chunk_id": "c69525f8e0633a6554bfc151f65c50cd",
+      "section": "tracker_listing",
+      "country": "canada",
+      "tags": [
+        "immitracker",
+        "canada",
+        "family sponsored",
+        "processing_time",
+        "tracker"
+      ],
+      "trust_score": 0.7,
+      "priority": 2,
+      "language": "en"
+    }
+  }
+]

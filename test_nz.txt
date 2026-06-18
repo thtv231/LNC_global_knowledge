@@ -1,0 +1,11 @@
+﻿{
+    "answer":  "ThÃ´ng tin báº¡n cung cáº¥p khÃ´ng Äá»§ Äá» tráº£ lá»i cÃ¢u há»i cá»§a báº¡n. Äá» tráº£ lá»i vá» há» thá»ng Äiá»m sá» di trÃº New Zealand, tÃ´i cáº§n biáº¿t thÃªm thÃ´ng tin vá» loáº¡i visa hoáº·c chÆ°Æ¡ng trÃ¬nh di trÃº báº¡n quan tÃ¢m.\n\nTuy nhiÃªn, tÃ´i cÃ³ thá» cung cáº¥p má»t sá» thÃ´ng tin chung vá» há» thá»ng Äiá»m sá» di trÃº New Zealand. Há» thá»ng nÃ y ÄÆ°á»£c sá»­ dá»¥ng Äá» ÄÃ¡nh giÃ¡ kháº£ nÄng cá»§a á»©ng viÃªn di trÃº vÃ  thÆ°á»ng bao gá»m cÃ¡c yáº¿u tá» nhÆ°:\n\n* Äá» tuá»i\n* TrÃ¬nh Äá» há»c váº¥n\n* Kinh nghiá»m lÃ m viá»c\n* Ká»¹ nÄng ngÃ´n ngá»¯\n* Kháº£ nÄng tÃ i chÃ­nh\n\nHá» thá»ng Äiá»m sá» nÃ y ÄÆ°á»£c quy Äá»nh trong Luáº­t Di trÃº New Zealand vÃ  ÄÆ°á»£c quáº£n lÃ½ bá»i CÆ¡ quan Di trÃº New Zealand (Immigration New Zealand).\n\nNáº¿u báº¡n cung cáº¥p thÃªm thÃ´ng tin vá» loáº¡i visa hoáº·c chÆ°Æ¡ng trÃ¬nh di trÃº báº¡n quan tÃ¢m, tÃ´i cÃ³ thá» cung cáº¥p thÃ´ng tin cá»¥ thá» hÆ¡n.",
+    "sources":  [
+
+                ],
+    "detected":  {
+                     "country":  "newzealand",
+                     "category":  "skilled-migrant",
+                     "topic":  "immigration points"
+                 }
+}

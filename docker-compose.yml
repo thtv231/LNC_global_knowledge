@@ -1,0 +1,21 @@
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
+
+  # Neo4j chỉ cần cho local dev — production dùng AuraDB
+  neo4j:
+    image: neo4j:5.20
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/yourpassword
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      - neo4j_data:/data
+
+volumes:
+  neo4j_data:
