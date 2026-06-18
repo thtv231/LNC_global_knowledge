@@ -5,9 +5,10 @@ import type { Message, ChatMeta } from '../types/chat';
 const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3000';
 
 // bypass localtunnel confirmation page for API calls
-const TUNNEL_HEADERS: Record<string, string> = API_URL.includes('loca.lt')
-  ? { 'bypass-tunnel-reminder': 'true' }
-  : {};
+const TUNNEL_HEADERS: Record<string, string> =
+  (API_URL.includes('loca.lt') || API_URL.includes('lhr.life'))
+    ? { 'bypass-tunnel-reminder': 'true' }
+    : {};
 
 export function useChat(sessionId: string) {
   const [messages, setMessages] = useState<Message[]>([]);

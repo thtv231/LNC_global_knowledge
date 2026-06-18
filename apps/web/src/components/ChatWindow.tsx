@@ -11,9 +11,10 @@ import { useSession } from '../hooks/useSession';
 import type { CVAnalysisData } from '../types/chat';
 
 const CV_API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3000';
-const TUNNEL_HEADERS: Record<string, string> = CV_API_URL.includes('loca.lt')
-  ? { 'bypass-tunnel-reminder': 'true' }
-  : {};
+const TUNNEL_HEADERS: Record<string, string> =
+  (CV_API_URL.includes('loca.lt') || CV_API_URL.includes('lhr.life'))
+    ? { 'bypass-tunnel-reminder': 'true' }
+    : {};
 
 const SUGGESTIONS = [
   'Điều kiện Express Entry Canada?',
