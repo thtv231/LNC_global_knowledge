@@ -9,16 +9,47 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup SSH key
+      - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.DEPLOY_KEY }}" | base64 -d > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Deploy via SSH
+      - name: Clone repo if first deploy
         run: |
           ssh -i ~/.ssh/deploy_key \
             -o StrictHostKeyChecking=no \
             ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
-            "cd ~/LNC_global_knowledge && git fetch origin master && git reset --hard origin/master && docker compose -f docker-compose.yml up -d --build && docker image prune -f"
+            "if [ ! -d ~/LNC_global_knowledge/.git ]; then
+               git clone https://github.com/${{ github.repository }}.git ~/LNC_global_knowledge
+             fi"
+
+      - name: Sync .env from secrets
+        run: |
+          ssh -i ~/.ssh/deploy_key \
+            -o StrictHostKeyChecking=no \
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
+            "printf '%s' '${{ secrets.DEPLOY_ENV_B64 }}' | base64 -d > ~/LNC_global_knowledge/.env"
+
+      - name: Pull latest code and rebuild
+        run: |
+          ssh -i ~/.ssh/deploy_key \
+            -o StrictHostKeyChecking=no \
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
+            "set -e
+             cd ~/LNC_global_knowledge
+             git fetch origin master
+             git reset --hard origin/master
+             docker compose -f docker-compose.yml up -d --build
+             docker image prune -f"
+
+      - name: Health check
+        run: |
+          sleep 20
+          ssh -i ~/.ssh/deploy_key \
+            -o StrictHostKeyChecking=no \
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
+            "cd ~/LNC_global_knowledge &&
+             docker compose -f docker-compose.yml ps --format 'table {{.Name}}\t{{.Status}}' &&
+             curl -sf http://localhost/health && echo 'Web: OK' || echo 'Web: not ready yet'"
