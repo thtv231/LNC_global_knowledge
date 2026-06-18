@@ -4,11 +4,13 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 
 from pipeline.entity_extractor import EntityExtractor
 from retrieval.vector_retriever import VectorRetriever
 from api.routes.chat import router as chat_router
+from api.routes.cv import router as cv_router
 
 load_dotenv()
 
@@ -24,7 +26,14 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="Immigration RAG Chatbot", version="0.1.0", lifespan=lifespan)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 app.include_router(chat_router)
+app.include_router(cv_router)
 
 
 @app.get("/health")

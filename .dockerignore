@@ -1,0 +1,16 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+.env
+.env.*
+data/
+*.onnx
+*.bin
+apps/web/
+apps/gateway/
+.git
+.claude
+screenshots/
+tests/
+node_modules/
