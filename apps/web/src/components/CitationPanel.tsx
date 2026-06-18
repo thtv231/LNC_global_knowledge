@@ -2,10 +2,10 @@ import type { Source } from '../types/chat';
 
 interface Props { sources: Source[] }
 
-const COUNTRY: Record<string, { flag: string; label: string; color: string }> = {
-  canada:     { flag: '🇨🇦', label: 'Canada',      color: 'bg-red-50 text-red-700 dark:bg-red-900/30 dark:text-red-300' },
-  usa:        { flag: '🇺🇸', label: 'Mỹ',          color: 'bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300' },
-  newzealand: { flag: '🇳🇿', label: 'New Zealand', color: 'bg-green-50 text-green-700 dark:bg-green-900/30 dark:text-green-300' },
+const COUNTRY: Record<string, { label: string; bg: string; color: string }> = {
+  canada:     { label: 'Canada',      bg: '#FEF2F2', color: '#991B1B' },
+  usa:        { label: 'Mỹ',          bg: '#EFF6FF', color: '#1E40AF' },
+  newzealand: { label: 'New Zealand', bg: '#F0FDF4', color: '#065F46' },
 };
 
 function hostname(url: string) {
@@ -19,28 +19,23 @@ export function CitationPanel({ sources }: Props) {
   const kbSources  = sources.filter(s => !s.is_web);
 
   return (
-    <div className="mt-3 pt-2.5 border-t border-gray-100 dark:border-gray-700 space-y-2.5">
+    <div className="mt-3 pt-3 space-y-2.5" style={{ borderTop: '1px solid var(--c-border)' }}>
 
-      {/* Web sources */}
       {webSources.length > 0 && (
         <div>
-          <p className="flex items-center gap-1.5 text-[11px] font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-wide mb-1.5">
-            <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+          <p className="flex items-center gap-1.5 mb-1.5" style={{ fontSize: '10px', fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase', color: '#065F46' }}>
+            <span className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--c-green)' }} />
             Tìm kiếm web · mới nhất
           </p>
           <div className="flex flex-col gap-1.5">
             {webSources.map((s, i) => (
-              <a
-                key={`web-${i}`}
-                href={s.source_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 group"
-              >
-                <span className="shrink-0 text-[10px] font-semibold px-1.5 py-0.5 rounded bg-emerald-50 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300">
-                  🌐 {hostname(s.source_url)}
+              <a key={`web-${i}`} href={s.source_url} target="_blank" rel="noopener noreferrer"
+                className="flex items-center gap-2 no-underline group">
+                <span className="shrink-0 text-[10px] font-semibold px-1.5 py-0.5 rounded"
+                  style={{ background: '#F0FDF4', color: '#065F46', border: '1px solid #D1FAE5' }}>
+                  {hostname(s.source_url)}
                 </span>
-                <span className="text-xs text-blue-600 dark:text-blue-400 group-hover:underline truncate">
+                <span className="text-xs truncate group-hover:underline" style={{ color: 'var(--c-blue)' }}>
                   {s.title || hostname(s.source_url)}
                 </span>
               </a>
@@ -49,27 +44,22 @@ export function CitationPanel({ sources }: Props) {
         </div>
       )}
 
-      {/* KB sources */}
       {kbSources.length > 0 && (
         <div>
-          <p className="text-[11px] font-medium text-gray-400 uppercase tracking-wide mb-1.5">
+          <p className="mb-1.5" style={{ fontSize: '10px', fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--c-text-3)' }}>
             {webSources.length > 0 ? 'Cơ sở dữ liệu' : 'Nguồn tham khảo'}
           </p>
           <div className="flex flex-col gap-1.5">
             {kbSources.map((s, i) => {
-              const c = COUNTRY[s.country] ?? { flag: '📄', label: s.country, color: 'bg-gray-100 text-gray-600' };
+              const c = COUNTRY[s.country] ?? { label: s.country, bg: 'var(--c-surface)', color: 'var(--c-text-3)' };
               return (
-                <a
-                  key={`kb-${i}`}
-                  href={s.source_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 group"
-                >
-                  <span className={`shrink-0 text-[10px] font-semibold px-1.5 py-0.5 rounded ${c.color}`}>
-                    {c.flag} {c.label}
+                <a key={`kb-${i}`} href={s.source_url} target="_blank" rel="noopener noreferrer"
+                  className="flex items-center gap-2 no-underline group">
+                  <span className="shrink-0 text-[10px] font-semibold px-1.5 py-0.5 rounded"
+                    style={{ background: c.bg, color: c.color, border: `1px solid ${c.bg}` }}>
+                    {c.label}
                   </span>
-                  <span className="text-xs text-blue-600 dark:text-blue-400 group-hover:underline truncate">
+                  <span className="text-xs truncate group-hover:underline" style={{ color: 'var(--c-blue)' }}>
                     {s.title || hostname(s.source_url)}
                   </span>
                 </a>

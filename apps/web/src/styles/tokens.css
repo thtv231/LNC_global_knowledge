@@ -1,0 +1,39 @@
+:root {
+  /* Brand */
+  --navy-deep:    #0D1B2A;
+  --navy-mid:     #1A3A5C;
+  --gold:         #C9A96E;
+  --gold-light:   rgba(201, 169, 110, 0.15);
+  --gold-border:  rgba(201, 169, 110, 0.4);
+
+  /* Surfaces */
+  --bg-page:      #F7F4EF;
+  --bg-white:     #FFFFFF;
+  --bg-muted:     #FDFBF7;
+
+  /* Borders */
+  --border-main:  #E8E0D4;
+  --border-soft:  #D4C9B8;
+
+  /* Text */
+  --text-primary:   #0D1B2A;
+  --text-secondary: #4A4235;
+  --text-muted:     #8A9BAD;
+  --text-faint:     #B0A090;
+
+  /* Semantic */
+  --risk-danger:    #C0392B;
+  --risk-danger-bg: #FDECEA;
+  --risk-warn:      #BA7517;
+  --risk-warn-bg:   #FEF3E2;
+  --risk-ok:        #3B6D11;
+  --risk-ok-bg:     #EAF3DE;
+  --risk-ok-border: #C0DD97;
+  --risk-strong:    #1A5C8A;
+  --risk-strong-bg: #E8F4FD;
+
+  /* Spacing */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}

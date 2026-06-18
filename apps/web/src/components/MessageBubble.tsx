@@ -5,6 +5,9 @@ import { CitationPanel } from './CitationPanel';
 import { SuggestionChips } from './SuggestionChips';
 import { IntakeCard } from './IntakeCard';
 import { ConsultantCard } from './ConsultantCard';
+import { CVFileBubble } from './CVFileBubble';
+import { CVAnalyzingCardAuto } from './CVAnalyzingCard';
+import { CVResultBubble } from './CVResultBubble';
 
 interface Props {
   message: Message;
@@ -19,48 +22,67 @@ export function MessageBubble({ message, messages, isLoading, sessionId, onSugge
   const [showForm, setShowForm] = useState(message.contact_form ?? false);
   const isUser = message.role === 'user';
 
+  if (message.cvType === 'cv-file' && message.cvFile) {
+    return <CVFileBubble name={message.cvFile.name} size={message.cvFile.size} />;
+  }
+  if (message.cvType === 'cv-analyzing') {
+    return <CVAnalyzingCardAuto />;
+  }
+  if (message.cvType === 'cv-result' && message.cvData) {
+    return <CVResultBubble data={message.cvData} onAction={onSuggestionSelect} />;
+  }
+
   if (isUser) {
     return (
-      <div className="flex justify-end mb-4 gap-2 items-end">
-        <div className="max-w-[75%] bg-blue-600 text-white rounded-2xl rounded-br-sm px-4 py-2.5 text-sm leading-relaxed shadow-sm">
+      <div className="flex justify-end mb-4 gap-2.5 items-end msg-enter">
+        <div className="max-w-[72%] px-4 py-2.5 rounded-2xl rounded-br-sm text-sm leading-relaxed"
+          style={{ background: 'var(--navy-deep)', color: '#F7F4EF' }}>
           {message.content}
         </div>
-        <div className="w-7 h-7 rounded-full bg-blue-600 flex items-center justify-center text-white text-xs font-bold shrink-0 mb-0.5">
-          U
+        <div className="w-7 h-7 rounded-md flex items-center justify-center text-[10px] font-bold shrink-0 mb-0.5"
+          style={{ background: 'var(--navy-mid)', color: 'var(--gold)', border: '1px solid rgba(201,169,110,0.3)' }}>
+          B
         </div>
       </div>
     );
   }
 
   return (
-    <div className="flex justify-start mb-4 gap-2 items-start">
-      {/* Avatar */}
-      <div className="w-7 h-7 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white text-sm shrink-0 mt-0.5 shadow-sm">
-        🌏
+    <div className="flex justify-start mb-4 gap-2.5 items-start msg-enter">
+      {/* Bot avatar */}
+      <div className="w-8 h-8 rounded-md flex items-center justify-center shrink-0 mt-0.5 text-[10px] font-semibold tracking-wide"
+        style={{ background: 'var(--navy-deep)', color: 'var(--gold)', border: '1px solid var(--navy-mid)' }}>
+        L&C
       </div>
 
       {/* Bubble */}
-      <div className="max-w-[80%] bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm">
-        {/* Web results — hiện ngay khi search xong, trước khi bot trả lời */}
+      <div className="max-w-[82%] rounded-2xl rounded-tl-sm px-5 py-3.5"
+        style={{ background: '#FFFFFF', border: '1px solid var(--border-main)' }}>
+
+        {/* Web results */}
         {message.webResults && message.webResults.length > 0 && (
-          <div className="mb-3 rounded-xl border border-emerald-200 dark:border-emerald-800 overflow-hidden">
-            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-emerald-50 dark:bg-emerald-900/30">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse shrink-0" />
-              <span className="text-[10px] font-semibold text-emerald-700 dark:text-emerald-400 uppercase tracking-wide">
+          <div className="mb-3 rounded-lg overflow-hidden" style={{ border: '1px solid var(--risk-ok-border)' }}>
+            <div className="flex items-center gap-1.5 px-3 py-1.5" style={{ background: 'var(--risk-ok-bg)' }}>
+              <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: 'var(--risk-ok)' }} />
+              <span className="text-[10px] font-semibold uppercase tracking-wide" style={{ color: 'var(--risk-ok)' }}>
                 Tìm kiếm web · mới nhất
               </span>
             </div>
-            <div className="divide-y divide-gray-50 dark:divide-gray-700">
+            <div className="divide-y" style={{ borderColor: 'var(--border-main)' }}>
               {message.webResults.map((r, i) => {
                 let host = r.url;
                 try { host = new URL(r.url).hostname.replace('www.', ''); } catch { /* noop */ }
                 return (
                   <a key={i} href={r.url} target="_blank" rel="noopener noreferrer"
-                     className="flex gap-2 px-3 py-2 hover:bg-emerald-50/60 dark:hover:bg-emerald-900/10 transition-colors group">
-                    <span className="shrink-0 text-[9px] font-semibold mt-0.5 px-1.5 py-0.5 h-fit rounded bg-gray-100 dark:bg-gray-700 text-gray-500">
+                    className="flex gap-2 px-3 py-2 transition-colors"
+                    style={{ color: 'inherit', textDecoration: 'none' }}
+                    onMouseEnter={e => (e.currentTarget as HTMLAnchorElement).style.background = 'var(--bg-page)'}
+                    onMouseLeave={e => (e.currentTarget as HTMLAnchorElement).style.background = 'transparent'}>
+                    <span className="shrink-0 text-[9px] font-semibold mt-0.5 px-1.5 py-0.5 h-fit rounded"
+                      style={{ background: 'var(--bg-page)', color: 'var(--text-muted)', border: '1px solid var(--border-soft)' }}>
                       {host}
                     </span>
-                    <span className="text-xs text-gray-700 dark:text-gray-300 group-hover:text-emerald-700 dark:group-hover:text-emerald-400 line-clamp-2 transition-colors">
+                    <span className="text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                       {r.title}
                     </span>
                   </a>
@@ -70,30 +92,28 @@ export function MessageBubble({ message, messages, isLoading, sessionId, onSugge
           </div>
         )}
 
+        {/* Content */}
         {message.content
           ? <MarkdownText content={message.content} isStreaming={message.isStreaming ?? false} />
           : message.isStreaming
             ? message.statusMessage
               ? <div className="flex items-center gap-2 py-0.5">
-                  <svg className="animate-spin shrink-0 w-3.5 h-3.5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <svg className="animate-spin shrink-0 w-3.5 h-3.5" style={{ color: 'var(--gold)' }} fill="none" viewBox="0 0 24 24">
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
                   </svg>
-                  <span className="text-xs text-gray-500 italic transition-all duration-300">{message.statusMessage}</span>
+                  <span className="text-xs italic" style={{ color: 'var(--text-muted)' }}>{message.statusMessage}</span>
                 </div>
               : <span className="flex gap-1 items-center h-5">
-                  <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
-                  <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
-                  <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+                  <span className="typing-dot w-1.5 h-1.5 rounded-full" style={{ background: 'var(--text-faint)' }} />
+                  <span className="typing-dot w-1.5 h-1.5 rounded-full" style={{ background: 'var(--text-faint)' }} />
+                  <span className="typing-dot w-1.5 h-1.5 rounded-full" style={{ background: 'var(--text-faint)' }} />
                 </span>
             : null
         }
-        <IntakeCard
-          options={message.intake_options ?? []}
-          onSelect={onSuggestionSelect}
-          disabled={isLoading}
-          variant="program"
-        />
+
+        <IntakeCard options={message.intake_options ?? []} onSelect={onSuggestionSelect} disabled={isLoading} variant="program" />
+
         {message.consultant_ask && showConsultant && !message.isStreaming && (
           showForm ? (
             <ConsultantCard
@@ -108,46 +128,33 @@ export function MessageBubble({ message, messages, isLoading, sessionId, onSugge
               onContinueChat={() => setShowConsultant(false)}
             />
           ) : (
-            <div className="mt-3 pt-2 border-t border-gray-100 dark:border-gray-700 space-y-1.5">
-              <button
-                onClick={() => setShowForm(true)}
-                className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-left text-sm
-                           border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800
-                           hover:border-[#2D9E34] hover:bg-green-50 dark:hover:bg-green-900/10
-                           hover:shadow-sm transition-all duration-150 group"
-              >
-                <span className="shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-700 text-xs
-                                 flex items-center justify-center font-semibold
-                                 group-hover:bg-[#2D9E34] group-hover:text-white transition-colors">1</span>
-                <span className="flex-1 text-gray-700 dark:text-gray-300 group-hover:text-[#2D9E34] transition-colors">
-                  ✅ Có, chuyên viên L&C liên hệ tôi trực tiếp
-                </span>
-                <span className="text-gray-300 group-hover:text-[#2D9E34] transition-colors">→</span>
+            <div className="mt-3 pt-3 space-y-1.5" style={{ borderTop: '1px solid var(--border-main)' }}>
+              <button onClick={() => setShowForm(true)}
+                className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left text-sm transition-all"
+                style={{ border: '1px solid var(--border-soft)', background: 'var(--bg-page)', color: 'var(--text-secondary)' }}
+                onMouseEnter={e => { const el = e.currentTarget as HTMLButtonElement; el.style.borderColor = 'var(--gold-border)'; el.style.background = 'var(--bg-muted)'; }}
+                onMouseLeave={e => { const el = e.currentTarget as HTMLButtonElement; el.style.borderColor = 'var(--border-soft)'; el.style.background = 'var(--bg-page)'; }}>
+                <span className="shrink-0 w-6 h-6 rounded-md flex items-center justify-center text-xs font-semibold"
+                  style={{ background: 'var(--navy-deep)', color: 'var(--gold)' }}>1</span>
+                <span className="flex-1">Có, chuyên viên L&C liên hệ tôi trực tiếp</span>
+                <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" style={{ color: 'var(--text-muted)' }}><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </button>
-              <button
-                onClick={() => setShowConsultant(false)}
-                className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-left text-sm
-                           border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800
-                           hover:border-[#0C3656] hover:bg-blue-50 dark:hover:bg-blue-900/20
-                           hover:shadow-sm transition-all duration-150 group"
-              >
-                <span className="shrink-0 w-6 h-6 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-500 text-xs
-                                 flex items-center justify-center font-semibold
-                                 group-hover:bg-[#0C3656] group-hover:text-white transition-colors">2</span>
-                <span className="flex-1 text-gray-700 dark:text-gray-300 group-hover:text-[#0C3656] transition-colors">
-                  💬 Không, tiếp tục hỏi chatbot
-                </span>
-                <span className="text-gray-300 group-hover:text-[#0C3656] transition-colors">→</span>
+              <button onClick={() => setShowConsultant(false)}
+                className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left text-sm transition-all"
+                style={{ border: '1px solid var(--border-soft)', background: 'var(--bg-page)', color: 'var(--text-secondary)' }}
+                onMouseEnter={e => { const el = e.currentTarget as HTMLButtonElement; el.style.borderColor = 'var(--border-soft)'; el.style.background = 'var(--bg-muted)'; }}
+                onMouseLeave={e => { const el = e.currentTarget as HTMLButtonElement; el.style.borderColor = 'var(--border-soft)'; el.style.background = 'var(--bg-page)'; }}>
+                <span className="shrink-0 w-6 h-6 rounded-md flex items-center justify-center text-xs font-semibold"
+                  style={{ background: 'var(--text-muted)', color: '#fff' }}>2</span>
+                <span className="flex-1">Không, tiếp tục hỏi chatbot</span>
+                <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" style={{ color: 'var(--text-muted)' }}><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </button>
             </div>
           )
         )}
+
         <CitationPanel sources={message.sources ?? []} />
-        <SuggestionChips
-          suggestions={message.suggestions ?? []}
-          onSelect={onSuggestionSelect}
-          disabled={isLoading}
-        />
+        <SuggestionChips suggestions={message.suggestions ?? []} onSelect={onSuggestionSelect} disabled={isLoading} />
       </div>
     </div>
   );
