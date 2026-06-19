@@ -5,6 +5,17 @@
 
 # Google Service Account credentials (contains private key)
 credentials/
+*.json
+!package.json
+!package-lock.json
+!tsconfig*.json
+!apps/**/package.json
+!apps/**/package-lock.json
+!apps/**/*.json
+
+# Personal files
+*.pdf
+screenshots/
 
 # Python
 __pycache__/
