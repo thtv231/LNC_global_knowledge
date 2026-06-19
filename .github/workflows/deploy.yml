@@ -130,6 +130,18 @@ jobs:
           printf '%s' "${PULL_TOKEN}" > /tmp/lnc_ghcr_token
           printf '%s' "${GIT_ACTOR}"  > /tmp/lnc_ghcr_user
 
+      - name: Open firewall ports (idempotent)
+        run: |
+          gcloud compute firewall-rules describe allow-lnc-ports \
+            --project=${{ secrets.GCP_PROJECT_ID }} \
+            --quiet 2>/dev/null \
+          || gcloud compute firewall-rules create allow-lnc-ports \
+            --project=${{ secrets.GCP_PROJECT_ID }} \
+            --allow=tcp:80,tcp:3000 \
+            --source-ranges=0.0.0.0/0 \
+            --description="LNC app public ports" \
+            --quiet
+
       - name: Upload files to VM
         run: |
           gcloud compute scp /tmp/lnc.env /tmp/lnc_ghcr_token /tmp/lnc_ghcr_user \
