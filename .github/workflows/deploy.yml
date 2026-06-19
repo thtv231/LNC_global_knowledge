@@ -154,18 +154,17 @@ jobs:
               fi
               sudo usermod -aG docker "$USER" 2>/dev/null || true
               sudo mkdir -p /opt/lnc-app
-              sudo chown "$USER":"$USER" /opt/lnc-app
+              sudo chmod 777 /opt/lnc-app
 
               # ── Deploy ────────────────────────────────────────────────────────
-              cd /opt/lnc-app
-
-              # Move .env
-              cp /tmp/lnc.env .env
+              # Copy .env (use sudo to avoid permission issues)
+              sudo cp /tmp/lnc.env /opt/lnc-app/.env
+              sudo chmod 600 /opt/lnc-app/.env
 
               # Get latest docker-compose.yml
-              curl -fsSL \
+              sudo curl -fsSL \
                 https://raw.githubusercontent.com/thtv231/LNC_global_knowledge/main/docker-compose.yml \
-                -o docker-compose.yml
+                -o /opt/lnc-app/docker-compose.yml
 
               # Login to GHCR
               PULL_TOKEN=$(cat /tmp/lnc_ghcr_token)
@@ -173,12 +172,13 @@ jobs:
               echo "$PULL_TOKEN" | sudo docker login ghcr.io -u "$PULL_USER" --password-stdin
 
               # Pull & restart
+              cd /opt/lnc-app
               sudo docker compose pull
               sudo docker compose up -d --remove-orphans
               sudo docker image prune -f
 
               # Cleanup temp files
-              rm -f /tmp/lnc.env /tmp/lnc_ghcr_token /tmp/lnc_ghcr_user
+              sudo rm -f /tmp/lnc.env /tmp/lnc_ghcr_token /tmp/lnc_ghcr_user
 
               echo ""
               echo "=== Deployed successfully ==="
