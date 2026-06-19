@@ -169,9 +169,14 @@ jobs:
               sudo chmod 777 /opt/lnc-app
 
               # ── Deploy ────────────────────────────────────────────────────────
-              # Copy .env (use sudo to avoid permission issues)
-              sudo cp /tmp/lnc.env /opt/lnc-app/.env
-              sudo chmod 600 /opt/lnc-app/.env
+              # Only overwrite .env if secrets are actually set (non-empty API key)
+              if grep -q 'DEEPSEEK_API_KEY=sk-\|GROQ_API_KEY=gsk_\|NEO4J_PASSWORD=.\{8\}' /tmp/lnc.env 2>/dev/null; then
+                sudo cp /tmp/lnc.env /opt/lnc-app/.env
+                sudo chmod 600 /opt/lnc-app/.env
+                echo "==> .env updated from GitHub Secrets"
+              else
+                echo "==> GitHub Secrets not configured — keeping existing .env on VM"
+              fi
 
               # Get latest docker-compose.yml
               sudo curl -fsSL \
