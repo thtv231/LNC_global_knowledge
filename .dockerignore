@@ -14,3 +14,7 @@ apps/gateway/
 screenshots/
 tests/
 node_modules/
+logs/
+*.log
+.github/
+docker-compose*.yml

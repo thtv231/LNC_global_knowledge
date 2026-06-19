@@ -1,38 +1,55 @@
+# Production — dùng image từ GHCR (build bởi GitHub Actions)
+# Local dev: docker compose -f docker-compose.yml -f docker-compose.dev.yml up
+
 services:
 
-  api:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    restart: always
-    ports:
-      - "8000:8000"
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  ai-service:
+    image: ghcr.io/thtv231/lnc-ai-service:latest
+    restart: unless-stopped
     env_file: .env
     environment:
-      TRANSFORMERS_CACHE: /app/.model_cache
-    volumes:
-      - model_cache:/app/.model_cache
+      REDIS_URL: redis://redis:6379
+    depends_on:
+      redis:
+        condition: service_healthy
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
       interval: 30s
       timeout: 10s
       retries: 5
-      start_period: 60s
+      start_period: 30s
 
   gateway:
-    build:
-      context: ./apps/gateway
-      dockerfile: Dockerfile
-    restart: always
+    image: ghcr.io/thtv231/lnc-gateway:latest
+    restart: unless-stopped
     ports:
       - "3000:3000"
     env_file: .env
     environment:
-      AI_SERVICE_URL: http://api:8000
+      AI_SERVICE_URL: http://ai-service:8000
       PORT: "3000"
     depends_on:
-      api:
+      ai-service:
         condition: service_healthy
 
+  web:
+    image: ghcr.io/thtv231/lnc-web:latest
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - gateway
+
 volumes:
-  model_cache:
+  redis_data:

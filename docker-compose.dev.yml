@@ -1,0 +1,25 @@
+# Local dev override — build từ source thay vì pull GHCR image
+# Usage: docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build
+
+services:
+
+  ai-service:
+    image: lnc-ai-service:dev
+    build:
+      context: ./apps/ai-service
+    volumes:
+      - ./apps/ai-service:/app   # hot-reload code
+
+  gateway:
+    image: lnc-gateway:dev
+    build:
+      context: ./apps/gateway
+
+  web:
+    image: lnc-web:dev
+    build:
+      context: ./apps/web
+      args:
+        VITE_API_URL: "http://localhost:3000"
+    ports:
+      - "5173:80"   # map 5173 → nginx:80 để giữ habit local dev
