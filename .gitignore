@@ -3,6 +3,9 @@
 .env.*
 !.env.example
 
+# Google Service Account credentials (contains private key)
+credentials/
+
 # Python
 __pycache__/
 *.py[cod]

@@ -16,7 +16,7 @@ export class ChatService {
       'AI_SERVICE_URL',
       'http://localhost:8000',
     );
-    this.timeout = this.config.get<number>('AI_SERVICE_TIMEOUT', 60000);
+    this.timeout = this.config.get<number>('AI_SERVICE_TIMEOUT', 120000);
   }
 
   async fetchNews(): Promise<{ items: unknown[] }> {

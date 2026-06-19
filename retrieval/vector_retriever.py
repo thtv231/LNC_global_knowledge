@@ -9,10 +9,9 @@ from embeddings.local_embedder import LocalEmbedder as HFEmbedder
 load_dotenv()
 
 _VECTOR_QUERY = """
-MATCH (chunk:KnowledgeChunk)
 CALL db.index.vector.queryNodes('knowledge-chunk-embeddings', $top_k, $vec)
-YIELD node, score
-WHERE node = chunk AND score >= $min_score
+YIELD node AS chunk, score
+WHERE score >= $min_score
 {country_filter}
 {category_filter}
 RETURN chunk.content    AS content,

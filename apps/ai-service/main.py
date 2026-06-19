@@ -10,6 +10,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
+from cv_route import router as cv_router
+
 from config import settings
 from graph.workflow import workflow
 from retrieval.neo4j_client import close_driver
@@ -36,6 +38,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.include_router(cv_router)
 
 # ── Intake options ────────────────────────────────────────────────────────────
 
