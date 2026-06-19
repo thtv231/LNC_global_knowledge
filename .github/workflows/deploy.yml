@@ -3,11 +3,16 @@ name: Build & Deploy to GCP VM
 on:
   push:
     branches: [main]
-  workflow_dispatch:        # cho phép trigger thủ công từ GitHub UI
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
-  OWNER: thtv231            # GitHub username (lowercase)
+  OWNER: thtv231
+  VM_NAME: instance-20260619-023955
+  VM_ZONE: us-central1-a
+  VM_USER: vulncglobal
+  VM_IP: 35.239.231.145
+  APP_DIR: /opt/lnc-app
 
 jobs:
   # ── Build 3 images song song ─────────────────────────────────────────────────
@@ -19,15 +24,12 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v4
-
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-
       - uses: docker/setup-buildx-action@v3
-
       - uses: docker/build-push-action@v5
         with:
           context: ./apps/ai-service
@@ -46,15 +48,12 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v4
-
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-
       - uses: docker/setup-buildx-action@v3
-
       - uses: docker/build-push-action@v5
         with:
           context: ./apps/gateway
@@ -73,15 +72,12 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v4
-
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-
       - uses: docker/setup-buildx-action@v3
-
       - uses: docker/build-push-action@v5
         with:
           context: ./apps/web
@@ -89,44 +85,77 @@ jobs:
           tags: |
             ${{ env.REGISTRY }}/${{ env.OWNER }}/lnc-web:latest
             ${{ env.REGISTRY }}/${{ env.OWNER }}/lnc-web:${{ github.sha }}
-          build-args: |
-            VITE_API_URL=${{ secrets.VITE_API_URL }}
+          build-args: VITE_API_URL=${{ secrets.VITE_API_URL }}
           cache-from: type=gha,scope=web
           cache-to:   type=gha,mode=max,scope=web
 
-  # ── Deploy khi cả 3 build xong ───────────────────────────────────────────────
-  deploy:
-    name: Deploy to GCP VM
+  # ── Bootstrap VM: cài Docker + cấp quyền cho vulncglobal ────────────────────
+  bootstrap:
+    name: Bootstrap VM
     needs: [build-ai-service, build-gateway, build-web]
     runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
 
+      - uses: google-github-actions/setup-gcloud@v2
+
+      - name: Install Docker & setup vulncglobal
+        run: |
+          gcloud compute ssh ${{ env.VM_NAME }} \
+            --zone=${{ env.VM_ZONE }} \
+            --project=${{ secrets.GCP_PROJECT_ID }} \
+            --quiet \
+            --command='
+              set -e
+
+              # Cài Docker nếu chưa có
+              if ! command -v docker &>/dev/null; then
+                echo "Installing Docker..."
+                curl -fsSL https://get.docker.com | sudo sh
+              fi
+
+              # Cấp quyền docker + sudo cho vulncglobal (idempotent)
+              sudo usermod -aG docker vulncglobal 2>/dev/null || true
+              sudo bash -c "echo \"vulncglobal ALL=(ALL) NOPASSWD:ALL\" > /etc/sudoers.d/vulncglobal"
+
+              # Tạo thư mục app
+              sudo mkdir -p /opt/lnc-app
+              sudo chown vulncglobal:vulncglobal /opt/lnc-app
+
+              echo "Bootstrap OK — Docker: $(docker --version)"
+            '
+
+  # ── Deploy: ghi .env + pull images + restart ─────────────────────────────────
+  deploy:
+    name: Deploy
+    needs: bootstrap
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      # Ghi .env lên VM từ GitHub Secrets, sau đó pull image và restart
-      - name: SSH deploy
+      - name: Write .env & deploy
         uses: appleboy/ssh-action@v1.0.3
         env:
-          # Truyền secrets qua env để tránh injection khi ghi vào shell
-          NEO4J_URI:             ${{ secrets.NEO4J_URI }}
-          NEO4J_PASSWORD:        ${{ secrets.NEO4J_PASSWORD }}
-          DEEPSEEK_API_KEY:      ${{ secrets.DEEPSEEK_API_KEY }}
-          DEEPSEEK_API_KEYS:     ${{ secrets.DEEPSEEK_API_KEYS }}
-          TAVILY_API_KEY:        ${{ secrets.TAVILY_API_KEY }}
-          GROQ_API_KEY:          ${{ secrets.GROQ_API_KEY }}
-          GOOGLE_SHEET_WEBHOOK:  ${{ secrets.GOOGLE_SHEET_WEBHOOK }}
-          GHCR_PAT:              ${{ secrets.GHCR_PAT }}
+          NEO4J_URI:            ${{ secrets.NEO4J_URI }}
+          NEO4J_PASSWORD:       ${{ secrets.NEO4J_PASSWORD }}
+          DEEPSEEK_API_KEY:     ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_API_KEYS:    ${{ secrets.DEEPSEEK_API_KEYS }}
+          TAVILY_API_KEY:       ${{ secrets.TAVILY_API_KEY }}
+          GROQ_API_KEY:         ${{ secrets.GROQ_API_KEY }}
+          GOOGLE_SHEET_WEBHOOK: ${{ secrets.GOOGLE_SHEET_WEBHOOK }}
+          GHCR_PAT:             ${{ secrets.GHCR_PAT }}
         with:
-          host:     ${{ secrets.GCP_VM_HOST }}
-          username: ${{ secrets.GCP_VM_USER }}
+          host:     ${{ env.VM_IP }}
+          username: ${{ env.VM_USER }}
           key:      ${{ secrets.GCP_VM_SSH_KEY }}
           envs: NEO4J_URI,NEO4J_PASSWORD,DEEPSEEK_API_KEY,DEEPSEEK_API_KEYS,TAVILY_API_KEY,GROQ_API_KEY,GOOGLE_SHEET_WEBHOOK,GHCR_PAT
           script: |
             set -e
-            mkdir -p /opt/lnc-app
             cd /opt/lnc-app
 
-            # ── Ghi .env an toàn qua env vars (tránh shell injection) ──────────
+            # Ghi .env an toàn qua env vars
             {
               echo "NEO4J_URI=${NEO4J_URI}"
               echo "NEO4J_USER=neo4j"
@@ -143,19 +172,18 @@ jobs:
               echo "PORT=3000"
             } > .env
 
-            # ── Cập nhật docker-compose.yml từ repo ──────────────────────────
+            # Lấy docker-compose.yml mới nhất
             curl -fsSL \
               "https://raw.githubusercontent.com/thtv231/LNC_global_knowledge/main/docker-compose.yml" \
               -o docker-compose.yml
 
-            # ── Pull images mới từ GHCR ───────────────────────────────────────
+            # Pull images từ GHCR
             echo "${GHCR_PAT}" | docker login ghcr.io -u thtv231 --password-stdin
             docker compose pull
 
-            # ── Rolling restart ───────────────────────────────────────────────
+            # Rolling restart
             docker compose up -d --remove-orphans
-
-            # ── Cleanup image cũ ──────────────────────────────────────────────
             docker image prune -f
 
-            echo "✓ Deployed ${{ github.sha }} lúc $(date '+%Y-%m-%d %H:%M:%S UTC')"
+            echo "✓ Deployed ${{ github.sha }} — $(date '+%Y-%m-%d %H:%M UTC')"
+            docker compose ps
