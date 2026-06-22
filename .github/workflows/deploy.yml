@@ -121,7 +121,7 @@ jobs:
           TAVILY_API_KEY=${TAVILY_API_KEY}
           GOOGLE_SHEET_WEBHOOK=${GOOGLE_SHEET_WEBHOOK}
           REDIS_URL=redis://redis:6379
-          AI_SERVICE_URL=http://ai-service:8000
+          AI_SERVICE_URL=http://ai-lb:8000
           PORT=3000
           EOF
 
@@ -178,10 +178,13 @@ jobs:
                 echo "==> GitHub Secrets not configured — keeping existing .env on VM"
               fi
 
-              # Get latest docker-compose.yml
+              # Get latest docker-compose.yml + nginx lb config
               sudo curl -fsSL \
                 https://raw.githubusercontent.com/thtv231/LNC_global_knowledge/main/docker-compose.yml \
                 -o /opt/lnc-app/docker-compose.yml
+              sudo curl -fsSL \
+                https://raw.githubusercontent.com/thtv231/LNC_global_knowledge/main/nginx-lb.conf \
+                -o /opt/lnc-app/nginx-lb.conf
 
               # Login to GHCR
               PULL_TOKEN=$(cat /tmp/lnc_ghcr_token)
