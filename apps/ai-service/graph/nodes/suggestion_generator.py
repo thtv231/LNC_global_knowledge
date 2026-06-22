@@ -1,15 +1,7 @@
-from langchain_groq import ChatGroq
-from config import settings
 from graph.state import ChatState
+from llm_factory import get_fast_llm
 import json
 import re
-
-llm = ChatGroq(
-    model=settings.groq_suggest_model,
-    api_key=settings.groq_api_key,
-    temperature=0.6,
-    max_tokens=300,
-)
 
 PROMPT = """Dựa vào câu hỏi và câu trả lời về định cư dưới đây, tạo đúng 3 câu hỏi tiếp theo ngắn gọn mà người dùng có thể muốn hỏi thêm.
 
@@ -29,17 +21,14 @@ def generate_suggestions(state: ChatState) -> dict:
     answer = state.get("answer", "")
     query = state.get("query", "")
 
-    # Skip suggestions for greetings or very short queries
     if not answer or len(query) < 5:
         return {"suggestions": []}
 
     try:
-        result = llm.invoke(
-            PROMPT.format(query=query, answer=answer[:500])
-        )
+        llm = get_fast_llm(temperature=0.6, max_tokens=300)
+        result = llm.invoke(PROMPT.format(query=query, answer=answer[:500]))
         raw = result.content.strip()
         raw = re.sub(r"^```json\s*|\s*```$", "", raw, flags=re.DOTALL)
-        # Extract JSON array even if there's extra text
         match = re.search(r'\[.*?\]', raw, re.DOTALL)
         if match:
             suggestions = json.loads(match.group())
@@ -50,7 +39,6 @@ def generate_suggestions(state: ChatState) -> dict:
 
     # Fallback: generic follow-up questions based on topic
     country = state.get("country")
-    category = state.get("category")
     if country == "canada":
         return {"suggestions": [
             "Điều kiện cụ thể để đủ điều kiện là gì?",
