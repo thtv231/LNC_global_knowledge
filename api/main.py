@@ -11,6 +11,7 @@ from pipeline.entity_extractor import EntityExtractor
 from retrieval.vector_retriever import VectorRetriever
 from api.routes.chat import router as chat_router
 from api.routes.cv import router as cv_router
+from api.routes.messenger import router as messenger_router
 
 load_dotenv()
 
@@ -34,6 +35,7 @@ app.add_middleware(
 )
 app.include_router(chat_router)
 app.include_router(cv_router)
+app.include_router(messenger_router)
 
 
 @app.get("/health")
